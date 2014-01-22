@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.w3.org/ns/ma-ont#"
+    xmlns:ma="http://www.w3.org/ns/ma-ont#"
+    xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+    <owl:Ontology>
+        <owl:imports rdf:resource="http://www.w3.org/ns/ma-ont"/>
+    </owl:Ontology>
+
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7762">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7762</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+            </ma:MediaResource>
+
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7763">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7763</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7764">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7764</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7765">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7765</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7766">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7766</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7767">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7767</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7768">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7768</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
+            </ma:MediaResource>
+
+</rdf:RDF>
+
+

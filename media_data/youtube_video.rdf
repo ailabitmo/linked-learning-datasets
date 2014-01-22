@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.w3.org/ns/ma-ont#"
+    xmlns:ma="http://www.w3.org/ns/ma-ont#"
+    xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#">
+                    
+    <owl:Ontology>
+        <owl:imports rdf:resource="http://www.w3.org/ns/ma-ont"/>
+    </owl:Ontology>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/dPow8-oRFUE">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dPow8-oRFUE</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheHistoryOfGraphTheoryTheNotionOfAGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/6nqcJQVWzBw">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6nqcJQVWzBw</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/leVsqwBnclc">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leVsqwBnclc</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheMainBasisOfTheGraphTheoryTerminology"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/jyLvAc_OFpE">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jyLvAc_OFpE</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheContiguityInGraphs"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/Pg-EQkR2OEQ">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pg-EQkR2OEQ</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/IcGPNd5VonE">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IcGPNd5VonE</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CoherenceNeografov"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/1ZFyzLTntLQ">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1ZFyzLTntLQ</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_SeparatingSetOfAConnectedGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/yf8Lq0cKEWY">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yf8Lq0cKEWY</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConnectednessOfDigraphs"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/lWoekGhkZ-c">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lWoekGhkZ-c</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TechniqueToStudyTheGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/tW23SnlhAYs">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tW23SnlhAYs</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CondensationOfDigraphsTheConceptOfSub-graph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/b9lmsceGL54">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b9lmsceGL54</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumRoutesInAConnectedGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/ZtKFbnhbghQ">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZtKFbnhbghQ</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MetricCharacteristicsOfAConnectedGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/wnXfC-99xn0">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wnXfC-99xn0</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInNeografah"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/HGBUywlmDpk">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGBUywlmDpk</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInDigraphs"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/0EwsacR4P5s">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0EwsacR4P5s</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_IndependentCyclesInAGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/lkEmQJoC1tc">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lkEmQJoC1tc</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulerCycles"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/qzzdKRIUJuE">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qzzdKRIUJuE</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HamiltonCycles"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/jRlB8fHyoT4">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jRlB8fHyoT4</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmForSolvingTheTravelingSalesmanProblemBasedOnTheBranchAndBound"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/VY-XW9gOnTQ">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VY-XW9gOnTQ</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfATreeWoodsTreesProperties"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/5xka-XQ5R0I">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5xka-XQ5R0I</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfATreeWoodsTreesProperties"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/FBJGFQtACe0">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBJGFQtACe0</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ASpanningTreeOfAConnectedGraphTheConceptOfSubgraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/2vJpYFW4u0c">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2vJpYFW4u0c</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_AlgorithmsForConstructingASpanningTreeOfTheGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/QI9TKnSAMyk">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QI9TKnSAMyk</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimaTheoremOnTheMinimumSpanningTree"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/XqQbzJfhruU">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XqQbzJfhruU</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_RootedTrees"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/rZAs8uhtN7k">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rZAs8uhtN7k</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BinaryTrees"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/WKb_dNBi-vk">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WKb_dNBi-vk</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfExtremeNumberOfTheGraphTheCyclomaticNumberOfAGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/jjubS7_Etx4">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jjubS7_Etx4</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfInternalStability"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/wxobq20ERik">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wxobq20ERik</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClicksNumberOfAGraphTheConceptOfGraphAdditions"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/LiMtecRZg_A">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LiMtecRZg_A</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheChromaticNumberOfAGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/zMJAUxx5uX4">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zMJAUxx5uX4</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfExternalStability"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/qM4UzbAx8E8">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qM4UzbAx8E8</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfMatchings"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/m_pAVkJUCUM">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m_pAVkJUCUM</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfEdgeCovering"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/6sThUghA7Vc">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6sThUghA7Vc</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheNotionOfABipartiteGraphTheoremKoenig"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/dqJafkZUrwU">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dqJafkZUrwU</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheNotionOfABipartiteGraphTheoremKoenig"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/CQmd5-0vxLc">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CQmd5-0vxLc</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheProblemOfLinearPurposeTheNotionOfAPerfectMatchingOfTheGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/7_24dmOE9BA">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7_24dmOE9BA</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfIsomorphismTheNecessaryConditionsForTheIsomorphismOfTwoGraphs"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/uiSxWVH6Jk8">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uiSxWVH6Jk8</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfHomeomorphism"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/egNiKWNvbQM">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">egNiKWNvbQM</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfFlatAndPlanarGraphTheGraphPropertiesOfPlanePilings"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/o0WShkRdqR8">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o0WShkRdqR8</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfFlatAndPlanarGraphTheGraphPropertiesOfPlanePilings"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/p1TQCMz0la4">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p1TQCMz0la4</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulersTheoremEulersFormulaForAPlanarGraph"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/ffZSv1fVhUc">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ffZSv1fVhUc</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConsequencesOfEulersTheorem"/>
+    </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://www.youtube.com/v/GHmexzuj5lE">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GHmexzuj5lE</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PontryaginKuratowskiTheorem"/>
+    </ma:MediaResource>
+</rdf:RDF>

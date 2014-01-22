@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14"
+     xmlns:schema="http://purl.org/vocab/aiiso/schema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14">
+        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#BronKerboshaAlgorithmForFindingTheLargestEmptySubgraphsInAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#BronKerboshaAlgorithmForFindingTheLargestEmptySubgraphsInAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Bron-Kerbosha algorithm for finding the largest empty subgraphs in a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Брона-Кербоша  для поиска наибольших пустых подграфов в графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">34</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:label xml:lang="en">The theory of graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Теория графов</rdfs:label>
+	<foaf:depiction rdf:resource="http://yak15.narod.ru/KenigsG.jpg"/>
+        <schema:description xml:lang="ru">Целью дисциплины является получение студентами необходимых знаний и пониманий, умений и навыков для решения практических задач дискретной математики, широко используемых при проектировании, внедрении, анализе и сопровождении корпоративных информационных систем.</schema:description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ASpanningTreeOfAConnectedGraphTheConceptOfSubgraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ASpanningTreeOfAConnectedGraphTheConceptOfSubgraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">A spanning tree of a connected graph, the concept of subgraph</rdfs:label>
+        <rdfs:label xml:lang="ru">Остовное дерево связного графа, понятие суграфа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">24</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_AlgorithmsForConstructingASpanningTreeOfTheGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_AlgorithmsForConstructingASpanningTreeOfTheGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Algorithms for constructing a spanning tree of the graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритмы построения остовного дерева графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">25</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BellmanFordAlgorithmForFindingAMinimalPathInAWeightedGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BellmanFordAlgorithmForFindingAMinimalPathInAWeightedGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Bellman-Ford algorithm for finding a minimal path in a weighted graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Форда-Беллмана для поиска минимального маршрута во взвешенном графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">13</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BinaryTrees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BinaryTrees">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Binary trees</rdfs:label>
+        <rdfs:label xml:lang="ru">Двоичные деревья</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">30</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Classification of graphs in structure</rdfs:label>
+        <rdfs:label xml:lang="ru">Классификация графов по структуре</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClicksNumberOfAGraphTheConceptOfGraphAdditions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClicksNumberOfAGraphTheConceptOfGraphAdditions">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Clicks number of a graph, the concept of graph - additions</rdfs:label>
+        <rdfs:label xml:lang="ru">Кликовое число графа, понятие графа-дополнения</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">35</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CoherenceNeografov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CoherenceNeografov">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Coherence neografov</rdfs:label>
+        <rdfs:label xml:lang="ru">Связность неографов</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">6</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CondensationOfDigraphsTheConceptOfSub-graph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CondensationOfDigraphsTheConceptOfSub-graph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Condensation of digraphs, the concept of sub-graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Конденсирование орграфов, понятие подграфа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">10</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConnectednessOfDigraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConnectednessOfDigraphs">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Connectedness of digraphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Связность орграфов</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">8</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConsequencesOfEulersTheorem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ConsequencesOfEulersTheorem">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Consequences of Euler&apos;s theorem</rdfs:label>
+        <rdfs:label xml:lang="ru">Следствия из теоремы Эйлера</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">51</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfEdgeCovering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfEdgeCovering">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Count the number of edge covering</rdfs:label>
+        <rdfs:label xml:lang="ru">Число реберного покрытия графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">42</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfExternalStability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfExternalStability">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Count the number of external stability</rdfs:label>
+        <rdfs:label xml:lang="ru">Число внешней устойчивости графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">40</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfInternalStability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfInternalStability">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Count the number of internal stability</rdfs:label>
+        <rdfs:label xml:lang="ru">Число внутренней устойчивости графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">32</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfMatchings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfMatchings">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Count the number of matchings</rdfs:label>
+        <rdfs:label xml:lang="ru">Число паросочетания графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">41</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInDigraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInDigraphs">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Cycles in digraphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Циклы в орграфах</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">16</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInNeografah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInNeografah">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Cycles in neografah</rdfs:label>
+        <rdfs:label xml:lang="ru">Циклы в неографах</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">15</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulerCycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulerCycles">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Euler cycles</rdfs:label>
+        <rdfs:label xml:lang="ru">Циклы Эйлера</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">18</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulersTheoremEulersFormulaForAPlanarGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulersTheoremEulersFormulaForAPlanarGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Euler&apos;s theorem (= Euler&apos;s formula) for a planar graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Теорема Эйлера (=формула Эйлера) для плоского графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">50</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HamiltonCycles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HamiltonCycles">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Hamilton cycles</rdfs:label>
+        <rdfs:label xml:lang="ru">Циклы Гамильтона</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">19</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicAlgorithmToSolveTheTravelingSalesmanProblemOnTheBasisOfTheMaximin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicAlgorithmToSolveTheTravelingSalesmanProblemOnTheBasisOfTheMaximin">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Heuristic algorithm to solve the traveling salesman problem on the basis of the maximin</rdfs:label>
+        <rdfs:label xml:lang="ru">Эвристический алгоритм решения задача коммивояжера на основе метода максимина</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">22</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicMinimumGraphColoring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicMinimumGraphColoring">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Heuristic minimum graph coloring</rdfs:label>
+        <rdfs:label xml:lang="ru">Эвристический алгоритм минимальной раскраски графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">39</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HungarianAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HungarianAlgorithm">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Hungarian algorithm</rdfs:label>
+        <rdfs:label xml:lang="ru">Венгерский алгоритм</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">45</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_BipartiteGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_IndependentCyclesInAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_IndependentCyclesInAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Independent cycles in a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Независимые циклы в графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">17</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_KruskalsAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_KruskalsAlgorithm">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Kruskal&apos;s algorithm</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Краскала</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">28</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MetricCharacteristicsOfAConnectedGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MetricCharacteristicsOfAConnectedGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Metric characteristics of a connected graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Метрические характеристики связного графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">14</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumGraphColoringAlgorithmBasedOnTheMethodMagoo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumGraphColoringAlgorithmBasedOnTheMethodMagoo">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Minimum graph coloring algorithm based on the method Magoo</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм минимальной раскраски графа на основе метода Магу</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">38</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumRoutesInAConnectedGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumRoutesInAConnectedGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Minimum routes in a connected graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Минимальные маршруты в связном графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">11</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Operations on graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Операции над графами</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PontryaginKuratowskiTheorem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PontryaginKuratowskiTheorem">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Pontryagin-Kuratowski theorem</rdfs:label>
+        <rdfs:label xml:lang="ru">Теорема Понтрягина-Куратовского</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">52</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimaTheoremOnTheMinimumSpanningTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimaTheoremOnTheMinimumSpanningTree">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Prima theorem on the minimum spanning tree</rdfs:label>
+        <rdfs:label xml:lang="ru">Теорема Прима о минимальном остовном дереве графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">26</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimsAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimsAlgorithm">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Prim&apos;s algorithm</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Прима</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">27</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_RootedTrees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_RootedTrees">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Rooted trees</rdfs:label>
+        <rdfs:label xml:lang="ru">Корневые деревья</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">29</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_SeparatingSetOfAConnectedGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_SeparatingSetOfAConnectedGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Separating set of a connected graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Разделяющее множество связного графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">7</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TechniqueToStudyTheGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TechniqueToStudyTheGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Technique to study the graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Методика исследования связности графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">9</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmEstablishTheIsomorphismOfTwoGraphsBasedOnTheCharacteristicsOfVertices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmEstablishTheIsomorphismOfTwoGraphsBasedOnTheCharacteristicsOfVertices">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The algorithm establish the isomorphism of two graphs based on the characteristics of vertices</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм установления изоморфизма двух графов на основе характеристик вершин графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">48</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_IsomorphismOfGraphsAndAHomeomorphism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmForSolvingTheTravelingSalesmanProblemBasedOnTheBranchAndBound -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmForSolvingTheTravelingSalesmanProblemBasedOnTheBranchAndBound">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The algorithm for solving the traveling salesman problem based on the branch and bound</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм решения задача коммивояжера на основе метода ветвей и границ</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">21</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmMagooWeismannToFindTheBiggestEmptySubgraphsInAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmMagooWeismannToFindTheBiggestEmptySubgraphsInAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The algorithm Magoo-Weismann to find the biggest empty subgraphs in a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Магу-Вейсмана для поиска наибольших пустых подграфов в графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">33</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmMagooWeismannToFindTheLargestCompleteSubgraphsInAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmMagooWeismannToFindTheLargestCompleteSubgraphsInAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The algorithm Magoo - Weismann to find the largest complete subgraphs in a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Магу-Вейсмана для поиска наибольших полных подграфов в графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">36</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmRobertsFloresSearchForHamiltonCyclesInAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmRobertsFloresSearchForHamiltonCyclesInAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The algorithm Roberts -Flores Search for Hamilton cycles in a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Робертса-Флореса для поиска циклов Гамильтона в графе</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">20</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheChromaticNumberOfAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheChromaticNumberOfAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The chromatic number of a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Хроматическое число графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">37</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfATreeWoodsTreesProperties -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfATreeWoodsTreesProperties">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The concept of a tree, woods, trees, properties</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие дерева, леса, свойства деревьев</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">23</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfExtremeNumberOfTheGraphTheCyclomaticNumberOfAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfExtremeNumberOfTheGraphTheCyclomaticNumberOfAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The concept of extreme number of the graph , the cyclomatic number of a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие экстремального числа графа, цикломатическое число графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">31</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfFlatAndPlanarGraphTheGraphPropertiesOfPlanePilings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfFlatAndPlanarGraphTheGraphPropertiesOfPlanePilings">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The concept of flat and planar graph, the graph properties of plane pilings</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие плоского и планарного графа, свойства плоских укладок графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">49</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfHomeomorphism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfHomeomorphism">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The concept of homeomorphism</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие гомеоморфизма</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">47</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_IsomorphismOfGraphsAndAHomeomorphism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfIsomorphismTheNecessaryConditionsForTheIsomorphismOfTwoGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheConceptOfIsomorphismTheNecessaryConditionsForTheIsomorphismOfTwoGraphs">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The concept of isomorphism, the necessary conditions for the isomorphism of two graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие изоморфизма, необходимые условия изоморфизма двух графов</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">46</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_IsomorphismOfGraphsAndAHomeomorphism"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheContiguityInGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheContiguityInGraphs">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The contiguity in graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Смежность в графах</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheHistoryOfGraphTheoryTheNotionOfAGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheHistoryOfGraphTheoryTheNotionOfAGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The history of graph theory, the notion of a graph</rdfs:label>
+        <rdfs:label xml:lang="ru">История теории графов, понятие графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">1</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheMainBasisOfTheGraphTheoryTerminology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheMainBasisOfTheGraphTheoryTerminology">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The main basis of the graph theory terminology</rdfs:label>
+        <rdfs:label xml:lang="ru">Основной терминологический базис теории графов</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheNotionOfABipartiteGraphTheoremKoenig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheNotionOfABipartiteGraphTheoremKoenig">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The notion of a bipartite graph, Theorem Koenig</rdfs:label>
+        <rdfs:label xml:lang="ru">Понятие двудольного графа, теорема Кёнига</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">43</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_BipartiteGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheProblemOfLinearPurposeTheNotionOfAPerfectMatchingOfTheGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheProblemOfLinearPurposeTheNotionOfAPerfectMatchingOfTheGraph">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The problem of linear purpose, the notion of a perfect matching of the graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Задача линейного назначения, понятие совершенного паросочетания  графа</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">44</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_BipartiteGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_WaveAlgorithmForFindingAMinimumAlongTheRoute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_WaveAlgorithmForFindingAMinimumAlongTheRoute">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Wave algorithm for finding a minimum along the route</rdfs:label>
+        <rdfs:label xml:lang="ru">Волновой алгоритм для поиска минимального по длине маршрута</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">12</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_BipartiteGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_BipartiteGraphs">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Bipartite graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Двудольные графы</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">6</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_ConnectednessOfGraph">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Connectedness of graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Связность графов</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">2</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_CyclesInGraphs">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Cycles in graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Циклы в графах</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">3</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FlatAndPlanarGraphs">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Flat and planar graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Плоские и планарные графы</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">8</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_FundamentalsOfGraphTheory">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Fundamentals of graph theory</rdfs:label>
+        <rdfs:label xml:lang="ru">Основы теории графов</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_IsomorphismOfGraphsAndAHomeomorphism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_IsomorphismOfGraphsAndAHomeomorphism">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Isomorphism of graphs and a homeomorphism</rdfs:label>
+        <rdfs:label xml:lang="ru">Изоморфизм и гомеоморфизм графов</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">7</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_OptimizationOnGraphs">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Optimization on graphs</rdfs:label>
+        <rdfs:label xml:lang="ru">Оптимизация на графах</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">5</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#m_Trees">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:label xml:lang="en">Trees</rdfs:label>
+        <rdfs:label xml:lang="ru">Деревья</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">4</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#TheTheoryOfGraphs"/>
+    </owl:NamedIndividual>
+    
+
+
+
+
+
+<!--////////////////////////////////////////////////////////////// -->
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_ClassificationOfGraphsInStructure"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Edge"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Loop"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheOriginOfTheTermGraph"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Top"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Tree"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInDigraphs -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInDigraphs">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Cycle"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheCycleLength"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInNeografah -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CyclesInNeografah">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_ASimpleLoop"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CountEuler"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Cycle"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_GraphHamilton"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheCycleLength"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulerCycles -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulerCycles">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Cycle"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheCycleLength"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HamiltonCycles -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HamiltonCycles">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Cycle"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheCycleLength"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumRoutesInAConnectedGraph -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumRoutesInAConnectedGraph">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Arc"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_EmptyGraph"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_EndOfRoute"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_FullCount"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_LengthBasedRoute"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_LengthOfTheRoute"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Route"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_SaturatedGraph"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheRouteStarts"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Top"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Arc"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_EmptyGraph"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_FullCount"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_SaturatedGraph"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Top"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheMainBasisOfTheGraphTheoryTerminology -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheMainBasisOfTheGraphTheoryTerminology">
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_Arc"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_IndegreeTop"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_OutdegreeTop"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_StokeArc"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheIncidenceMatrix"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheSourceOfTheArc"/>
+        <learning:hasTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheWeightMatrix"/>
+    </rdf:Description>
+
+
+
+</rdf:RDF>
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

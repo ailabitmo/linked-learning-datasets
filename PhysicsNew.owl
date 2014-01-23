@@ -2,13 +2,13 @@
 
 
 <!DOCTYPE rdf:RDF [
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#">
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY schema "http://purl.org/vocab/aiiso/schema#">
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
 ]>
 
 
@@ -179,27 +179,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#BundleOfLinesInSpace -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_BundleOfLinesInSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;BundleOfLinesInSpace"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#TheDirectionCosinesOfTheLine -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_TheDirectionCosinesOfTheLine -->
 
     <owl:NamedIndividual rdf:about="&learning;TheDirectionCosinesOfTheLine"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Vector -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_Vector -->
 
-    <owl:NamedIndividual rdf:about="&learning;Vector"/>
+    <owl:NamedIndividual rdf:about="&learning;t_Vector"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#VectorProduct -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_VectorProduct -->
 
-    <owl:NamedIndividual rdf:about="&learning;VectorProduct"/>
+    <owl:NamedIndividual rdf:about="&learning;t_VectorProduct"/>
     
 
 
@@ -255,7 +255,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="en">Huygens&apos; principle</rdfs:label>
+        <rdfs:label xml:lang="en">Huygens' principle</rdfs:label>
         <rdfs:label xml:lang="ru">Принцип Гюйгенса</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">7</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
@@ -399,8 +399,8 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Beam of light</rdfs:label>
         <rdfs:label xml:lang="ru">Пучок света</rdfs:label>
-        <learning:previousTerm rdf:resource="&learning;BundleOfLinesInSpace"/>
-        <learning:previousTerm rdf:resource="&learning;TheDirectionCosinesOfTheLine"/>
+        <learning:previousTerm rdf:resource="&learning;t_BundleOfLinesInSpace"/>
+        <learning:previousTerm rdf:resource="&learning;t_TheDirectionCosinesOfTheLine"/>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
@@ -475,7 +475,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_HuygensPrinciple">
         <rdf:type rdf:resource="&learning;Term"/>
-        <rdfs:label xml:lang="en">Huygens&apos; principle</rdfs:label>
+        <rdfs:label xml:lang="en">Huygens' principle</rdfs:label>
         <rdfs:label xml:lang="ru">Принцип Гюйгенса</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SecondaryWaves"/>
@@ -603,8 +603,8 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Light energy</rdfs:label>
         <rdfs:label xml:lang="ru">Световая энергия</rdfs:label>
-        <learning:previousTerm rdf:resource="&learning;Vector"/>
-        <learning:previousTerm rdf:resource="&learning;VectorProduct"/>
+        <learning:previousTerm rdf:resource="&learning;t_Vector"/>
+        <learning:previousTerm rdf:resource="&learning;t_VectorProduct"/>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
@@ -640,7 +640,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_NewtonsRings">
         <rdf:type rdf:resource="&learning;Term"/>
-        <rdfs:label xml:lang="en">Newton&apos;s Rings</rdfs:label>
+        <rdfs:label xml:lang="en">Newton's Rings</rdfs:label>
         <rdfs:label xml:lang="ru">Кольца Ньютона</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
@@ -678,7 +678,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Path difference waves</rdfs:label>
-        <rdfs:label xml:lang="ru">Разность хода волн</rdfs:label>
+        <rdfs:label xml:lang="ru">�&#160;азность хода волн</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_ExpansionOfTheFourierSeries"/>
@@ -883,7 +883,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Wavefront</rdfs:label>
         <rdfs:label xml:lang="ru">Волновой фронт</rdfs:label>
-        <learning:previousTerm rdf:resource="&learning;Vector"/>
+        <learning:previousTerm rdf:resource="&learning;t_Vector"/>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
@@ -921,7 +921,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_YoungsExperiment">
         <rdf:type rdf:resource="&learning;Term"/>
-        <rdfs:label xml:lang="en">Young&apos;s experiment</rdfs:label>
+        <rdfs:label xml:lang="en">Young's experiment</rdfs:label>
         <rdfs:label xml:lang="ru">Опыт Юнга</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MethodOfDividingTheWavefront"/>
@@ -975,4 +975,5 @@
 
 
 <!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
 

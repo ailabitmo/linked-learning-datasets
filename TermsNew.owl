@@ -5244,7 +5244,7 @@
     <!-- http://dbpedia.org/resource/Abscissa -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Abscissa">
-        <sameAs rdf:resource="&learning;t_AbscissaAxis"/>
+        <owl:sameAs rdf:resource="&learning;t_AbscissaAxis"/>
     </NamedIndividual>
     
 
@@ -5252,7 +5252,7 @@
     <!-- http://dbpedia.org/resource/Adjugate_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Adjugate_matrix">
-        <sameAs rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
     </NamedIndividual>
     
 
@@ -5260,7 +5260,7 @@
     <!-- http://dbpedia.org/resource/Basis_(linear_algebra) -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Basis_(linear_algebra)">
-        <sameAs rdf:resource="&learning;t_BasisInTheSpace"/>
+        <owl:sameAs rdf:resource="&learning;t_BasisInTheSpace"/>
     </NamedIndividual>
     
 
@@ -5268,7 +5268,7 @@
     <!-- http://dbpedia.org/resource/Change_of_basis -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Change_of_basis">
-        <sameAs rdf:resource="&learning;t_TheTransitionMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_TheTransitionMatrix"/>
     </NamedIndividual>
     
 
@@ -5276,7 +5276,7 @@
     <!-- http://dbpedia.org/resource/Characteristic_polynomial -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Characteristic_polynomial">
-        <sameAs rdf:resource="&learning;t_TheCharacteristicPolynomialOfTheOperator"/>
+        <owl:sameAs rdf:resource="&learning;t_TheCharacteristicPolynomialOfTheOperator"/>
     </NamedIndividual>
     
 
@@ -5284,7 +5284,7 @@
     <!-- http://dbpedia.org/resource/Circle -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Circle">
-        <sameAs rdf:resource="&learning;t_Circle"/>
+        <owl:sameAs rdf:resource="&learning;t_Circle"/>
     </NamedIndividual>
     
 
@@ -5292,7 +5292,7 @@
     <!-- http://dbpedia.org/resource/Collinearity -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Collinearity">
-        <sameAs rdf:resource="&learning;t_CollinearVectors"/>
+        <owl:sameAs rdf:resource="&learning;t_CollinearVectors"/>
     </NamedIndividual>
     
 
@@ -5300,7 +5300,7 @@
     <!-- http://dbpedia.org/resource/Coplanarity -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Coplanarity">
-        <sameAs rdf:resource="&learning;t_TheConicalSurface"/>
+        <owl:sameAs rdf:resource="&learning;t_TheConicalSurface"/>
     </NamedIndividual>
     
 
@@ -5308,7 +5308,7 @@
     <!-- http://dbpedia.org/resource/Cross_product -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Cross_product">
-        <sameAs rdf:resource="&learning;t_VectorProduct"/>
+        <owl:sameAs rdf:resource="&learning;t_VectorProduct"/>
     </NamedIndividual>
     
 
@@ -5316,7 +5316,7 @@
     <!-- http://dbpedia.org/resource/Determinant -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Determinant">
-        <sameAs rdf:resource="&learning;t_TheDeterminantOrDeterminantOfAMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_TheDeterminantOrDeterminantOfAMatrix"/>
     </NamedIndividual>
     
 
@@ -5324,7 +5324,7 @@
     <!-- http://dbpedia.org/resource/Diagonal_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Diagonal_matrix">
-        <sameAs rdf:resource="&learning;t_DiagonalMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_DiagonalMatrix"/>
     </NamedIndividual>
     
 
@@ -5332,7 +5332,7 @@
     <!-- http://dbpedia.org/resource/Dot_product -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Dot_product">
-        <sameAs rdf:resource="&learning;t_TheScalarProduct"/>
+        <owl:sameAs rdf:resource="&learning;t_TheScalarProduct"/>
     </NamedIndividual>
     
 
@@ -5340,7 +5340,7 @@
     <!-- http://dbpedia.org/resource/Eigenvalues_and_eigenvectors -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Eigenvalues_and_eigenvectors">
-        <sameAs rdf:resource="&learning;t_EigenvectorsOfTheOperators"/>
+        <owl:sameAs rdf:resource="&learning;t_EigenvectorsOfTheOperators"/>
     </NamedIndividual>
     
 
@@ -5348,7 +5348,7 @@
     <!-- http://dbpedia.org/resource/Elementary_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Elementary_matrix">
-        <sameAs rdf:resource="&learning;t_ElementaryMatrixTransformation"/>
+        <owl:sameAs rdf:resource="&learning;t_ElementaryMatrixTransformation"/>
     </NamedIndividual>
     
 
@@ -5356,7 +5356,7 @@
     <!-- http://dbpedia.org/resource/Ellipse -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Ellipse">
-        <sameAs rdf:resource="&learning;t_Ellipse"/>
+        <owl:sameAs rdf:resource="&learning;t_Ellipse"/>
     </NamedIndividual>
     
 
@@ -5364,7 +5364,7 @@
     <!-- http://dbpedia.org/resource/Ellipsoid -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Ellipsoid">
-        <sameAs rdf:resource="&learning;t_EllipsoidOfRevolution"/>
+        <owl:sameAs rdf:resource="&learning;t_EllipsoidOfRevolution"/>
     </NamedIndividual>
     
 
@@ -5372,7 +5372,7 @@
     <!-- http://dbpedia.org/resource/Euclidean_vector -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Euclidean_vector">
-        <sameAs rdf:resource="&learning;t_Vector"/>
+        <owl:sameAs rdf:resource="&learning;t_Vector"/>
     </NamedIndividual>
     
 
@@ -5380,7 +5380,7 @@
     <!-- http://dbpedia.org/resource/Gaussian_elimination -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Gaussian_elimination">
-        <sameAs rdf:resource="&learning;t_TheGaussMethod"/>
+        <owl:sameAs rdf:resource="&learning;t_TheGaussMethod"/>
     </NamedIndividual>
     
 
@@ -5388,7 +5388,7 @@
     <!-- http://dbpedia.org/resource/Hyperbola -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Hyperbola">
-        <sameAs rdf:resource="&learning;t_Hyperbole"/>
+        <owl:sameAs rdf:resource="&learning;t_Hyperbole"/>
     </NamedIndividual>
     
 
@@ -5396,7 +5396,7 @@
     <!-- http://dbpedia.org/resource/Identity_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Identity_matrix">
-        <sameAs rdf:resource="&learning;t_TheIdentityMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_TheIdentityMatrix"/>
     </NamedIndividual>
     
 
@@ -5404,7 +5404,7 @@
     <!-- http://dbpedia.org/resource/Invertible_Matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Invertible_Matrix">
-        <sameAs rdf:resource="&learning;t_NonSingularMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_NonSingularMatrix"/>
     </NamedIndividual>
     
 
@@ -5412,7 +5412,7 @@
     <!-- http://dbpedia.org/resource/Invertible_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Invertible_matrix">
-        <sameAs rdf:resource="&learning;t_TheInverseMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -5420,7 +5420,7 @@
     <!-- http://dbpedia.org/resource/Kronecker_delta -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Kronecker_delta">
-        <sameAs rdf:resource="&learning;t_KroneckerDelta"/>
+        <owl:sameAs rdf:resource="&learning;t_KroneckerDelta"/>
     </NamedIndividual>
     
 
@@ -5428,8 +5428,8 @@
     <!-- http://dbpedia.org/resource/Linear_equation -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Linear_equation">
-        <sameAs rdf:resource="&learning;t_LinearOperator"/>
-        <sameAs rdf:resource="&learning;t_TheLinearEquation"/>
+        <owl:sameAs rdf:resource="&learning;t_LinearOperator"/>
+        <owl:sameAs rdf:resource="&learning;t_TheLinearEquation"/>
     </NamedIndividual>
     
 
@@ -5437,7 +5437,7 @@
     <!-- http://dbpedia.org/resource/Linear_independence -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Linear_independence">
-        <sameAs rdf:resource="&learning;t_LinearIndependence"/>
+        <owl:sameAs rdf:resource="&learning;t_LinearIndependence"/>
     </NamedIndividual>
     
 
@@ -5445,7 +5445,7 @@
     <!-- http://dbpedia.org/resource/Matrix_multiplication -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Matrix_multiplication">
-        <sameAs rdf:resource="&learning;t_MatrixProduct"/>
+        <owl:sameAs rdf:resource="&learning;t_MatrixProduct"/>
     </NamedIndividual>
     
 
@@ -5453,7 +5453,7 @@
     <!-- http://dbpedia.org/resource/Matrix_similarity -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Matrix_similarity">
-        <sameAs rdf:resource="&learning;t_SuchMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_SuchMatrix"/>
     </NamedIndividual>
     
 
@@ -5461,7 +5461,7 @@
     <!-- http://dbpedia.org/resource/Minor_(linear_algebra) -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Minor_(linear_algebra)">
-        <sameAs rdf:resource="&learning;t_Minor"/>
+        <owl:sameAs rdf:resource="&learning;t_Minor"/>
     </NamedIndividual>
     
 
@@ -5469,7 +5469,7 @@
     <!-- http://dbpedia.org/resource/Ordinate -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Ordinate">
-        <sameAs rdf:resource="&learning;t_OrdinateAxis"/>
+        <owl:sameAs rdf:resource="&learning;t_OrdinateAxis"/>
     </NamedIndividual>
     
 
@@ -5477,7 +5477,7 @@
     <!-- http://dbpedia.org/resource/Parabola -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Parabola">
-        <sameAs rdf:resource="&learning;t_Parabola"/>
+        <owl:sameAs rdf:resource="&learning;t_Parabola"/>
     </NamedIndividual>
     
 
@@ -5485,7 +5485,7 @@
     <!-- http://dbpedia.org/resource/Rank_(linear_algebra) -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Rank_(linear_algebra)">
-        <sameAs rdf:resource="&learning;t_Rank"/>
+        <owl:sameAs rdf:resource="&learning;t_Rank"/>
     </NamedIndividual>
     
 
@@ -5493,7 +5493,7 @@
     <!-- http://dbpedia.org/resource/Rouché–Capelli_theorem -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Rouché–Capelli_theorem">
-        <sameAs rdf:resource="&learning;t_KroneckerCapelliTheorem"/>
+        <owl:sameAs rdf:resource="&learning;t_KroneckerCapelliTheorem"/>
     </NamedIndividual>
     
 
@@ -5501,7 +5501,7 @@
     <!-- http://dbpedia.org/resource/Symmetric_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Symmetric_matrix">
-        <sameAs rdf:resource="&learning;t_SymmetricMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_SymmetricMatrix"/>
     </NamedIndividual>
     
 
@@ -5509,7 +5509,7 @@
     <!-- http://dbpedia.org/resource/System_of_linear_equations -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/System_of_linear_equations">
-        <sameAs rdf:resource="&learning;t_TheSystemOfLinearEquations"/>
+        <owl:sameAs rdf:resource="&learning;t_TheSystemOfLinearEquations"/>
     </NamedIndividual>
     
 
@@ -5517,7 +5517,7 @@
     <!-- http://dbpedia.org/resource/Translation_(geometry) -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Translation_(geometry)">
-        <sameAs rdf:resource="&learning;t_ParallelTransport"/>
+        <owl:sameAs rdf:resource="&learning;t_ParallelTransport"/>
     </NamedIndividual>
     
 
@@ -5525,7 +5525,7 @@
     <!-- http://dbpedia.org/resource/Transpose -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Transpose">
-        <sameAs rdf:resource="&learning;t_MatrixTransposition"/>
+        <owl:sameAs rdf:resource="&learning;t_MatrixTransposition"/>
     </NamedIndividual>
     
 
@@ -5533,7 +5533,7 @@
     <!-- http://dbpedia.org/resource/Triangular_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Triangular_matrix">
-        <sameAs rdf:resource="&learning;t_TriangularMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_TriangularMatrix"/>
     </NamedIndividual>
     
 
@@ -5541,7 +5541,7 @@
     <!-- http://dbpedia.org/resource/Unit_vector -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Unit_vector">
-        <sameAs rdf:resource="&learning;t_Orth"/>
+        <owl:sameAs rdf:resource="&learning;t_Orth"/>
     </NamedIndividual>
     
 
@@ -5549,7 +5549,7 @@
     <!-- http://dbpedia.org/resource/Vector_space -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Vector_space">
-        <sameAs rdf:resource="&learning;t_TheLinearSpace"/>
+        <owl:sameAs rdf:resource="&learning;t_TheLinearSpace"/>
     </NamedIndividual>
     
 
@@ -5557,7 +5557,7 @@
     <!-- http://dbpedia.org/resource/Zero_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Zero_matrix">
-        <sameAs rdf:resource="&learning;t_ZeroMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_ZeroMatrix"/>
     </NamedIndividual>
     
 
@@ -5565,7 +5565,7 @@
     <!-- http://dbpedia.org/resource/Diagonal_matrix#Scalar_matrix -->
 
     <NamedIndividual rdf:about="http://dbpedia.org/resource/Diagonal_matrix#Scalar_matrix">
-        <sameAs rdf:resource="&learning;t_ScalarMatrix"/>
+        <owl:sameAs rdf:resource="&learning;t_ScalarMatrix"/>
     </NamedIndividual>
 
 

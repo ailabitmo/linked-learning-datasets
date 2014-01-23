@@ -179,15 +179,15 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#BundleOfLinesInSpace -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_BundleOfLinesInSpace -->
 
-    <owl:NamedIndividual rdf:about="&learning;BundleOfLinesInSpace"/>
+    <owl:NamedIndividual rdf:about="&learning;t_BundleOfLinesInSpace"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#TheDirectionCosinesOfTheLine -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_TheDirectionCosinesOfTheLine -->
 
-    <owl:NamedIndividual rdf:about="&learning;TheDirectionCosinesOfTheLine"/>
+    <owl:NamedIndividual rdf:about="&learning;t_TheDirectionCosinesOfTheLine"/>
     
 
 
@@ -399,8 +399,8 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Beam of light</rdfs:label>
         <rdfs:label xml:lang="ru">Пучок света</rdfs:label>
-        <learning:previousTerm rdf:resource="&learning;BundleOfLinesInSpace"/>
-        <learning:previousTerm rdf:resource="&learning;TheDirectionCosinesOfTheLine"/>
+        <learning:previousTerm rdf:resource="&learning;t_BundleOfLinesInSpace"/>
+        <learning:previousTerm rdf:resource="&learning;t_TheDirectionCosinesOfTheLine"/>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>

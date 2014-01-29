@@ -354,9 +354,9 @@
         <rdfs:label xml:lang="ru">Векторная алгебра</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
         <learning:hasTest rdf:resource="&learning;ControlTest1"/>
-        <learning:hasLecture rdf:resource="&learning;LectureDoubleVectorProduct"/>
+        <learning:hasLecture rdf:resource="&learning;l_LectureDoubleVectorProduct"/>
         <learning:hasTest rdf:resource="&learning;PrepareTest1"/>
-        <learning:hasLecture rdf:resource="&learning;TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
+        <learning:hasLecture rdf:resource="&learning;l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
         <learning:hasLecture rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>
         <learning:hasLecture rdf:resource="&learning;l_TheScalarProductAndItsProperties"/>
         <learning:hasLecture rdf:resource="&learning;l_VectorProductAndItsProperties"/>

@@ -7348,7 +7348,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_t_Hyperbole -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_Hyperbole -->
 
     <rdf:Description rdf:about="&learning;t_t_Hyperbole">
         <learning:isTermOf rdf:resource="&learning;l_l_Hyperboloids"/>

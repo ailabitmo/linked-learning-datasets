@@ -2567,7 +2567,7 @@
 
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_FreeVector -->
 
-    <owl:NamedIndividual rdf:about="&learning;t_t_FreeVector">
+    <owl:NamedIndividual rdf:about="&learning;t_FreeVector">
         <learning:previousTerm rdf:resource="&learning;t_t_Vector"/>
     </owl:NamedIndividual>
     

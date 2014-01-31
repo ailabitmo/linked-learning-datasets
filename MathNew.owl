@@ -367,7 +367,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AColumnVectorARowVector -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AColumnVectorARowVector">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -394,7 +394,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ALinearCombination -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ALinearCombination">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AlgebraicComplement"/>
         <learning:previousTerm rdf:resource="&learning;t_AnAlgorithmForConstructingTheInverse"/>
@@ -436,7 +436,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ALinearMappingAVectorSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ALinearMappingAVectorSpace">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ALinearCombination"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
@@ -480,7 +480,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ANecessaryAndSufficientConditionForCoplanarityOfThreeVectors -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ANecessaryAndSufficientConditionForCoplanarityOfThreeVectors">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_ANecessaryAndSufficientConditionForTheCollinearityOfTwoNonzeroVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_ANecessaryAndSufficientConditionForTwoOrthogonalVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_PropertiesOfTheScalarProduct"/>
@@ -502,7 +502,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ANecessaryAndSufficientConditionForTheCollinearityOfTwoNonzeroVectors -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ANecessaryAndSufficientConditionForTheCollinearityOfTwoNonzeroVectors">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_CollinearVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_FreeVector"/>
         <learning:previousTerm rdf:resource="&learning;t_LengthOrModuleOfTheVector"/>
@@ -517,7 +517,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ANecessaryAndSufficientConditionForTwoOrthogonalVectors -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ANecessaryAndSufficientConditionForTwoOrthogonalVectors">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -551,7 +551,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ANonDegenerateOperator -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ANonDegenerateOperator">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ALinearCombination"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
@@ -595,7 +595,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ASquareMatrix -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ASquareMatrix">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -622,7 +622,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ASufficientConditionForTheNDimensionOfSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ASufficientConditionForTheNDimensionOfSpace">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AlgebraicComplement"/>
         <learning:previousTerm rdf:resource="&learning;t_AnAlgorithmForConstructingTheInverse"/>
@@ -664,7 +664,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ASweepingTheChordAndTheDiameterOfSecondOrderLines -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ASweepingTheChordAndTheDiameterOfSecondOrderLines">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -714,7 +714,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AbscissaAxis -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AbscissaAxis">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_CollinearVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_FreeVector"/>
         <learning:previousTerm rdf:resource="&learning;t_LengthOrModuleOfTheVector"/>
@@ -729,7 +729,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AffiliateOrAlliedMatrix -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AffiliateOrAlliedMatrix">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_EvenAndOddPermutations"/>
         <learning:previousTerm rdf:resource="&learning;t_HomePermutation"/>
         <learning:previousTerm rdf:resource="&learning;t_Inversion"/>
@@ -743,7 +743,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AlgebraicComplement -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AlgebraicComplement">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_EvenAndOddPermutations"/>
         <learning:previousTerm rdf:resource="&learning;t_HomePermutation"/>
         <learning:previousTerm rdf:resource="&learning;t_Inversion"/>
@@ -757,7 +757,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AnAlgorithmForConstructingTheInverse -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AnAlgorithmForConstructingTheInverse">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_EvenAndOddPermutations"/>
         <learning:previousTerm rdf:resource="&learning;t_HomePermutation"/>
         <learning:previousTerm rdf:resource="&learning;t_Inversion"/>
@@ -771,7 +771,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ApplicateAxis -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ApplicateAxis">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_CollinearVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_FreeVector"/>
         <learning:previousTerm rdf:resource="&learning;t_LengthOrModuleOfTheVector"/>
@@ -786,7 +786,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ArtworkByTheOperator -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ArtworkByTheOperator">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ALinearCombination"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
@@ -830,7 +830,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AsymptotesToAHyperbola -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AsymptotesToAHyperbola">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -880,7 +880,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AugmentedMatrixOfTheSystem -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AugmentedMatrixOfTheSystem">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
@@ -938,7 +938,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_AxisRotation -->
 
     <owl:NamedIndividual rdf:about="&learning;t_AxisRotation">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_ASweepingTheChordAndTheDiameterOfSecondOrderLines"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
@@ -985,7 +985,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_BasicMinor -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BasicMinor">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_EvenAndOddPermutations"/>
         <learning:previousTerm rdf:resource="&learning;t_HomePermutation"/>
         <learning:previousTerm rdf:resource="&learning;t_Inversion"/>
@@ -999,7 +999,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_BasisForTheVectorSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BasisForTheVectorSpace">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AlgebraicComplement"/>
         <learning:previousTerm rdf:resource="&learning;t_AnAlgorithmForConstructingTheInverse"/>
@@ -1041,7 +1041,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_BasisInTheSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BasisInTheSpace">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_CollinearVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_FreeVector"/>
         <learning:previousTerm rdf:resource="&learning;t_LengthOrModuleOfTheVector"/>
@@ -1056,7 +1056,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_BasisOnThePlane -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BasisOnThePlane">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#VectorAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_CollinearVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_FreeVector"/>
         <learning:previousTerm rdf:resource="&learning;t_LengthOrModuleOfTheVector"/>
@@ -1071,7 +1071,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_BundleOfLinesInSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BundleOfLinesInSpace">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_ANecessaryAndSufficientConditionForTheCollinearityOfTwoNonzeroVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_ANecessaryAndSufficientConditionForTwoOrthogonalVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
@@ -1119,7 +1119,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_CertainSystem -->
 
     <owl:NamedIndividual rdf:about="&learning;t_CertainSystem">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
@@ -1177,7 +1177,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_Circle -->
 
     <owl:NamedIndividual rdf:about="&learning;t_Circle">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -1216,7 +1216,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ClassificationOfSecondOrder -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ClassificationOfSecondOrder">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_ASweepingTheChordAndTheDiameterOfSecondOrderLines"/>
         <learning:previousTerm rdf:resource="&learning;t_Circle"/>
         <learning:previousTerm rdf:resource="&learning;t_EccentricityEllipse"/>
@@ -1243,7 +1243,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ColumnVectorOfFreeMembers -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ColumnVectorOfFreeMembers">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
@@ -1301,7 +1301,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ColumnVectorOfUnknowns -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ColumnVectorOfUnknowns">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
@@ -1359,7 +1359,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_CommutingOrPermutationMatrix -->
 
     <owl:NamedIndividual rdf:about="&learning;t_CommutingOrPermutationMatrix">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>
@@ -1386,7 +1386,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ComputingTheRankOfAMatrixByElementaryTransformations -->
 
     <owl:NamedIndividual rdf:about="&learning;t_ComputingTheRankOfAMatrixByElementaryTransformations">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_EvenAndOddPermutations"/>
         <learning:previousTerm rdf:resource="&learning;t_HomePermutation"/>
         <learning:previousTerm rdf:resource="&learning;t_Inversion"/>
@@ -1400,7 +1400,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_CoordinateTransformationWhenChangingBase -->
 
     <owl:NamedIndividual rdf:about="&learning;t_CoordinateTransformationWhenChangingBase">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AffiliateOrAlliedMatrix"/>
         <learning:previousTerm rdf:resource="&learning;t_AlgebraicComplement"/>
         <learning:previousTerm rdf:resource="&learning;t_AnAlgorithmForConstructingTheInverse"/>

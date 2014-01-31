@@ -2051,7 +2051,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_EllipticCylinder -->
 
     <owl:NamedIndividual rdf:about="&learning;t_EllipticCylinder">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math##AnalyticGeometry"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#AnalyticGeometry"/>
         <learning:previousTerm rdf:resource="&learning;t_AbscissaAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_ApplicateAxis"/>
         <learning:previousTerm rdf:resource="&learning;t_BasisInTheSpace"/>

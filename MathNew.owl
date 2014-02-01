@@ -354,7 +354,7 @@
         <rdfs:label xml:lang="ru">Векторная алгебра</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
         <learning:hasTest rdf:resource="&learning;ControlTest1"/>
-        <learning:hasLecture rdf:resource="&learning;l_LectureDoubleVectorProduct"/>
+        <learning:hasLecture rdf:resource="&learning;l_DoubleVectorProduct"/>
         <learning:hasTest rdf:resource="&learning;PrepareTest1"/>
         <learning:hasLecture rdf:resource="&learning;l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
         <learning:hasLecture rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>
@@ -7513,9 +7513,9 @@
 
 
  
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#l_LectureDoubleVectorProduct -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#l_DoubleVectorProduct -->
 
-    <NamedIndividual rdf:about="&learning;l_LectureDoubleVectorProduct">
+    <NamedIndividual rdf:about="&learning;l_DoubleVectorProduct">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="ru">Двойное векторное произведение</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">6</learning:numberOfLecture>

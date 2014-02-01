@@ -5719,7 +5719,7 @@
     <NamedIndividual rdf:about="&learning;t_AffiliateOrAlliedMatrix">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Присоединённая или союзная матрица</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -5729,7 +5729,7 @@
     <NamedIndividual rdf:about="&learning;t_AlgebraicComplement">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Алгебраическое дополнение</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -5739,7 +5739,7 @@
     <NamedIndividual rdf:about="&learning;t_AnAlgorithmForConstructingTheInverse">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Алгоритм построения обратной матрицы</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -5799,7 +5799,7 @@
     <NamedIndividual rdf:about="&learning;t_BasicMinor">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Базисный минор</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -5918,7 +5918,7 @@
     <NamedIndividual rdf:about="&learning;t_ComputingTheRankOfAMatrixByElementaryTransformations">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Вычисление ранга матрицы методом элементарных преобразований</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6077,7 +6077,7 @@
     <NamedIndividual rdf:about="&learning;t_ElementaryMatrixTransformation">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Элементарные преобразования матрицы</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6205,7 +6205,7 @@
     <NamedIndividual rdf:about="&learning;t_EquivalentMatrix">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Эквивалентные матрицы</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6510,7 +6510,7 @@
     <NamedIndividual rdf:about="&learning;t_Minor">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Минор</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6540,7 +6540,7 @@
     <NamedIndividual rdf:about="&learning;t_NonSingularMatrix">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Неособенная матрица</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6717,7 +6717,7 @@
     <NamedIndividual rdf:about="&learning;t_Rank">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Ранг матрицы</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 
@@ -6787,7 +6787,7 @@
     <NamedIndividual rdf:about="&learning;t_SpeedOrTrapezoidalMatrix">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Ступенчатая или трапецеидальная матрица</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_SubspaceOfTheVectorSpace -->
@@ -7258,7 +7258,7 @@
     <NamedIndividual rdf:about="&learning;t_TheInverseMatrix">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Обратная матрица</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
     </NamedIndividual>
     
 

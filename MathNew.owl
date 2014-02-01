@@ -336,7 +336,7 @@
         <learning:numberOfModule rdf:datatype="&xsd;integer">3</learning:numberOfModule>
         <learning:hasTest rdf:resource="&learning;ControlTest3"/>
         <learning:hasLecture rdf:resource="&learning;l_DeterminantsPropertiesOfDeterminants."/>
-        <learning:hasLecture rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:hasLecture rdf:resource="&learning;l_TheInverseMatrix"/>
         <learning:hasLecture rdf:resource="&learning;l_LinearOperators"/>
         <learning:hasLecture rdf:resource="&learning;l_LinearSpaces"/>
         <learning:hasTest rdf:resource="&learning;PrepareTest3"/>
@@ -7538,9 +7538,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#l_LectureTheInverseMatrix -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#l_TheInverseMatrix -->
 
-    <NamedIndividual rdf:about="&learning;l_LectureTheInverseMatrix">
+    <NamedIndividual rdf:about="&learning;l_TheInverseMatrix">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="ru">Обратная матрица</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">22</learning:numberOfLecture>
@@ -7570,7 +7570,7 @@
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="ru">Линейные пространства</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">24</learning:numberOfLecture>
-        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_TheInverseMatrix"/>
         <learning:previousLecture rdf:resource="&learning;l_SystemsOfLinearEquations"/>
     </NamedIndividual>
     
@@ -7624,7 +7624,7 @@
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="ru">Системы линейных уравнений</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">23</learning:numberOfLecture>
-        <learning:previousLecture rdf:resource="&learning;l_LectureTheInverseMatrix"/>
+        <learning:previousLecture rdf:resource="&learning;l_TheInverseMatrix"/>
         <learning:previousLecture rdf:resource="&learning;l_MatrixOperationsOnMatrices"/>
         <learning:previousLecture rdf:resource="&learning;l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
     </NamedIndividual>

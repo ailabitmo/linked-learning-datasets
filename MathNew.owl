@@ -7517,7 +7517,7 @@
 
     <NamedIndividual rdf:about="&learning;l_LectureDoubleVectorProduct">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="ru">Лекция: Двойное векторное произведение</rdfs:label>
+        <rdfs:label xml:lang="ru">Двойное векторное произведение</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">6</learning:numberOfLecture>
         <learning:previousLecture rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>
         <learning:previousLecture rdf:resource="&learning;l_VectorProductAndItsProperties"/>
@@ -7529,7 +7529,7 @@
 
     <NamedIndividual rdf:about="&learning;l_LectureTheConicalSurface">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="ru">Лекция: Коническая поверхность</rdfs:label>
+        <rdfs:label xml:lang="ru">Коническая поверхность</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">16</learning:numberOfLecture>
         <learning:previousLecture rdf:resource="&learning;l_AStraightLineInSpaceTheRelativePositionOfLineAndPlaneInSpace"/>
         <learning:previousLecture rdf:resource="&learning;l_Curves2OrderEllipse"/>
@@ -7542,7 +7542,7 @@
 
     <NamedIndividual rdf:about="&learning;l_LectureTheInverseMatrix">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="ru">Лекция: Обратная матрица</rdfs:label>
+        <rdfs:label xml:lang="ru">Обратная матрица</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">22</learning:numberOfLecture>
         <learning:previousLecture rdf:resource="&learning;l_DeterminantsPropertiesOfDeterminants."/>
     </NamedIndividual>
@@ -7568,7 +7568,7 @@
 
     <NamedIndividual rdf:about="&learning;l_LinearSpaces">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="ru">Лекция: Линейные пространства</rdfs:label>
+        <rdfs:label xml:lang="ru">Линейные пространства</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">24</learning:numberOfLecture>
         <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
         <learning:previousLecture rdf:resource="&learning;l_SystemsOfLinearEquations"/>
@@ -7610,7 +7610,7 @@
 
     <NamedIndividual rdf:about="&learning;l_SubspaceOfALinearSpace">
         <rdf:type rdf:resource="&learning;Lecture"/>
-        <rdfs:label xml:lang="ru">Лекция: Подпространства линейного пространства</rdfs:label>
+        <rdfs:label xml:lang="ru">Подпространства линейного пространства</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">25</learning:numberOfLecture>
         <learning:previousLecture rdf:resource="&learning;l_LinearSpaces"/>
     </NamedIndividual>

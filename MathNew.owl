@@ -60,8 +60,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_EllipsoidOfRevolution -->
 
     <rdf:Description rdf:about="&learning;t_EllipsoidOfRevolution">
-        <learning:isTermOf rdf:resource="&learning;l_EllipticCylinder"/>
-        <learning:isTermOf rdf:resource="&learning;l_EllipticParaboloid"/>
+        <learning:isTermOf rdf:resource="&learning;t_EllipticCylinder"/>
+        <learning:isTermOf rdf:resource="&learning;t_EllipticParaboloid"/>
     </rdf:Description>
     
 
@@ -2044,6 +2044,8 @@
         <learning:previousTerm rdf:resource="&learning;t_TheCenterAndTheTopOfTheEllipse"/>
         <learning:previousTerm rdf:resource="&learning;t_TheFocalRange"/>
         <learning:previousTerm rdf:resource="&learning;t_TheMajorAndMinorAxis"/>
+        <learning:previousTerm rdf:resource="&learning;t_EllipticCylinder"/>
+        <learning:previousTerm rdf:resource="&learning;t_EllipticParaboloid"/>
     </owl:NamedIndividual>
     
 
@@ -7329,12 +7331,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_EllipsoidOfRevolution -->
-
-    <rdf:Description rdf:about="&learning;t_EllipsoidOfRevolution">
-        <learning:isTermOf rdf:resource="&learning;l_EllipticCylinder"/>
-        <learning:isTermOf rdf:resource="&learning;l_EllipticParaboloid"/>
-    </rdf:Description>
     
 
 

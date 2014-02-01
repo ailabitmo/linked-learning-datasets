@@ -7570,7 +7570,7 @@
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="ru">Лекция: Линейные пространства</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">24</learning:numberOfLecture>
-        <learning:isTermOf rdf:resource="&learning;LectureTheInverseMatrix"/>
+        <learning:isTermOf rdf:resource="&learning;l_LectureTheInverseMatrix"/>
         <learning:previousLecture rdf:resource="&learning;l_SystemsOfLinearEquations"/>
     </NamedIndividual>
     

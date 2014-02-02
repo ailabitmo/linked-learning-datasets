@@ -84,6 +84,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Autocorrelation</rdfs:label>
         <rdfs:label xml:lang="ru">Автокорреляция</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_ProbabilityTheoryAndMathematicalStatistics"/>
     </owl:NamedIndividual>
     
@@ -95,6 +96,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Correlation</rdfs:label>
         <rdfs:label xml:lang="ru">Корреляция</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_ProbabilityTheoryAndMathematicalStatistics"/>
     </owl:NamedIndividual>
     

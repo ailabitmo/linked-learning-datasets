@@ -7412,6 +7412,8 @@
         <learning:isTermOf rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>
         <learning:isTermOf rdf:resource="&learning;l_TheScalarProductAndItsProperties"/>
         <learning:isTermOf rdf:resource="&learning;l_VectorProductAndItsProperties"/>
+        <learning:isTermOf rdf:resource="&learning;l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="&learning;l_l_MethodOfDividingTheWavefrontyoungExperience"/>
     </rdf:Description>
     
 

@@ -108,6 +108,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Expansion of the Fourier series</rdfs:label>
         <rdfs:label xml:lang="ru">Разложение функции в ряд Фурье</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_MathematicalAnalysis"/>
     </owl:NamedIndividual>
     
@@ -119,6 +120,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Fourier analysis</rdfs:label>
         <rdfs:label xml:lang="ru">Фурье-анализ</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_MathematicalAnalysis"/>
     </owl:NamedIndividual>
     
@@ -130,6 +132,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Phase difference</rdfs:label>
         <rdfs:label xml:lang="ru">Разность фаз</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_MathematicalAnalysis"/>
     </owl:NamedIndividual>
     
@@ -141,6 +144,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The complex plane</rdfs:label>
         <rdfs:label xml:lang="ru">Комплексная плоскость</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_FunctionsOfAComplexVariable"/>
     </owl:NamedIndividual>
 

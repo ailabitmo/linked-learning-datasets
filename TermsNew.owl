@@ -6037,7 +6037,7 @@
     <NamedIndividual rdf:about="&learning;t_DoubleVectorProduct">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Двойное векторное произведение</rdfs:label>
-        <learning:isTermOf rdf:resource="&learning;l_LectureDoubleVectorProduct"/>
+        <learning:isTermOf rdf:resource="&learning;l_DoubleVectorProduct"/>
     </NamedIndividual>
     
 

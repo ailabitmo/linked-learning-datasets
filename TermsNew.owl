@@ -7060,6 +7060,7 @@
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="ru">Направляющие косинусы прямой</rdfs:label>
         <learning:isTermOf rdf:resource="&learning;l_AStraightLineInSpaceTheRelativePositionOfLineAndPlaneInSpace"/>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
     </NamedIndividual>
     
 

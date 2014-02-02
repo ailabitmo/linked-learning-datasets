@@ -7214,6 +7214,7 @@
         <learning:previousTerm rdf:resource="&learning;t_Orth"/>
         <learning:previousTerm rdf:resource="&learning;t_TheSumOfVectors"/>
         <learning:previousTerm rdf:resource="&learning;t_Vector"/>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
     </owl:NamedIndividual>
     
 

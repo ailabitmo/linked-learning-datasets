@@ -1833,7 +1833,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_EigenvalueOfTheOperator -->
 
     <owl:NamedIndividual rdf:about="&learning;t_EigenvalueOfTheOperator">
-        <relatesToField rdf:resource="hhttp://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
+        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#LinearAlgebra"/>
         <learning:previousTerm rdf:resource="&learning;t_AColumnVectorARowVector"/>
         <learning:previousTerm rdf:resource="&learning;t_ALinearCombination"/>
         <learning:previousTerm rdf:resource="&learning;t_ASquareMatrix"/>

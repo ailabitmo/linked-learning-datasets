@@ -5656,41 +5656,10 @@
         <learning:isTermOf rdf:resource="&learning;l_MatrixOperationsOnMatrices"/>
     </NamedIndividual>
 
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_CollinearVectors -->
-
-    <owl:NamedIndividual rdf:about="&learning;t_CollinearVectors">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
-    </owl:NamedIndividual>
-
-    <owl:NamedIndividual rdf:about="&learning;t_FreeVector">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
-    </owl:NamedIndividual>
- 
+   
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_MultiplicationOfAVectorByTheNumber -->
-
-    <owl:NamedIndividual rdf:about="&learning;t_MultiplicationOfAVectorByTheNumber">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
-    </owl:NamedIndividual>
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_Orth -->
-
-    <owl:NamedIndividual rdf:about="&learning;t_Orth">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
-    </owl:NamedIndividual>
-    
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_Vector -->
-
-    <owl:NamedIndividual rdf:about="&learning;t_Vector">
-        <relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/10/untitled-ontology-39#VectorAlgebra"/>
-    </owl:NamedIndividual>
-
-
-<!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ASufficientConditionForTheNDimensionOfSpace -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_ASufficientConditionForTheNDimensionOfSpace -->
 
     <NamedIndividual rdf:about="&learning;t_ASufficientConditionForTheNDimensionOfSpace">
         <rdf:type rdf:resource="&learning;Term"/>

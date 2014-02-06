@@ -274,12 +274,18 @@
    <!-- ---------------------------- -->
    
 
-    <!-- http://ru.dbpedia.org/resource/Весовая_матрица -->
+    <!-- http://ru.dbpedia.org/resource/Direction_cosine -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Direction_cosine">
         <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/98/math#t_TheDirectionCosinesOfTheLine"/>
     </owl:NamedIndividual>   
 
+
+    <!-- http://ru.dbpedia.org/resource/Fourier_series -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fourier_series">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_ExpansionOfTheFourierSeries"/>
+    </owl:NamedIndividual> 
 
 
 

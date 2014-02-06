@@ -287,12 +287,19 @@
         <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_ExpansionOfTheFourierSeries"/>
     </owl:NamedIndividual> 
 
+
     <!-- http://ru.dbpedia.org/resource/Phase_(waves) -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Phase_(waves)">
         <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_PhaseDifference"/>
     </owl:NamedIndividual> 
 
+
+    <!-- http://ru.dbpedia.org/resource/Fourier_transform -->
+    
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Fourier_transform">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_FourierAnalysis"/>
+    </owl:NamedIndividual> 
 
 
 

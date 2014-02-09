@@ -228,7 +228,6 @@
         <rdfs:label xml:lang="ru">Аналитическая геометрия</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">2</learning:numberOfModule>
         <learning:hasLecture rdf:resource="&learning;l_AStraightLineInSpaceTheRelativePositionOfLineAndPlaneInSpace"/>
-        <learning:hasTest rdf:resource="&learning;ControlTest2"/>
         <learning:hasLecture rdf:resource="&learning;l_Curves2OrderEllipse"/>
         <learning:hasLecture rdf:resource="&learning;l_Curves2OrderHyperbole"/>
         <learning:hasLecture rdf:resource="&learning;l_Curves2OrderParabola"/>
@@ -236,7 +235,6 @@
         <learning:hasLecture rdf:resource="&learning;l_Hyperboloids"/>
         <learning:hasLecture rdf:resource="&learning;l_LectureTheConicalSurface"/>
         <learning:hasLecture rdf:resource="&learning;l_Paraboloids"/>
-        <learning:hasTest rdf:resource="&learning;PrepareTest2"/>
         <learning:hasLecture rdf:resource="&learning;l_TheCoordinateTransformation"/>
         <learning:hasLecture rdf:resource="&learning;l_TheCylindricalSurfaces"/>
         <learning:hasLecture rdf:resource="&learning;l_TheEquationOfAStraightLineOnAPlane"/>
@@ -276,70 +274,16 @@
         <learning:isTestOf rdf:resource="&learning;m_VectorAlgebra"/>
     </NamedIndividual>
     
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#ControlTest2 -->
-
-    <NamedIndividual rdf:about="&learning;ControlTest2">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">true</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_AnalyticGeometry"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#ControlTest3 -->
-
-    <NamedIndividual rdf:about="&learning;ControlTest3">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">true</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_LinearAlgebra"/>
-    </NamedIndividual>
-
-
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#PrepareTest1 -->
-
-    <NamedIndividual rdf:about="&learning;PrepareTest1">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">false</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_VectorAlgebra"/>
-    </NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#PrepareTest2 -->
-
-    <NamedIndividual rdf:about="&learning;PrepareTest2">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">false</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_AnalyticGeometry"/>
-    </NamedIndividual>
-
-
- <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#PrepareTest3 -->
-
-    <NamedIndividual rdf:about="&learning;PrepareTest3">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">false</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_LinearAlgebra"/>
-    </NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#m_LinearAlgebra -->
 
     <NamedIndividual rdf:about="&learning;m_LinearAlgebra">
         <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
         <rdfs:label xml:lang="ru">Линейная алгебра</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">3</learning:numberOfModule>
-        <learning:hasTest rdf:resource="&learning;ControlTest3"/>
         <learning:hasLecture rdf:resource="&learning;l_DeterminantsPropertiesOfDeterminants."/>
         <learning:hasLecture rdf:resource="&learning;l_TheInverseMatrix"/>
         <learning:hasLecture rdf:resource="&learning;l_LinearOperators"/>
         <learning:hasLecture rdf:resource="&learning;l_LinearSpaces"/>
-        <learning:hasTest rdf:resource="&learning;PrepareTest3"/>
         <learning:hasLecture rdf:resource="&learning;l_SubspaceOfALinearSpace"/>
         <learning:hasLecture rdf:resource="&learning;l_SystemsOfLinearEquations"/>
 	<learning:hasLecture rdf:resource="&learning;l_MatrixOperationsOnMatrices"/>
@@ -355,7 +299,6 @@
         <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
         <learning:hasTest rdf:resource="&learning;ControlTest1"/>
         <learning:hasLecture rdf:resource="&learning;l_DoubleVectorProduct"/>
-        <learning:hasTest rdf:resource="&learning;PrepareTest1"/>
         <learning:hasLecture rdf:resource="&learning;l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
         <learning:hasLecture rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>
         <learning:hasLecture rdf:resource="&learning;l_TheScalarProductAndItsProperties"/>

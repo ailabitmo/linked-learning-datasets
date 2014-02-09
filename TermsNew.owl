@@ -270,9 +270,7 @@
     <owl:NamedIndividual rdf:about="http://ru.dbpedia.org/resource/Весовая_матрица">
         <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheWeightMatrix"/>
     </owl:NamedIndividual>
-    
-   <!-- ---------------------------- -->
-   
+       
 
     <!-- http://ru.dbpedia.org/resource/Direction_cosine -->
 

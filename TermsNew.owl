@@ -151,6 +151,277 @@
 
 
 
+
+
+
+
+<!-- http://dbpedia.org/resource/Interference -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Optical_phenomenon -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Optical_phenomenon">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OpticalPhenomenon">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/List_of_light_sources -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/List_of_light_sources">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illuminant">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Intensity_(physics) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Intensity_(physics)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Intensity">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Illuminance -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Illuminance">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illumination">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Conservation_of_energy -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Conservation_of_energy">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LawOfEnergyConservation">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Luminous_energy -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Luminous_energy">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LightEnergy">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Wave -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wave">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AdditionWaves">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    <owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingsubtractionWaves">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheInterferencePattern">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Fringes">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Light -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Light">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Light">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Electromagnetic_radiation -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Electromagnetic_radiation">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ElectromagneticWaves">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Moiré_pattern -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Moiré_pattern">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MoireMoire">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Wavelength -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wavelength">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavelength">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Light_beam -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Light_beam">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BeamOfLight">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Coherence_(physics) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Coherence_(physics)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TemporalCoherence">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Coherence_(physics) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Coherence_(physics)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SpatialCoherence">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Thin_film -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thin_film">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinFilms">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceInTheThinFilm">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Reflection_(physics) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Reflection_(physics)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ReflectionOfLightWaves">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Thin-film_optics -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Thin-film_optics">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_FilmThickness">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Frequency -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Frequency">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OscillationFrequency">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Anneau_de_Newton -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Anneau_de_Newton">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_NewtonsRings">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/White#Light -->            
+
+ <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/White#Light">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WhiteLight">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Optical_filter -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Optical_filter">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Filter">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Spectrum -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Spectrum">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Range">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Angular_diameter -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Angular_diameter">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheAngularSizeOfTheRadiationSource">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Double-slit_experiment -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Double-slit_experiment">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_YoungsExperiment">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PeriodOfTheInterference">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Interference_(wave_propagation) -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Interference_(wave_propagation)">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Wavefront -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Wavefront">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavefront">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Diffraction -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Diffraction">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Diffraction">    
+</owl:NamedIndividual>
+
+
+<!-- http://dbpedia.org/resource/Huygens–Fresnel_principle -->             
+
+<owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Huygens–Fresnel_principle">    
+<owl:sameAs rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple">    
+</owl:NamedIndividual>
+
+
+
+
+
+
+
+
+
+
     <!-- http://dbpedia.org/resource/Binary_tree -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Binary_tree">

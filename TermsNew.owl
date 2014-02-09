@@ -774,7 +774,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_BellmanFordAlgorithmForFindingAMinimalPathInAWeightedGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Bellman-Ford algorithm for finding a minimal path in a weighted graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм Форда-Беллмана для поиска минимального маршрута во взвешенном графе</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Форда-Беллмана для поиска минимального маршрута во взвешенном графе</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_BellmanFordAlgorithmForFindingAMinimalPathInAWeightedGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheMinimumWeightForTheRoute"/>
     </owl:NamedIndividual>
@@ -1092,7 +1092,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CountTheNumberOfEdgeCoveringGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Count the number of edge covering graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Число реберного покрытия графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Число реберного покрытия графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_CountTheNumberOfEdgeCovering"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CountAsTheRatioOfTheIncidenceOfVerticesAndASetOfEdgesAndOrArcs"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CountTheNumberOfExtreme"/>
@@ -1324,7 +1324,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_EulersTheoremEulersFormulaForAPlanarGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Euler&apos;s theorem (= Euler&apos;s formula) for a planar graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Теорема Эйлера (=формула Эйлера) для плоского графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Теорема Эйлера (=формула Эйлера) для плоского графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_EulersTheoremEulersFormulaForAPlanarGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_AddingANewTreeEdgeIncidentToNodesOfTheTree"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_SpanningTree"/>
@@ -1441,7 +1441,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_HeuristicAlgorithmToSolveTheTravelingSalesmanProblemOnTheBasisOfTheMaximin">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Heuristic algorithm to solve the traveling salesman problem on the basis of the maximin</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Эвристический алгоритм решения задача коммивояжера на основе метода максимина</rdfs:label>
+        <rdfs:label xml:lang="ru">Эвристический алгоритм решения задача коммивояжера на основе метода максимина</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicAlgorithmToSolveTheTravelingSalesmanProblemOnTheBasisOfTheMaximin"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheTravelingSalesmanProblem"/>
     </owl:NamedIndividual>
@@ -1453,7 +1453,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_HeuristicMinimumGraphColoring">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Heuristic minimum graph coloring</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Эвристический алгоритм минимальной раскраски графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Эвристический алгоритм минимальной раскраски графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HeuristicMinimumGraphColoring"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_AdjacencyOfVertices"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheLocalDegreeValenceTop"/>
@@ -1480,7 +1480,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_HungarianAlgorithm">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Hungarian algorithm</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Венгерский алгоритм</rdfs:label>
+        <rdfs:label xml:lang="ru">Венгерский алгоритм</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_HungarianAlgorithm"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_PerfectMatching"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheWeightMatrix"/>
@@ -1548,7 +1548,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_KruskalsAlgorithm">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Kruskal&apos;s algorithm</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм Краскала</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Краскала</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_KruskalsAlgorithm"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_AddingANewTreeEdgeIncidentToNodesOfTheTree"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheMinimumSpanningTree"/>
@@ -1727,7 +1727,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_MinimumGraphColoringAlgorithmBasedOnTheMethodMagoo">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Minimum graph coloring algorithm based on the method Magoo</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм минимальной раскраски графа на основе метода Магу</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм минимальной раскраски графа на основе метода Магу</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_MinimumGraphColoringAlgorithmBasedOnTheMethodMagoo"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CommunicationNumberOfInternalStabilityAndTheChromaticNumberOfAGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheAlgorithmMagooWeismannToFindTheBiggestEmptySubgraphsInAGraph"/>
@@ -1870,7 +1870,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_OperationsOnGraphs">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Operations on graphs</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Операции над графами</rdfs:label>
+        <rdfs:label xml:lang="ru">Операции над графами</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_OperationsOnGraphs"/>
     </owl:NamedIndividual>
     
@@ -2041,7 +2041,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_PrimsAlgorithm">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Prim&apos;s algorithm</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм Прима</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Прима</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_PrimsAlgorithm"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheNumberOfEdgesThatDistinguishTheGraphOfTheTree"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheWeightMatrix"/>
@@ -2412,7 +2412,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TechniqueToResearchTheGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Technique to research the graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Методика исследования связности графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Методика исследования связности графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TechniqueToStudyTheGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_ANumberOfPowerGraphs"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_FullCount"/>
@@ -2425,7 +2425,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheAlgorithmEstablishTheIsomorphismOfTwoGraphsBasedOnTheCharacteristicsOfVertices">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The algorithm establish the isomorphism of two graphs based on the characteristics of vertices</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм установления изоморфизма двух графов на основе характеристик вершин графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм установления изоморфизма двух графов на основе характеристик вершин графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmEstablishTheIsomorphismOfTwoGraphsBasedOnTheCharacteristicsOfVertices"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_IndegreeTop"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_IsomorphicIdenticalInStructureGraphs"/>
@@ -2442,7 +2442,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheAlgorithmForSolvingTheTravelingSalesmanProblemBasedOnTheBranchAndBound">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The algorithm for solving the traveling salesman problem based on the branch and bound</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм решения задача коммивояжера на основе метода ветвей и границ</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм решения задача коммивояжера на основе метода ветвей и границ</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmForSolvingTheTravelingSalesmanProblemBasedOnTheBranchAndBound"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheTravelingSalesmanProblem"/>
     </owl:NamedIndividual>
@@ -2454,7 +2454,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheAlgorithmMagooWeismannToFindTheBiggestEmptySubgraphsInAGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The algorithm Magoo-Weismann to find the biggest empty subgraphs in a graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм Магу-Вейсмана для поиска наибольших пустых подграфов в графе</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Магу-Вейсмана для поиска наибольших пустых подграфов в графе</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmMagooWeismannToFindTheBiggestEmptySubgraphsInAGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_AConnectedNeograf"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheLargestInternallyStableSet"/>
@@ -2467,7 +2467,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheAlgorithmRobertsFloresSearchForHamiltonCyclesInAGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The algorithm Roberts-Flores Search for Hamilton cycles in a graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Алгоритм Робертса-Флореса для поиска циклов Гамильтона в графе</rdfs:label>
+        <rdfs:label xml:lang="ru">Алгоритм Робертса-Флореса для поиска циклов Гамильтона в графе</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheAlgorithmRobertsFloresSearchForHamiltonCyclesInAGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CycleHamilton"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_MatrixRatioAdjacencyMatrix"/>
@@ -2519,7 +2519,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheChromaticNumberOfAGraph">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">term: The chromatic number of a graph</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Хроматическое число графа</rdfs:label>
+        <rdfs:label xml:lang="ru">Хроматическое число графа</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_TheChromaticNumberOfAGraph"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_CountTheNumberOfExtreme"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_TheTaskOfTheVertexColoringOfGraph"/>
@@ -3286,7 +3286,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_WaveAlgorithmForFindingAMinimumAlongTheRoute">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Wave algorithm for finding a minimum along the route</rdfs:label>
-        <rdfs:label xml:lang="ru">термин: Волновой алгоритм для поиска минимального по длине маршрута</rdfs:label>
+        <rdfs:label xml:lang="ru">Волновой алгоритм для поиска минимального по длине маршрута</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#l_WaveAlgorithmForFindingAMinimumAlongTheRoute"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_EndOfRoute"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14#t_SetOfImagesOfVerticesOfTheGraph"/>

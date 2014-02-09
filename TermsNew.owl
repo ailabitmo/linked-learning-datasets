@@ -301,8 +301,6 @@
 
 
 
-   <!-- ---------------------------- -->
-
     <!-- http://simple.dbpedia.org/resource/Cartesian_product -->
 
     <owl:NamedIndividual rdf:about="http://simple.dbpedia.org/resource/Cartesian_product">

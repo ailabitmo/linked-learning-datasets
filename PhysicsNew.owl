@@ -550,7 +550,7 @@
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AdditionWaves"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BeamOfLight"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingWaves"/>
+        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingsubtractionWaves"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavelength"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
@@ -695,18 +695,6 @@
         <rdfs:label xml:lang="en">Period of the interference</rdfs:label>
         <rdfs:label xml:lang="ru">Период интерференции</rdfs:label>
         <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingWaves -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingWaves">
-        <rdf:type rdf:resource="&learning;Term"/>
-        <rdfs:label xml:lang="en">Quenching waves</rdfs:label>
-        <rdfs:label xml:lang="ru">Гашение волн</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     

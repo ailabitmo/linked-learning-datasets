@@ -265,14 +265,6 @@
     </NamedIndividual>
     
 
-
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#ControlTest1 -->
-
-    <NamedIndividual rdf:about="&learning;ControlTest1">
-        <rdf:type rdf:resource="&learning;Test"/>
-        <learning:isTestRequired rdf:datatype="&xsd;boolean">true</learning:isTestRequired>
-        <learning:isTestOf rdf:resource="&learning;m_VectorAlgebra"/>
-    </NamedIndividual>
     
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/98/math#m_LinearAlgebra -->
 
@@ -297,7 +289,6 @@
         <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
         <rdfs:label xml:lang="ru">Векторная алгебра</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
-        <learning:hasTest rdf:resource="&learning;ControlTest1"/>
         <learning:hasLecture rdf:resource="&learning;l_DoubleVectorProduct"/>
         <learning:hasLecture rdf:resource="&learning;l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
         <learning:hasLecture rdf:resource="&learning;l_TheMixedProductOfThreeVectors"/>

@@ -39,6 +39,107 @@
         <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7768</ma:identifier>
         <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
             </ma:MediaResource>
+			
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7796">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7796</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_VectorsAndBasicLinearOperationsOverThem"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7798">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7798</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheLinearDependenceAndIndependenceOfVectorsBasesOnThePlaneAndInSpaceTheRectangularCartesianCoordinateSystem"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7801">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7801</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheScalarProductAndItsProperties"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7802">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7802</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_VectorProductAndItsProperties"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7803">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7803</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheMixedProductOfThreeVectors"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7804">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7804</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheEquationOfAStraightLineOnAPlane"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7805">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7805</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheMutualArrangementOfLinesInThePlaneTheDistanceFromThePointToTheLine"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7807">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7807</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_ThePlaneEquation"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7809">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7809</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_AStraightLineInSpaceTheRelativePositionOfLineAndPlaneInSpace"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7813">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7813</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Curves2OrderEllipse"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7815">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7815</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Curves2OrderHyperbole"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7816">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7816</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Curves2OrderParabola"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7817">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7817</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheCylindricalSurfaces"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7819">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7819</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheCoordinateTransformation"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7822">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7822</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_LectureTheConicalSurface"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7823">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7823</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Ellipsoid"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7825">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7825</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Hyperboloids"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7827">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7827</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_Paraboloids"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7830">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7830</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_MatrixOperationsOnMatrices"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7833">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7833</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_DeterminantsPropertiesOfDeterminants."/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7836">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7836</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_TheInverseMatrix"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7838">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7838</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_SystemsOfLinearEquations"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7842">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7842</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_LinearSpaces"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7846">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7846</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_SubspaceOfALinearSpace"/>
+            </ma:MediaResource>
+    <ma:MediaResource rdf:about="http://smartag.tv/external/7847">
+        <ma:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7847</ma:identifier>
+        <learning:isResourceOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#l_LinearOperators"/>
+            </ma:MediaResource>	
 
 </rdf:RDF>
 

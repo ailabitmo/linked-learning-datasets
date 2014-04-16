@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#knowledgeGrouping -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#knowledgeGrouping"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#organization -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/aiiso/schema#organization"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#organizationalUnit -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#organizationalUnit"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/aiiso/schema#part_of">
+        <owl:inverseOf rdf:resource="http://purl.org/vocab/aiiso/schema#organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#responsibilityOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/aiiso/schema#responsibilityOf">
+        <owl:inverseOf rdf:resource="http://purl.org/vocab/aiiso/schema#responsibleFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#responsibleFor -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/aiiso/schema#responsibleFor"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/aiiso/schema#teaches">
+        <owl:inverseOf rdf:resource="&learning;hasTeacher"/>
+        <owl:equivalentProperty rdf:resource="&learning;isTeacherOf"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="&learning;hasTeacher"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasAuthor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasConsultation -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasConsultation">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasExam -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasExam">
+        <owl:inverseOf rdf:resource="&learning;isExamOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasLecture -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasLecture">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasModule -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasModule">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;isModuleOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPersonalWork -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasPersonalWork">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;isPersonalWorkOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPractice -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasPractice">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;isPracticeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPracticeTask -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasPracticeTask">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasResource -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasResource">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;isResourceOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasTeacher">
+        <owl:inverseOf rdf:resource="&learning;isTeacherOf"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="&learning;isTeacherOf"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.org/vocab/aiiso/schema#teaches"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&learning;isTeacherOf"/>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTerm -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasTerm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTest -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasTest">
+        <owl:inverseOf rdf:resource="&learning;isTestOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTheme -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasTheme">
+        <owl:inverseOf rdf:resource="&learning;isThemeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasWorkshop -->
+
+    <owl:ObjectProperty rdf:about="&learning;hasWorkshop">
+        <owl:inverseOf rdf:resource="&learning;isWorkshopOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAFieldOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isAFieldOf">
+        <owl:inverseOf rdf:resource="&learning;relatesToField"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isAuthorOf">
+        <owl:inverseOf rdf:resource="&learning;hasAuthor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isConsultationOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isConsultationOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;hasConsultation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isExamOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isExamOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isLectureOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isLectureOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;hasLecture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isModuleOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPersonalWorkOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isPersonalWorkOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isPracticeOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeTaskOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isPracticeTaskOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <owl:inverseOf rdf:resource="&learning;hasPracticeTask"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isResourceOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTeacherOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isTeacherOf">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="&learning;hasTeacher"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTermOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isTermOf">
+        <owl:inverseOf rdf:resource="&learning;hasTerm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isTestOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isThemeOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isThemeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isWorkshopOf -->
+
+    <owl:ObjectProperty rdf:about="&learning;isWorkshopOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousLecture -->
+
+    <owl:ObjectProperty rdf:about="&learning;previousLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousTerm -->
+
+    <owl:ObjectProperty rdf:about="&learning;previousTerm">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#relatesToField -->
+
+    <owl:ObjectProperty rdf:about="&learning;relatesToField"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#resourceType -->
+
+    <rdf:Description rdf:about="&learning;resourceType"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="&owl;topObjectProperty">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <owl:inverseOf rdf:resource="&owl;topObjectProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#code -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#code"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/vocab/aiiso/schema#description">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/aiiso/schema#code"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/aiiso/schema#name"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;content"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;hours"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;isPracticeRequired"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;isRequired"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;isResourceFromTeacher"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;isResourceRequired"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;isTestRequired"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;numberOfLecture"/>
+        <rdfs:subPropertyOf rdf:resource="&learning;numberOfModule"/>
+        <owl:equivalentProperty rdf:resource="&owl;bottomDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#name -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#content -->
+
+    <rdf:Description rdf:about="&learning;content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hours -->
+
+    <rdf:Description rdf:about="&learning;hours"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeRequired -->
+
+    <rdf:Description rdf:about="&learning;isPracticeRequired"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isRequired -->
+
+    <rdf:Description rdf:about="&learning;isRequired"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceFromTeacher -->
+
+    <rdf:Description rdf:about="&learning;isResourceFromTeacher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceRequired -->
+
+    <rdf:Description rdf:about="&learning;isResourceRequired"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestRequired -->
+
+    <rdf:Description rdf:about="&learning;isTestRequired"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfLecture -->
+
+    <rdf:Description rdf:about="&learning;numberOfLecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfModule -->
+
+    <rdf:Description rdf:about="&learning;numberOfModule"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#bottomDataProperty -->
+
+    <rdf:Description rdf:about="&owl;bottomDataProperty"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="&owl;topDataProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Text -->
+
+    <owl:Class rdf:about="http://purl.org/dc/dcmitype/Text"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Center -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Center">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#College -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#College">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Course -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Course">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Division"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Institute"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Institution"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#ResearchGroup"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#School"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Department -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Department">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Division -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Division">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Faculty -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Faculty">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Institute -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Institute">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Institution -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Institution">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Programme"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#KnowledgeGrouping -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping">
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#ResearchGroup"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#School"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Module -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Module">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#ResearchGroup"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#School"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Programme -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Programme">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#ResearchGroup"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#School"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#ResearchGroup -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#ResearchGroup">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#School -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#School">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://purl.org/vocab/aiiso/schema#Subject"/>
+        <owl:disjointWith rdf:resource="&learning;Theme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Subject -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Subject">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://web.resource.org/cc/License -->
+
+    <owl:Class rdf:about="http://web.resource.org/cc/License"/>
+    
+
+
+    <!-- http://web.resource.org/cc/Work -->
+
+    <owl:Class rdf:about="http://web.resource.org/cc/Work"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Consultation -->
+
+    <owl:Class rdf:about="&learning;Consultation">
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#CourseWork -->
+
+    <owl:Class rdf:about="&learning;CourseWork">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Credit -->
+
+    <owl:Class rdf:about="&learning;Credit">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Exam -->
+
+    <owl:Class rdf:about="&learning;Exam">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Field -->
+
+    <owl:Class rdf:about="&learning;Field">
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Format -->
+
+    <owl:Class rdf:about="&learning;Format"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#HomeWork -->
+
+    <owl:Class rdf:about="&learning;HomeWork">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lecture -->
+
+    <owl:Class rdf:about="&learning;Lecture">
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lesson -->
+
+    <owl:Class rdf:about="&learning;Lesson"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PersonalWork -->
+
+    <owl:Class rdf:about="&learning;PersonalWork">
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Practice -->
+
+    <owl:Class rdf:about="&learning;Practice">
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PracticeTask -->
+
+    <owl:Class rdf:about="&learning;PracticeTask">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#ReferenceWork -->
+
+    <owl:Class rdf:about="&learning;ReferenceWork">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#SubjectArea -->
+
+    <owl:Class rdf:about="&learning;SubjectArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Term -->
+
+    <owl:Class rdf:about="&learning;Term">
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Test -->
+
+    <owl:Class rdf:about="&learning;Test">
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#TestingKnowledge -->
+
+    <owl:Class rdf:about="&learning;TestingKnowledge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Theme -->
+
+    <owl:Class rdf:about="&learning;Theme">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Workshop -->
+
+    <owl:Class rdf:about="&learning;Workshop">
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/licenses/by/2.0/uk/ -->
+
+    <owl:NamedIndividual rdf:about="http://creativecommons.org/licenses/by/2.0/uk/">
+        <rdf:type rdf:resource="http://web.resource.org/cc/License"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema">
+        <rdf:type rdf:resource="http://web.resource.org/cc/Work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema-20080925.html -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema-20080925.html">
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema-20080925.rdf -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema-20080925.rdf">
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems">
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+        <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:hasPractice rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1">
+        <rdf:type rdf:resource="&learning;Lesson"/>
+        <rdf:type rdf:resource="&learning;Practice"/>
+        <learning:isPracticeOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+        <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
+        <rdf:type rdf:resource="&learning;TestingKnowledge"/>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня.Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/div&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Audio -->
+
+    <owl:NamedIndividual rdf:about="&learning;Audio">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Book -->
+
+    <owl:NamedIndividual rdf:about="&learning;Book">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Text -->
+
+    <owl:NamedIndividual rdf:about="&learning;Text">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Video -->
+
+    <owl:NamedIndividual rdf:about="&learning;Video">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1397594501813" name="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14" uri="GraphTheoryNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1397594501813" name="http://www.semanticweb.org/k0shk/ontologies/2013/98/math" uri="MathNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1397594501813" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93" uri="PhysicsNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1397594501813" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96" uri="TermsNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1397594501813" name="http://www.w3.org/2002/07/owl" uri="learningNEW.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6" uri="SemanticWeb.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14" uri="GraphTheoryNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.semanticweb.org/k0shk/ontologies/2013/98/math" uri="MathNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93" uri="PhysicsNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96" uri="TermsNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397679540051" name="http://www.w3.org/2002/07/owl" uri="learningNEW.owl"/>
     </group>
 </catalog>

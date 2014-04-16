@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6">
+        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems">
+        <rdfs:label xml:lang="ru">Интеллектуальные системы</rdfs:label>
+        <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems">
+        <rdfs:label xml:lang="ru">Экспертные Системы</rdfs:label>
+        <learning:hasPractice rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1">
+        <rdfs:label xml:lang="ru">Практическая работа по экспертным системам</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
+        <rdfs:label xml:lang="ru">Задание №1</rdfs:label>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня.Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/div&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

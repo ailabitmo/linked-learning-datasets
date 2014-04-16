@@ -56,6 +56,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasConsultation -->
 
     <ObjectProperty rdf:about="&learning;hasConsultation">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has consultation</rdfs:label>
         <rdfs:label xml:lang="ru">есть консультация</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
@@ -75,6 +76,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasLecture -->
 
     <ObjectProperty rdf:about="&learning;hasLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has lecture</rdfs:label>
         <rdfs:label xml:lang="ru">есть лекция</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
@@ -86,6 +88,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasModule -->
 
     <ObjectProperty rdf:about="&learning;hasModule">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has module</rdfs:label>
         <rdfs:label xml:lang="ru">есть модуль</rdfs:label>
     </ObjectProperty>
@@ -95,6 +98,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPersonalWork -->
 
     <ObjectProperty rdf:about="&learning;hasPersonalWork">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has personal work</rdfs:label>
         <rdfs:label xml:lang="ru">есть самостоятельная работа</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
@@ -106,6 +110,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPractice -->
 
     <ObjectProperty rdf:about="&learning;hasPractice">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has practice</rdfs:label>
         <rdfs:label xml:lang="ru">есть практическое занятие</rdfs:label>
         <inverseOf rdf:resource="&learning;isPracticeOf"/>
@@ -116,6 +121,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPracticeTask -->
 
     <ObjectProperty rdf:about="&learning;hasPracticeTask">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has practice task</rdfs:label>
         <rdfs:label xml:lang="ru">есть практическое задание</rdfs:label>
         <rdfs:domain rdf:resource="&learning;Practice"/>
@@ -127,6 +133,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasResource -->
 
     <ObjectProperty rdf:about="&learning;hasResource">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">has resource</rdfs:label>
         <rdfs:label xml:lang="ru">есть ресурс</rdfs:label>
         <rdfs:range rdf:resource="&learning;Resource"/>
@@ -413,6 +420,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#description -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#description">
+        <rdfs:range rdf:resource="&rdf;XMLLiteral"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#content -->
+
+    <DatatypeProperty rdf:about="&learning;content">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </DatatypeProperty>
     
 
 

@@ -2,319 +2,29 @@
 
 
 <!DOCTYPE rdf:RDF [
-    <!ENTITY dct "http://purl.org/dc/terms/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY cc "http://web.resource.org/cc/" >
-    <!ENTITY vann "http://purl.org/vocab/vann/" >
-    <!ENTITY dctype "http://purl.org/dc/dcmitype/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY aiiso "http://purl.org/vocab/aiiso/schema#" >
-    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
 ]>
 
 
-<rdf:RDF xmlns="http://purl.org/vocab/aiiso/schema#"
-     xml:base="http://purl.org/vocab/aiiso/schema"
-     xmlns:cc="http://web.resource.org/cc/"
+<rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6"
+     xmlns:schema="http://purl.org/vocab/aiiso/schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dct="http://purl.org/dc/terms/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
-     xmlns:dctype="http://purl.org/dc/dcmitype/"
-     xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.org/vocab/aiiso/schema">
-        <dc:contributor>Ian Corns</dc:contributor>
-        <vann:preferredNamespacePrefix>aiiso</vann:preferredNamespacePrefix>
-        <dc:creator>Rob Styles</dc:creator>
-        <dc:identifier>http://purl.org/vocab/aiiso/schema-20080925</dc:identifier>
-        <rdfs:comment xml:lang="en">
-			The Academic Institution Internal Structure Ontology (AIISO) provides classes and properties to describe the internal organizational structure of an academic institution. AIISO is designed to work in partnership with Participation (http://purl.org/vocab/participation/schema), FOAF (http://xmlns.com/foaf/0.1/) and aiiso-roles (http://purl.org/vocab/aiiso-roles/schema) to describe the roles that people play within an institution.
-    	</rdfs:comment>
-        <dc:contributor>Sarah Bartlett</dc:contributor>
-        <dc:date>2008-05-20</dc:date>
-        <skos:historyNote></skos:historyNote>
-        <dc:title xml:lang="en">Academic Institution Internal Structure Ontology (AIISO)</dc:title>
-        <dc:rights>Copyright © 2008 Talis Information Ltd</dc:rights>
-        <dc:contributor>Chris Wallace</dc:contributor>
-        <dc:creator>Nadeem Shabir</dc:creator>
-        <dct:issued>2008-05-14</dct:issued>
-        <vann:preferredNamespaceUri>http://purl.org/vocab/aiiso/schema#</vann:preferredNamespaceUri>
-        <cc:license rdf:resource="http://creativecommons.org/licenses/by/2.0/uk/"/>
-        <dct:replaces rdf:resource="http://purl.org/vocab/aiiso/schema-20080520"/>
-        <dct:hasFormat rdf:resource="http://purl.org/vocab/aiiso/schema-20080925.html"/>
-        <dct:hasFormat rdf:resource="http://purl.org/vocab/aiiso/schema-20080925.rdf"/>
-        <vann:usageNote rdf:resource="http://purl.org/vocab/aiiso/usagenote.html"/>
-        <dct:isVersionOf rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6">
+        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/format -->
-
-    <owl:AnnotationProperty rdf:about="&dc;format"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/issued -->
-
-    <owl:AnnotationProperty rdf:about="&dct;issued"/>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#code -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;code">
-        <rdfs:label xml:lang="en">code</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">The code used by an Institution to refer to a KnowledgeGrouping or Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:domain rdf:resource="_:genid6"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#description -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;description">
-        <rdfs:label xml:lang="en">description</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">A Description of the KnowledgeGrouping or Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:domain rdf:resource="_:genid9"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#knowledgeGrouping -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;knowledgeGrouping">
-        <rdfs:label xml:lang="en">knowledgeGrouping</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">A KnowledgeGrouping may be contained by another KnowledgeGrouping or an organizationalUnit using knowledgeGrouping.</rdfs:comment>
-        <vs:term_status>Deprecated</vs:term_status>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:domain rdf:resource="_:genid12"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#name -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;name">
-        <rdfs:label xml:lang="en">name</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Deprecated in favour of foaf:name. The name given to a KnowledgeGrouping or Organization.</rdfs:comment>
-        <skos:historyNote></skos:historyNote>
-        <dct:issued>2008-05-14</dct:issued>
-        <vs:term_status>Deprecated</vs:term_status>
-        <rdfs:domain rdf:resource="_:genid3"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:subPropertyOf rdf:resource="&rdfs;Label"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#organizationalUnit -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;organizationalUnit">
-        <rdfs:label xml:lang="en">organizational Unit</rdfs:label>
-        <rdfs:label xml:lang="en">organizationalUnit</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Deprecated due to poor naming, you should use organization and part_of instead. An organizationalUnit may contain other organizationalUnits using organizationalUnit.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">organizationalUnit is now deprecated, it was used to describe a group of people that form a part of an organizations institutional hierarchy. More specific classes of Institution, Department, Faculty, School, College, Center, Division and Institute exist were previously subclassed from here. They now subclass foaf:Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <vs:term_status>Deprecated</vs:term_status>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:domain rdf:resource="&foaf;Organization"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#teaches -->
-
-    <owl:AnnotationProperty rdf:about="&aiiso;teaches">
-        <rdfs:label xml:lang="en">teaches</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">An organization may specify the Knowledge Groupings that it teaches using this property.</rdfs:comment>
-        <dct:issued>2008-09-25</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:domain rdf:resource="&foaf;Organization"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://web.resource.org/cc/permits -->
-
-    <owl:AnnotationProperty rdf:about="&cc;permits"/>
-    
-
-
-    <!-- http://web.resource.org/cc/requires -->
-
-    <owl:AnnotationProperty rdf:about="&cc;requires"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#Label -->
-
-    <owl:AnnotationProperty rdf:about="&rdfs;Label"/>
-    
-
-
-    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
-
-    <owl:AnnotationProperty rdf:about="&vs;term_status"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#historyNote -->
-
-    <owl:AnnotationProperty rdf:about="&skos;historyNote"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#knowledgeGrouping -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;knowledgeGrouping">
-        <rdfs:label xml:lang="en">knowledgeGrouping</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">A KnowledgeGrouping may be contained by another KnowledgeGrouping or an organizationalUnit using knowledgeGrouping.</rdfs:comment>
-        <vs:term_status>Deprecated</vs:term_status>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&aiiso;KnowledgeGrouping"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#organization -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;organization">
-        <rdfs:label xml:lang="en">organization</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">A foaf Organization may contain other subsidiary Organizations using organization.</rdfs:comment>
-        <dct:issued>2008-09-25</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <owl:inverseOf rdf:resource="&aiiso;part_of"/>
-        <rdfs:domain rdf:resource="&foaf;Organization"/>
-        <rdfs:range rdf:resource="&foaf;Organization"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#organizationalUnit -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;organizationalUnit">
-        <rdfs:label xml:lang="en">organizational Unit</rdfs:label>
-        <rdfs:label xml:lang="en">organizationalUnit</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Deprecated due to poor naming, you should use organization and part_of instead. An organizationalUnit may contain other organizationalUnits using organizationalUnit.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">organizationalUnit is now deprecated, it was used to describe a group of people that form a part of an organizations institutional hierarchy. More specific classes of Institution, Department, Faculty, School, College, Center, Division and Institute exist were previously subclassed from here. They now subclass foaf:Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <vs:term_status>Deprecated</vs:term_status>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&foaf;Organization"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#part_of -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;part_of">
-        <rdfs:label xml:lang="en">part of</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">A foaf Organization may refer to its parent Organizations using part_of.</rdfs:comment>
-        <skos:historyNote></skos:historyNote>
-        <dct:issued>2008-09-25</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&foaf;Organization"/>
-        <rdfs:domain rdf:resource="&foaf;Organization"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#responsibilityOf -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;responsibilityOf">
-        <rdfs:label xml:lang="en">responsibility of</rdfs:label>
-        <dct:issued>2008-05-20</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&aiiso;KnowledgeGrouping"/>
-                    <rdf:Description rdf:about="&foaf;Organization"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#responsibleFor -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;responsibleFor">
-        <rdfs:label xml:lang="en">responsible for</rdfs:label>
-        <skos:historyNote></skos:historyNote>
-        <dct:issued>2008-09-25</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <owl:inverseOf rdf:resource="&aiiso;responsibilityOf"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&aiiso;KnowledgeGrouping"/>
-                    <rdf:Description rdf:about="&foaf;Organization"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#teaches -->
-
-    <owl:ObjectProperty rdf:about="&aiiso;teaches">
-        <rdfs:label xml:lang="en">teaches</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">An organization may specify the Knowledge Groupings that it teaches using this property.</rdfs:comment>
-        <dct:issued>2008-09-25</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&aiiso;KnowledgeGrouping"/>
-    </owl:ObjectProperty>
     
 
 
@@ -329,261 +39,9 @@
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema#code -->
+    <!-- http://purl.org/vocab/aiiso/schema#description -->
 
-    <owl:DatatypeProperty rdf:about="&aiiso;code">
-        <rdfs:label xml:lang="en">code</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">The code used by an Institution to refer to a KnowledgeGrouping or Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#name -->
-
-    <owl:DatatypeProperty rdf:about="&aiiso;name">
-        <rdfs:label xml:lang="en">name</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Deprecated in favour of foaf:name. The name given to a KnowledgeGrouping or Organization.</rdfs:comment>
-        <skos:historyNote></skos:historyNote>
-        <dct:issued>2008-05-14</dct:issued>
-        <vs:term_status>Deprecated</vs:term_status>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/dc/dcmitype/Text -->
-
-    <owl:Class rdf:about="&dctype;Text"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/IMT -->
-
-    <owl:Class rdf:about="&dct;IMT"/>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Center -->
-
-    <owl:Class rdf:about="&aiiso;Center">
-        <rdfs:label xml:lang="en">Center</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Center is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a center.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#College -->
-
-    <owl:Class rdf:about="&aiiso;College">
-        <rdfs:label xml:lang="en">College</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A College is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a college.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Course -->
-
-    <owl:Class rdf:about="&aiiso;Course">
-        <rdfs:label xml:lang="en">Course</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&aiiso;KnowledgeGrouping"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Course is a KnowledgeGrouping that represents a cohesive collection of educational material referred to by the owning organization as a course.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Department -->
-
-    <owl:Class rdf:about="&aiiso;Department">
-        <rdfs:label xml:lang="en">Department</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Department is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a department.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Division -->
-
-    <owl:Class rdf:about="&aiiso;Division">
-        <rdfs:label xml:lang="en">Division</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Division is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a division.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Faculty -->
-
-    <owl:Class rdf:about="&aiiso;Faculty">
-        <rdfs:label xml:lang="en">Faculty</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Faculty is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a faculty.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Institute -->
-
-    <owl:Class rdf:about="&aiiso;Institute">
-        <rdfs:label xml:lang="en">Institute</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">An Institute is a group of people recognised by an organization as forming a cohesive group referred to by the organization as an institute.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Institution -->
-
-    <owl:Class rdf:about="&aiiso;Institution">
-        <rdfs:label xml:lang="en">Institution</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">An Institution is the upper most level of an academic institution.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#KnowledgeGrouping -->
-
-    <owl:Class rdf:about="&aiiso;KnowledgeGrouping">
-        <rdfs:label xml:lang="en">KnowledgeGrouping</rdfs:label>
-        <owl:disjointWith rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A KnowledgeGrouping represents a collection of resources, learning objectives, timetables, and other materials. The more specific subclasses of Subject, Programme, Course and Module are preferred.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Module -->
-
-    <owl:Class rdf:about="&aiiso;Module">
-        <rdfs:label xml:lang="en">Module</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&aiiso;KnowledgeGrouping"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Module is a KnowledgeGrouping that represents a cohesive collection of educational material referred to by the owning organization as a module.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Programme -->
-
-    <owl:Class rdf:about="&aiiso;Programme">
-        <rdfs:label xml:lang="en">Programme</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&aiiso;KnowledgeGrouping"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Programme is a KnowledgeGrouping that represents a cohesive collection of educational material referred to by the owning organization as a programme.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#ResearchGroup -->
-
-    <owl:Class rdf:about="&aiiso;ResearchGroup">
-        <rdfs:label xml:lang="en">Research Group</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Research Group is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a research group.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#School -->
-
-    <owl:Class rdf:about="&aiiso;School">
-        <rdfs:label xml:lang="en">School</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&foaf;Organization"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A School is a group of people recognised by an organization as forming a cohesive group referred to by the organization as a school. This class refers schools within a higher education institution such as &apos;Harvard Law School&apos; it does not refer to schools involved in earlier education.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#Subject -->
-
-    <owl:Class rdf:about="&aiiso;Subject">
-        <rdfs:label xml:lang="en">Subject</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&aiiso;KnowledgeGrouping"/>
-        <rdfs:comment rdf:datatype="&xsd;string">A Subject is a KnowledgeGrouping that represents a cohesive collection of educational material referred to by the owning organization as a subject.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/vocab/aiiso/schema#organizationalUnit -->
-
-    <owl:Class rdf:about="&aiiso;organizationalUnit">
-        <rdfs:label xml:lang="en">organizational Unit</rdfs:label>
-        <rdfs:label xml:lang="en">organizationalUnit</rdfs:label>
-        <rdfs:comment rdf:datatype="&xsd;string">Deprecated due to poor naming, you should use organization and part_of instead. An organizationalUnit may contain other organizationalUnits using organizationalUnit.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">organizationalUnit is now deprecated, it was used to describe a group of people that form a part of an organizations institutional hierarchy. More specific classes of Institution, Department, Faculty, School, College, Center, Division and Institute exist were previously subclassed from here. They now subclass foaf:Organization.</rdfs:comment>
-        <dct:issued>2008-05-14</dct:issued>
-        <skos:historyNote></skos:historyNote>
-        <vs:term_status>Deprecated</vs:term_status>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/aiiso/schema#"/>
-    </owl:Class>
-    
-
-
-    <!-- http://web.resource.org/cc/License -->
-
-    <owl:Class rdf:about="&cc;License"/>
-    
-
-
-    <!-- http://web.resource.org/cc/Work -->
-
-    <owl:Class rdf:about="&cc;Work"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/Organization -->
-
-    <owl:Class rdf:about="&foaf;Organization"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/spec/Agent -->
-
-    <owl:Class rdf:about="http://xmlns.com/foaf/spec/Agent"/>
+    <owl:DatatypeProperty rdf:about="&schema;description"/>
     
 
 
@@ -598,52 +56,108 @@
     
 
 
-    <!-- http://creativecommons.org/licenses/by/2.0/uk/ -->
+    <!-- http://books.ifmo.ru/book/911/book_911.htm -->
 
-    <owl:NamedIndividual rdf:about="http://creativecommons.org/licenses/by/2.0/uk/">
-        <rdf:type rdf:resource="&cc;License"/>
-        <cc:requires rdf:resource="&cc;Attribution"/>
-        <cc:permits rdf:resource="&cc;DerivativeWorks"/>
-        <cc:permits rdf:resource="&cc;Distribution"/>
-        <cc:requires rdf:resource="&cc;Notice"/>
-        <cc:permits rdf:resource="&cc;Reproduction"/>
+    <owl:NamedIndividual rdf:about="http://books.ifmo.ru/book/911/book_911.htm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems">
+        <rdfs:label xml:lang="ru">Интеллектуальные системы</rdfs:label>
+        <schema:description xml:lang="ru">Курс по Интеллектуальным системам, включающий следующий темы: Экспертные системы и Технологии Семантического Веба.</schema:description>
+        <learning:hasResource rdf:resource="http://books.ifmo.ru/book/911/book_911.htm"/>
+        <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+        <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleSemanticWebTechnologies"/>
+        <foaf:depiction rdf:resource="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema -->
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema">
-        <rdf:type rdf:resource="&cc;Work"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems">
+        <rdf:type rdf:resource="&schema;Module"/>
+        <rdfs:label xml:lang="ru">Экспертные Системы</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:hasPractice rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema-20080925.html -->
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleSemanticWebTechnologies -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema-20080925.html">
-        <rdf:type rdf:resource="&dctype;Text"/>
-        <dc:format>
-            <rdf:Description>
-                <rdf:type rdf:resource="&dct;IMT"/>
-                <rdfs:label xml:lang="en">HTML</rdfs:label>
-            </rdf:Description>
-        </dc:format>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleSemanticWebTechnologies">
+        <rdf:type rdf:resource="&schema;Module"/>
+        <rdfs:label xml:lang="ru">Технологии Семантического Веба</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">2</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema-20080925.rdf -->
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.org/vocab/aiiso/schema-20080925.rdf">
-        <rdf:type rdf:resource="&dctype;Text"/>
-        <dc:format>
-            <rdf:Description>
-                <rdf:type rdf:resource="&dct;IMT"/>
-                <rdfs:label xml:lang="en">RDF</rdfs:label>
-            </rdf:Description>
-        </dc:format>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1">
+        <rdfs:label xml:lang="ru">Практическая работа по экспертным системам</rdfs:label>
+        <learning:content xml:lang="ru">&lt;p&gt;Практические задания будут выполняться в система &lt;a href=&quot;http://www.jboss.org/drools/&quot;&gt;Drools Guvnor&lt;/a&gt;. В качестве теоретического и практического руководства предлагается использовать методические указания &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1497018/metoda-guvnor.pdf&quot;&gt;&quot;Рассмотрение систем управления бизнес-правилами на примере Drools Guvnor&quot;&lt;/a&gt;.&lt;br&gt;В третьем подразделе вы найдете инструкцию по установке и запуску Drools Guvnor на ваш компьютер. Вся необходимая информацию по разработке ЭС в системе собрана в методическом указании.&lt;br&gt;В четвертом подразделе описаны шаги по экспорту вашего решения из Guvnor и его отправки в проверяющую систему.&lt;/p&gt;</learning:content>
+        <learning:isPracticeOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+        <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1"/>
+        <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
+        <rdfs:label xml:lang="ru">Задание №1</rdfs:label>
+        <learning:numberOfTask rdf:datatype="&xsd;integer">1</learning:numberOfTask>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня.Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/div&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2">
+        <rdfs:label xml:lang="ru">Задание №2</rdfs:label>
+        <learning:numberOfTask rdf:datatype="&xsd;integer">2</learning:numberOfTask>
+        <learning:content xml:lang="ru">&lt;div class=&quot;text-editable&quot;&gt;&lt;p&gt;Напишите правила, которые помогают в процессе выбора кустарника, подходящего для посадки. В таблице (картинка ниже по тексту) перечислено несколько видов кустарников и указано, обладает ли каждое их этих растений определенными характеристиками, которые включают устойчивость к холоду, к затенению, к засухе, к влажной и кислой почве, к городским условиям (к загазованности воздуха), пригодность для кадочного выращивания, простота культивирования и быстрота роста. Отметка в таблице указывает, что укастарник обладает соответствующей характеристикой. В качестве входных данных для программы должны использоваться факты, указывающие желательную характеристику, которую должн иметь кустарник, а результатом работы программы должен быть список растений, обладающих всеми необходимыми характеристиками.&lt;/p&gt;&lt;/div
+&lt;img class=&quot;unselectable js-image&quot; unselectable=&quot;on&quot; src=&quot;//static.versal.com/restapi/assets/b91d11d2-caf5-490f-ab1a-6a0dc8166829&quot; style=&quot;left: 0px; top: 0px; width: 713px; max-width: 713px; height: 341px; max-height: 341px;&quot;&gt;
+&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Сharacteristic&lt;/strong&gt; - модель входных данных&lt;ul&gt;
+&lt;li&gt;coldWeather : True of False - &lt;em&gt;устойчивость к холоду,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;shade : True or False - &lt;em&gt;устойчивость к затенению,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;drought : True of False - &lt;em&gt;устойчивость к засухе,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;wetSoil : True of False - &lt;em&gt;устойчивость к влажной почве,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;acidSoil : True of False - &lt;em&gt;устойчивость к кислой почве,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;urbanConditions : True of False - &lt;em&gt;устойчивость к городским условиям,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;tubGrowing : True of False - &lt;em&gt;пригодность для кадочного выращивания,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;easeOfCultivation : True of False - &lt;em&gt;простота культивирования,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;speedOfGrowth : True of False - &lt;em&gt;быстрота роста.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plant&lt;/strong&gt; - модель растения&lt;ul&gt;
+&lt;li&gt;name : Text - &lt;em&gt;имя кустарника&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;По завершению работы экспертной системы в рабочей памяти должны находиться экземпляры модели &lt;strong&gt;Plant&lt;/strong&gt;. Например, если в результате работы нашлись два кустарника обладающие желаемыми характеристиками, то в рабочей памяти должны быть два экземпляра &lt;strong&gt;Plant&lt;/strong&gt; с именами (name) соответсвующими именам кустарников.&lt;br&gt;На вход экспертной системы подаётся экземпляр модели &lt;strong&gt;Сharacteristic&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940 -->
+
+    <owl:NamedIndividual rdf:about="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>
 </rdf:RDF>
 
 

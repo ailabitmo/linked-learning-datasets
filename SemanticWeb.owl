@@ -65,12 +65,36 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems">
+        <rdf:type rdf:resource="&schema;Course"/>
         <rdfs:label xml:lang="ru">Интеллектуальные системы</rdfs:label>
         <schema:description xml:lang="ru">Курс по Интеллектуальным системам, включающий следующий темы: Экспертные системы и Технологии Семантического Веба.</schema:description>
         <learning:hasResource rdf:resource="http://books.ifmo.ru/book/911/book_911.htm"/>
         <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
         <learning:hasModule rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleSemanticWebTechnologies"/>
         <foaf:depiction rdf:resource="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction">
+        <rdf:type rdf:resource="&learning;Instruction"/>
+        <rdfs:label xml:lang="ru">Инструкция по работе с Drools Guvnor</rdfs:label>
+        <learning:content xml:lang="ru">&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Для простоты установки и использования системы, подготовлен &lt;a target=&quot;_blank&quot; href=&quot;https://dl.dropboxusercontent.com/u/1497018/is-course/guvnor-distr.zip&quot;&gt;архив&lt;/a&gt;. Архив содержит Drools Guvnor, который может быть запущен на любом компьютере с установленной &lt;a target=&quot;_blank&quot; href=&quot;http://www.java.com/ru/&quot;&gt;Java&lt;/a&gt; 6 или выше.&lt;br&gt;Инструкция:&lt;br&gt;1. Скачать архив и разархивировать его в удобное место, например, C:\guvnor-distr\;&lt;br&gt;2. Открыть командную строку (для Windows) или терминал (для Linux);&lt;br&gt;3. Перейти в директорию bin, распакованного архива;&lt;br&gt;4. Запустить скрипт &lt;code&gt;startup.bat&lt;/code&gt; (для Windows) или &lt;code&gt;startup.sh&lt;/code&gt; (для Linux);&lt;br&gt;5. Откройте &lt;code&gt;http://localhost:9090&lt;/code&gt; в браузере;&lt;br&gt;6. А когда вы пожелаете остановить систему, выполните из скрипт &lt;code&gt;shutdown.bat&lt;/code&gt; (для Windows) или &lt;code&gt;shutdown.sh&lt;/code&gt; (для Linux).&lt;br&gt;&lt;em&gt;Замечание: все данные после остановки системы сохраняются на вашем компьютере, поэтому вы их не потеряете.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isInstructionOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain">
+        <rdf:type rdf:resource="&learning;VerificationSystem"/>
+        <rdfs:label xml:lang="ru">Система проверки решений для курса &quot;Интеллектуальные системы&quot;</rdfs:label>
+        <learning:url rdf:datatype="&xsd;string">http://expertsystems.tk/drools-tester/#/main</learning:url>
+        <learning:isVerificationSystemOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
     </owl:NamedIndividual>
     
 
@@ -101,11 +125,54 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1">
+        <rdf:type rdf:resource="&learning;Practice"/>
         <rdfs:label xml:lang="ru">Практическая работа по экспертным системам</rdfs:label>
         <learning:content xml:lang="ru">&lt;p&gt;Практические задания будут выполняться в система &lt;a href=&quot;http://www.jboss.org/drools/&quot;&gt;Drools Guvnor&lt;/a&gt;. В качестве теоретического и практического руководства предлагается использовать методические указания &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1497018/metoda-guvnor.pdf&quot;&gt;&quot;Рассмотрение систем управления бизнес-правилами на примере Drools Guvnor&quot;&lt;/a&gt;.&lt;br&gt;В третьем подразделе вы найдете инструкцию по установке и запуску Drools Guvnor на ваш компьютер. Вся необходимая информацию по разработке ЭС в системе собрана в методическом указании.&lt;br&gt;В четвертом подразделе описаны шаги по экспорту вашего решения из Guvnor и его отправки в проверяющую систему.&lt;/p&gt;</learning:content>
+        <learning:hasInstruction rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction"/>
+        <learning:hasVerificationSystem rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain"/>
         <learning:isPracticeOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#ModuleExpertSystems"/>
+        <learning:hasFAQ rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ"/>
+        <learning:hasInstruction rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction"/>
         <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1"/>
         <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ">
+        <rdf:type rdf:resource="&learning;FAQ"/>
+        <rdfs:label xml:lang="ru">FAQ. Экспертные системы </rdfs:label>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div class=&quot;gadget-editor&quot;&gt;
+&lt;div class=&quot;gadget-text js-text-region&quot;&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Я создал модель, но система выдаёт ошибку &quot;Модель [&amp;lt;Модель&amp;gt;] необъявлена в пакете [&amp;lt;имя пакета&amp;gt;]&quot;&lt;/strong&gt;&lt;br&gt;Имя файла должно в точности совпадать с именем вашего пакета, например, если имя пакета &lt;em&gt;defaultPackage&lt;/em&gt;, то имя файла должно быть &lt;em&gt;defaultPackage.pkg&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Запуск &lt;code&gt;startup.bat&lt;/code&gt; скрипта заканчивается сообщением &quot;Neither the JAVA_HOME nor the JRE_HOME environment variable is defined. At least...&quot;&lt;/strong&gt;&lt;br&gt;Выполните команду &lt;code&gt;java -version&lt;/code&gt;, если распечаталась версия JRE или JDK, то вам нужно только объявить переменную окружения, если же команда выполнилась с ошибкой, тогда необходимо установить JRE (Java Runtime Edition) или JDK (Java Developer Edition) 6 или выше.&lt;br&gt;a. Чтобы установить переменную окружения JAVA_HOME, выполните следующую команду: &lt;code&gt;set JAVA_HOME=&amp;lt;абс. путь до папки, в которой установлена Java&amp;gt;&lt;/code&gt;.&lt;br&gt;b. Для скачивания и установки JRE перейдите на сайт &lt;a target=&quot;_blank&quot; href=&quot;http://java.com&quot;&gt;java.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Почему моё решение не проходит &lt;code&gt;test1&lt;/code&gt; для Задания №1?&lt;/strong&gt;&lt;br&gt;В первом задании есть один момент, который многими упускается: в тестах на вход НЕ дается экземпляр модели &lt;strong&gt;Output&lt;/strong&gt;, поэтому если вы пишите в части WHEN правила &quot;There is an Output...&quot;, а экземпляра модели &lt;strong&gt;Output&lt;/strong&gt; в рабочей памяти нет, то правило никогда не выполнится.&lt;br&gt;Как написано в условии к заданию, необходимо добавить экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; одним из правил, которое выполняется &lt;em&gt;всегда&lt;/em&gt; раньше всех остальных, для этого в правиле устанавливается параметр salience больший 0 и часть WHEN оставляется пустой, чтобы правило выполнялось всегда независимо от каких-либо условий.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;js-editor-region&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isFAQOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction">
+        <rdf:type rdf:resource="&learning;Instruction"/>
+        <rdfs:label xml:lang="ru">Инструкция по отправке решений для проверки</rdfs:label>
+        <learning:content xml:lang="ru">&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Проверка решений происходит в автоматическом режиме на основе заранее подготовленных тестовых сценариев. Для этого вам необходимо экспортировать архив из Drools Guvnor, содержащий ваше решение, зайти в систему проверки решений &lt;a href=&quot;http://expertsystems.tk/drools-tester&quot;&gt;ссылка&lt;/a&gt; и отправить архив.&lt;br&gt;Шаги:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Откройте ваш пакет и перейдите во вкладку &lt;em&gt;Edit&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;Далее нажмите кнопку &lt;em&gt;Build package&lt;/em&gt;, если сборка пакета прошла успешно вы должны увидеть сообщение &lt;em&gt;Package built successfully&lt;/em&gt; и ссылку, по которой вы должны скачать файл с расширением &lt;em&gt;.pkg&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;Отлично! Теперь заходите в Систему проверки решений и выберайте вкладку, соответствующую заданию,&lt;/li&gt;
+&lt;li&gt;Для отправки решения вам необходимо указать почтовый адрес, который был указан во время регистрации на Versal.com.&lt;/li&gt;
+&lt;li&gt;Все. Отправляйте решение и смотрите результаты во вкладке &lt;em&gt;Результаты&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isInstructionOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
     </owl:NamedIndividual>
     
 

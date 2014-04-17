@@ -423,14 +423,6 @@
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema#description -->
-
-    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#description">
-        <rdfs:range rdf:resource="&rdf;XMLLiteral"/>
-    </rdf:Description>
-    
-
-
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#content -->
 
     <DatatypeProperty rdf:about="&learning;content">
@@ -522,6 +514,16 @@
         <rdfs:label xml:lang="en">number of module</rdfs:label>
         <rdfs:label xml:lang="ru">номер модуля</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfTask -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfTask">
+        <rdfs:label xml:lang="ru">номер задания</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;PracticeTask"/>
         <rdfs:range rdf:resource="&xsd;integer"/>
     </DatatypeProperty>
     

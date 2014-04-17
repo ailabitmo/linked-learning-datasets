@@ -125,6 +125,7 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
         <rdfs:label xml:lang="ru">Задание №2</rdfs:label>
         <learning:numberOfTask rdf:datatype="&xsd;integer">2</learning:numberOfTask>
         <learning:content xml:lang="ru">&lt;div class=&quot;text-editable&quot;&gt;&lt;p&gt;Напишите правила, которые помогают в процессе выбора кустарника, подходящего для посадки. В таблице (картинка ниже по тексту) перечислено несколько видов кустарников и указано, обладает ли каждое их этих растений определенными характеристиками, которые включают устойчивость к холоду, к затенению, к засухе, к влажной и кислой почве, к городским условиям (к загазованности воздуха), пригодность для кадочного выращивания, простота культивирования и быстрота роста. Отметка в таблице указывает, что укастарник обладает соответствующей характеристикой. В качестве входных данных для программы должны использоваться факты, указывающие желательную характеристику, которую должн иметь кустарник, а результатом работы программы должен быть список растений, обладающих всеми необходимыми характеристиками.&lt;/p&gt;&lt;/div

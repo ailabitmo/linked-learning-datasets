@@ -39,24 +39,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContent -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContent">
-        <rdfs:label xml:lang="en">has content</rdfs:label>
-        <rdfs:label xml:lang="ru">есть содержание</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContentGroup -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContentGroup">
-        <rdfs:label xml:lang="en">has group of content</rdfs:label>
-        <rdfs:label xml:lang="ru">есть группа содержания</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasCorrectAnswer -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasCorrectAnswer">
@@ -94,32 +76,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isContentGroupOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isContentGroupOf">
-        <rdfs:label xml:lang="en">is group of content of
-</rdfs:label>
-        <rdfs:label xml:lang="ru">является группой содержания</rdfs:label>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#ContentGroup"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContentGroup"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isContentOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isContentOf">
-        <rdfs:label xml:lang="en">is content of</rdfs:label>
-        <rdfs:label xml:lang="ru">является содержанием</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Content"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#ContentGroup"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasContent"/>
     </owl:ObjectProperty>
     
 
@@ -174,7 +130,6 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#description">
         <rdfs:label xml:lang="en">description</rdfs:label>
         <rdfs:label xml:lang="ru">описание</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Image"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -191,23 +146,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#order -->
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#html_content -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#order">
-        <rdfs:label xml:lang="en">order</rdfs:label>
-        <rdfs:label xml:lang="ru">порядок
-</rdfs:label>
-        <rdfs:range rdf:resource="&xsd;integer"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#source -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#source">
-        <rdfs:label xml:lang="en">source</rdfs:label>
-        <rdfs:label xml:lang="ru">источник</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Image"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#html_content">
+        <rdfs:label xml:lang="en">html content</rdfs:label>
+        <rdfs:label xml:lang="en">html контент</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -219,7 +164,6 @@
         <rdfs:label xml:lang="en">text</rdfs:label>
         <rdfs:label xml:lang="ru">текст
 </rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -239,35 +183,19 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer">
+        <rdfs:label xml:lang="en">Answer</rdfs:label>
+        <rdfs:label xml:lang="ru">Ответ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Content -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Content"/>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#ContentGroup -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#ContentGroup"/>
     
 
 
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#GroupOfTasks -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#GroupOfTasks">
+        <rdfs:label xml:lang="en">Group Of Tasks</rdfs:label>
+        <rdfs:label xml:lang="ru">Группа Заданий</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Image -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Image">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Content"/>
     </owl:Class>
     
 
@@ -275,6 +203,8 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#MultipleChoiceQuestion -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#MultipleChoiceQuestion">
+        <rdfs:label xml:lang="en">Multiple Choise Question</rdfs:label>
+        <rdfs:label xml:lang="ru">Вопрос С Множественным Выбором</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
     </owl:Class>
     
@@ -283,6 +213,8 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question">
+        <rdfs:label xml:lang="en">Question</rdfs:label>
+        <rdfs:label xml:lang="ru">Вопрос</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task"/>
     </owl:Class>
     
@@ -291,6 +223,8 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#SingleChoiceQuestion -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#SingleChoiceQuestion">
+        <rdfs:label xml:lang="en">Single Choise Question</rdfs:label>
+        <rdfs:label xml:lang="ru">Вопрос C Единственным Выбором</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
     </owl:Class>
     
@@ -299,6 +233,8 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task">
+        <rdfs:label xml:lang="en">Task</rdfs:label>
+        <rdfs:label xml:lang="ru">Задание</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
     </owl:Class>
     
@@ -306,14 +242,9 @@
 
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
-    
-
-
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Text -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Text">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Content"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem">
+        <rdfs:label xml:lang="en">Testing Knowledge Item</rdfs:label>
+        <rdfs:label xml:lang="ru">Объект Проверки Знаний</rdfs:label>
     </owl:Class>
     
 
@@ -321,6 +252,8 @@
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TextQuestion -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TextQuestion">
+        <rdfs:label xml:lang="en">Text Question</rdfs:label>
+        <rdfs:label xml:lang="ru">Текстовый Вопрос</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
     </owl:Class>
 </rdf:RDF>

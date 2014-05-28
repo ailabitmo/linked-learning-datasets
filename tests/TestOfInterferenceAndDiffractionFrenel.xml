@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test module="Phisics:m_InterferenceAndCoherence" 
+	uri="TestOfInterferenceAndDiffractionFrenel" 
+	name="Интерференция и дифракция Френеля"
+	source="TestOfInterferenceAndDiffractionFrenel.xml"
+>
+<task id="1">
+<question>
+Длина и время когерентности характеризуют ...
+</question>
+<answers>
+<answer right="no">... временную когерентность.</answer>
+<answer right="yes">... пространственную когерентность.</answer>
+<answer right="no">... первая - временную, вторая - пространственную когерентности.</answer>
+<answer right="no">... первая - пространственную, вторая - временную когерентности.</answer>
+<answer right="no">Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="2">
+<question>
+Ширина интерференционных полос в опыте Юнга ...
+</question>
+<answers>
+<answer right="no">	... зависит от расстояния от источника света до щелей. </answer>
+<answer right="no">	... не зависит от длины волны источника света.</answer>
+<answer right="no">	... зависит от расстояния между экранами с одиночной и двойной щелью.</answer>
+<answer right="yes">	... не зависит от положения экрана наблюдателя.</answer>
+<answer right="no">	... зависит от расстояния между щелями.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="3">
+<question_img>http://open.ifmo.ru/images/f/fa/2268251_int001.gif</question_img>
+<question>
+На экране Р наблюдается интерференционная картина от источников S1 и S2. Что называется шириной интерференционной полосы? Расстояние между:
+</question>
+<answers>
+<answer right="no">	Cоседними максимумами и минимумами интенсивности. </answer>
+<answer right="no">	Cоседними максимумами или минимумами интенсивности. </answer>
+<answer right="yes">	Максимумом нулевого порядка и первым минимумом интенсивности.</answer>
+<answer right="no">	Максимумом нулевого порядка и точкой наблюдения.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="4">
+<question_img>http://open.ifmo.ru/images/a/a0/2268341_int025.gif</question_img>
+<question>
+На экране P наблюдается картина интерференции в схеме бипризмы Френеля. Показатель преломления вещества бипризмы n, преломляющий угол α. Как изменится картина интерференции, если незначительно уменьшить угол α?
+</question>
+<answers>
+<answer right="no">	Картина интерференции сместится.</answer>
+<answer right="yes">	Увеличится ширина интерференционной полосы.</answer>
+<answer right="no">	Уменьшится ширина интерференционной полосы.</answer>
+<answer right="no">	Картина интерференции размажется.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="5">
+<question_img>http://open.ifmo.ru/images/2/2e/2268501_int098.gif</question_img>
+<question>
+Выберите правильное выражение для оптической разности хода (Δ) лучей, отраженных от стеклянной плоскопараллельной пластинки. Падающий свет имеет плоский волновой фронт и длину волны λ.
+</question>
+<answers>
+<answer right="no">	(Δ) = 2dn tg(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) + (λ)/2  </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) - d tg(β) </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) + (λ)/2 </answer>
+<answer right="yes">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="6">
+<question_img>http://open.ifmo.ru/images/8/82/2268591_int065.gif</question_img>
+<question>
+Как изменится картина интерференционных колец Ньютона, если зазор между линзой и пластиной заполнить жидкостью с показателем преломления меньшим, чем показатель преломления стекла?
+</question>
+<answers>
+<answer right="no">	Картина не изменится. </answer>
+<answer right="no">	Картина станет обратной.</answer>
+<answer right="no">	Радиусы колец увеличатся.</answer>
+<answer right="yes">	Радиусы колец уменьшатся.</answer>
+<answer right="no">	Интерференция наблюдаться не будет.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="7">
+<question_img>http://open.ifmo.ru/images/0/08/2268271_int005.gif</question_img>
+<question>
+Два когерентных источника с длиной волны λ = 600 нм помещены в две среды - сероуглерод (n1 = 1,665), и бромоформ (n2 = 1,6665). В точку А на экране луч от S1 дошел за t1 = 1,110·10-10c, а от S2 за t2 = 1,111·10-10c. Какова разность хода (Δ) и порядок интерференции (k) в точке А.
+</question>
+<answers>
+<answer right="no">	Δ = 50 λ; k = 25.</answer>
+<answer right="no">	Δ = 50 λ; k = 50.</answer>
+<answer right="no">	Δ = 25 λ; k = 50. </answer>
+<answer right="no">	Δ = 100 λ; k = 50. </answer>
+<answer right="yes">	Δ = 100 λ; k = 100.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="8">
+<question_img>http://open.ifmo.ru/images/3/31/2268451_int019.gif</question_img>
+<question>
+В опыте Юнга на пути луча d2 поставлена тонкая стеклянная пластинка, вследствие чего центральная полоса сместилась в положение, первоначально занятое пятой светлой полосой. Длина волны излучения 600 нм, показатель преломления пластинки n = 1,5. Какова в микрометрах толщина пластинки?
+</question>
+<answers>
+<answer right="yes">	8,4 </answer>
+<answer right="no">	7,2 </answer>
+<answer right="no">	6,0 </answer>
+<answer right="no">	4,8 </answer>
+<answer right="no">	3,6 </answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="9">
+<question_img>http://open.ifmo.ru/images/5/5d/2268771_dif11p.gif</question_img>
+<question>
+Экран с отверстием освещается точечным монохроматическим источником. На втором экране наблюдается результат дифракции Френеля от круглого отверстия. Выберите возможные варианты наблюдаемой картины, если известно, что оказалось открытым нечетное число зон Френеля.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	Среди ответов правильного нет.  </answer>
+</answers>
+</task>
+
+<task id="10">
+<question_img>http://open.ifmo.ru/images/8/89/2268831_dif22p.gif</question_img>
+<question>
+Свет от источника S дифрагирует на круглом отверстии D. Выберите на фазовой диаграмме вектора, соответствующие амплитудам в точке Р, если: 1) отверстие открывает почти 5 первых зон; 2) вместо экрана с отверстием - диск того же диаметра; 3) экрана нет вообще.
+</question>
+<answers>
+<answer right="no">	1) ВС; 2) АВ; 3) АС.</answer>
+<answer right="no">	1) АС; 2) АВ; 3) ВС.</answer>
+<answer right="no">	1) АВ; 2) ВС; 3) АС.</answer>
+<answer right="yes">	Вектора на диаграмме не соответствуют условию.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="11">
+<question_img>http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif</question_img>
+<question>
+Точечный монохроматический источник S освещает непрозрачный диск D. На экране P в центре геометрической тени наблюдается светлое пятно (т.н. пятно Пуассона). Выберите все верные утверждения, касающиеся этого пятна.
+</question>
+<answers>
+<answer right="no">	Пятно появляется, если диском перекрыто только четное число зон Френеля.</answer>
+<answer right="no">	Пятно появляется, если диском перекрыто только нечетное число зон Френеля.</answer>
+<answer right="no">	Пятно появляется, если диском перекрыто любое число зон Френеля.</answer>
+<answer right="yes">	При увеличении D пятно становится уже и бледнее.</answer>
+<answer right="no">	При уменьшении L пятно становится уже и бледнее.</answer>
+</answers>
+</task>
+
+<task id="12">
+<question_img>http://open.ifmo.ru/images/0/07/2268851_dif30p.gif</question_img>
+<question>
+Между точечным источником S и точкой наблюдения Р находится экран с отверстием, радиус которого можно изменять. При некотором значении R амплитуда в точке Р соответствует вектору АВ1. Что произошло с радиусом отверстия, если вектор амплитуды переместился в положение АВ2?
+</question>
+<answers>
+<answer right="no">	Уменьшился в 1,29 раза.</answer>
+<answer right="yes">	Увеличился в 1,29 раза.</answer>
+<answer right="no">	Увеличился в 1,67 раза.</answer>
+<answer right="no">	Уменьшился в 1,73 раза.</answer>
+<answer right="no">	Увеличился в 1,73 раза.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="13">
+<question_img>http://open.ifmo.ru/images/9/91/2268411_int045.gif</question_img>
+<question>
+Изображение точечного монохроматического источника S строится линзой L (фокусное расстояние f) в точке А. Линзу разрезали пополам и раздвинули на расстояние h. Каким должно быть расстояние d чтобы наблюдать картину интерференции?
+</question>
+<answers>
+<answer right="no">	d &lt; f</answer>
+<answer right="yes">	d &gt; f</answer>
+<answer right="no">	2·f &gt; d &gt; f</answer>
+<answer right="no">	d &gt; 2·f/h</answer>
+<answer right="no">	d &lt; 2·h/f</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="14">
+<question_img>http://open.ifmo.ru/images/0/0f/2268471_int008.gif</question_img>
+<question>
+Луч света от источника S попадает в интерферометр Майкельсона, делится светоделителем R1 на две части, которые затем сходятся на экране Р. Возникающая при этом разность хода между интерферирующими лучами равна:
+</question>
+<answers>
+<answer right="no">	SOM1 - OM1</answer>
+<answer right="no">	OM1 - SOM2</answer>
+<answer right="no">	2·(OM1 - OM2)</answer>
+<answer right="no">	2·(OM1 - OP)</answer>
+<answer right="no">	OM1 - OM2</answer>
+<answer right="yes">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="15">
+<question_img>http://open.ifmo.ru/images/1/12/2268691_int087.gif</question_img>
+<question>
+Интерференционные полосы наблюдаются в воздушном клине, образованном двумя стеклянными пластинами и зажатой между ними проволокой в проходящем свете. Найдите в миллиметрах толщину проволоки, если длина волны 550 нм, h = 3 см, а шаг интерференционной картины равен 0,05 мм.
+</question>
+<answers>
+<answer right="no">	0,495 мм</answer>
+<answer right="no">	0,33 мм </answer>
+<answer right="no">	0,165 мм </answer>
+<answer right="yes">	0,0825 мм </answer>
+<answer right="no">	0,0415 мм </answer>
+<answer right="no">	Среди ответов правильного нет. </answer>
+</answers>
+</task>
+
+<task id="16">
+<question_img>http://open.ifmo.ru/images/a/ad/2268751_int091.gif</question_img>
+<question>
+На экране в точке А наблюдается интерференционное кольцо N-го порядка от точечного монохроматического источника, освещающего плоскопараллельную стеклянную пластину. Как будет меняться номер кольца в этой точке в двух случаях: а) увеличении d; b) уменьшении n?
+</question>
+<answers>
+<answer right="no">	Диаметры колец не зависят от d и n. </answer>
+<answer right="yes">	В обоих случаях будет уменьшаться.  </answer>
+<answer right="no">	В обоих случаях будет увеличиваться. </answer>
+<answer right="no">	а) будет уменьшаться; b) будет увеличиваться. </answer>
+<answer right="no">	а) будет увеличиваться; b) будет уменьшаться.</answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="17">
+<question_img>http://open.ifmo.ru/images/9/95/2268961_dif38p.gif</question_img>
+<question>
+Плоская монохроматическая волна падает нормально на экран с круглым отверстием D. Диаметр отверстия уменьшается в N раз. Найдите новое расстояние b, при котором в точке Р будет наблюдаться та же дифракционная картина, но уменьшенная в N раз.
+</question>
+<answers>
+<answer right="no">	b/N2</answer>
+<answer right="no">	b · N2</answer>
+<answer right="no">	b · N</answer>
+<answer right="yes">	b/N </answer>
+<answer right="no">	b </answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="18">
+<question_img>http://open.ifmo.ru/images/7/79/2268861_dif32.gif</question_img>
+<question>
+Плоская монохроматическая волна (расстояние а велико, λ = 400 нм) с интенсивностью J0 падает по нормали на круглое отверстие с диаметром равным 2,0 мм. На экране, находящемся на расстоянии b = 2 м наблюдается дифракционная картина. Амплитуде в (·)Р (центра экрана) соответствует один из векторов, показанных на векторной диаграмме. Назовите номер вектора, соответствующего данному отверстию.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="19">
+<question_img>http://open.ifmo.ru/images/a/a8/2270431_int072p.gif</question_img>
+<question>
+Интерференционная картина наблюдается в отраженном свете в системе: плосковыпуклая линза (n1 = 1,69) вложена в плосковогнутую (n2 = 1,63), между ними залит бензол (n3 = 1,5). Введите номер правильного условия возникновения темных колец, записанного так, чтобы левая часть равенства представляла собой оптическую разность хода интерферирующих лучей.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="no">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="yes">	5 </answer>
+<answer right="no">	Правильного выражения нет. </answer>
+<answer right="no">	Среди ответов правильного нет.</answer>
+</answers>
+</task>
+
+<task id="20">
+<question_img>http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif</question_img>
+<question>
+Диск D диаметром 0,5 см с неровностями 10 мкм расположен на расстоянии 1 м от точечного источника S (λ = 0,5 мкм). Считая, что пятно Пуассона видно до тех пор, пока неровности перекрывают зону Френеля не более чем на 1/4, найти минимальное расстояние (L в метрах), на котором возможно наблюдение пятна Пуассона.
+</question>
+<answers type="edittext" right="10"/>
+</task>
+</test>
+
+

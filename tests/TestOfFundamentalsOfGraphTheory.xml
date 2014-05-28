@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test module="GraphTheory:m_FundamentalsOfGraphTheory" 
+	uri="TestOfFundamentalsOfGraphTheory" 
+	name="Теория графов"
+	source="TestOfFundamentalsOfGraphTheory.xml">
+<task id="1">
+<question_img>http://open.ifmo.ru/images/5/57/118558_a1.gif</question_img>
+<question> Для данного графа выбрать соответствующие ему определения. </question>
+<answers>
+<answer right="no"> Ориентированный </answer>
+<answer right="no"> Неориентированный </answer>
+<answer right="no"> Скелет </answer>
+<answer right="no"> Мультиграф </answer>
+<answer right="no"> Псевдограф </answer>
+<answer right="yes"> Полный </answer>
+<answer right="no"> Пустой </answer>
+<answer right="no"> Регулярный </answer>
+<answer right="no"> Насыщенный </answer>
+<answer right="yes"> Связный </answer>
+<answer right="no"> Дерево </answer>
+<answer right="yes"> Лес </answer>
+<answer right="no"> Граф Эйлера </answer>
+<answer right="no"> Граф Гамильтона </answer>
+</answers>
+</task>
+<task id="2">
+<question_img>http://open.ifmo.ru/images/5/57/118558_a1.gif</question_img>
+<question> Определить радиус r(G) для данного графа G. </question>
+</task>
+<task id="3">
+<question_img>http://open.ifmo.ru/images/5/57/118558_a1.gif</question_img>
+<question> Определить диаметр d(G) для данного графа G.</question>
+</task>
+<task id="4">
+<question_img>http://open.ifmo.ru/images/5/57/118558_a1.gif</question_img>
+<question> Какое множество вершин является центром графа? </question>
+<answers>
+<answer right="no"> {X1, X4} </answer>
+<answer right="no"> {X1, X2, X5} </answer>
+<answer right="yes"> {X1, X5, X6} </answer>
+</answers>
+</task>
+<task id="5">
+<question_img>
+http://open.ifmo.ru/images/2/26/235894_image005.gif
+</question_img>
+<question_img>
+http://open.ifmo.ru/images/d/d3/235895_image006.gif
+</question_img>
+<question> Даны графы G1 и G2, граф G является результатом их объединения (G=G1UG2). Укажите образ вершины х3 в графе G. </question>
+<answers>
+<answer right="no"> Г(х1)={x2,x4} </answer>
+<answer right="yes"> Г(х1)={x1,x2,x4} </answer>
+<answer right="no"> Г(х1)={x1,x5} </answer>
+</answers>
+</task>
+<task id="6"> <question_img>
+http://open.ifmo.ru/images/b/bf/235921_image001.gif
+</question_img>
+<question_img>
+http://open.ifmo.ru/images/9/9e/235922_image010.gif
+</question_img>
+<question> Выберите граф, являющийся результатом пересечения графов G1 и G2. </question>
+<answers> 
+<answer right="no"> http://open.ifmo.ru/images/1/13/235919_image023.gif </answer>
+<answer right="no"> http://open.ifmo.ru/images/d/dc/235920_image022.gif </answer>
+<answer right="yes"> http://open.ifmo.ru/images/a/a3/235910_image024.gif </answer>
+</answers>
+</task>
+<task id="7"> <question> Даны множества А={2,3,4,5,6} и В={2,3,5} Найти: C=A\B </question>
+<answers> 
+<answer right="yes"> {3,4,5} </answer>
+<answer right="no"> {4,6} </answer>
+<answer right="no"> {2,3,5} </answer>
+</answers>
+</task>
+<task id="8">
+<question_img> http://open.ifmo.ru/images/4/43/235918_image061.gif </question_img>
+<question> Выберите выражение, соответствующее закрашенной области. </question>
+<answers> 
+<answer right="no"> S=(A\B\C)U((B∩C)\A)U(B∩D) </answer> 
+<answer right="no"> S=(BUC)∩(BUD) </answer>
+<answer right="yes"> S=(BUC)∩(B∩D) </answer>
+</answers>
+</task>
+<task id="9"><question> Даны множества А={3,4,5} и В={a,b}. Укажите верное декартово произведение AxB.</question>
+<answers> 
+<answer right="yes"> AxB={(3,a),(3,b),(4,a),(4,b),(5,a),(5,b)}  </answer>
+<answer right="no"> AxB={(a,3),(a,4),(a,5),(b,3),(b,4),(b,5)}  </answer>
+<answer right="no"> AxB={(3,a),(3,b),(a,4),(b,4),(a,5),(b,5)}  </answer>
+</answers>
+</task>
+<task id="10"> <question_img> http://open.ifmo.ru/images/4/49/235887_image034.gif</question_img>
+<question> Даны множества А и В. Укажите, каким является отображение множества А в множество В. </question>
+<answers> 
+<answer right="no"> однозначным </answer>
+<answer right="yes"> многозначным </answer>
+<answer right="no"> взаимнооднозначным </answer>
+</answers>
+</task>
+</test>
+

@@ -1,0 +1,35 @@
+<mappingSpec>
+
+	<rule id="test" nodeBase="//test" owlType="learningRu:Test" objectId="http://openedu.ifmo.ru/test/{./@uri}" objectLabel="{./@name}">
+        <objectPropertyMapping nodeBase="." 
+			value="http://openedu.ifmo.ru/task_group/{./@name}" 
+			owlProperty="ifmotest:hasGroupOfTasks" 
+			referredRule="task_group" />
+	</rule>
+
+	<rule id="task_group" nodeBase="//test" owlType="ifmotest:GroupOfTasks" objectId="http://openedu.ifmo.ru/task_group/{./@name}" objectLabel="{./@name}">
+        <objectPropertyMapping nodeBase="./task" 
+			value="http://openedu.ifmo.ru/task/{../@name}_{./@id}" 
+			owlProperty="ifmotest:hasTask" 
+			referredRule="task" />
+	</rule>
+
+	<rule id="task" nodeBase="//task" owlType="ifmotest:MultipleChoiceQuestion" objectId="http://openedu.ifmo.ru/task/{../@name}_{./@id}" objectLabel="{../@name}: Задание {./@id}">
+        <objectPropertyMapping nodeBase="./answers/answer" 
+			value="http://openedu.ifmo.ru/answer/{./text()}" 
+			owlProperty="ifmotest:hasAnswer" 
+			referredRule="answer" />
+        <objectPropertyMapping nodeBase='./answers/answer[@right="yes"]' 
+			value="http://openedu.ifmo.ru/answer/{./text()}" 
+			owlProperty="ifmotest:hasCorrectAnswer" 
+			referredRule="answer" />
+        <datatypePropertyMapping value="1" owlProperty="ifmotest:difficulty" />
+        <datatypePropertyMapping value="{./question/text()}" owlProperty="ifmotest:html_content" />
+        <datatypePropertyMapping value='&lt;img src="{normalize-space(./question_img)}"/&gt;' owlProperty="ifmotest:html_content" />
+	</rule>
+
+	<rule id="answer" nodeBase="//answer" owlType="ifmotest:Answer" objectId="http://openedu.ifmo.ru/answer/{./text()}" objectLabel="Ответ: {./text()}">
+        <datatypePropertyMapping value="{./text()}" owlProperty="ifmotest:html_content" />
+	</rule>
+
+</mappingSpec>

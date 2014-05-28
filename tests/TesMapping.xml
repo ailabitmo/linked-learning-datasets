@@ -5,9 +5,10 @@
 			value="http://openedu.ifmo.ru/task_group/{./@name}" 
 			owlProperty="ifmotest:hasGroupOfTasks" 
 			referredRule="task_group" />
-		<objectPropertyMapping nodeBase="." 
-			value="learningRu:{./@module}" 
-			owlProperty="ifmotest:isTestOf" />
+		<objectPropertyMapping nodeBase="."
+            instanceNamespace="{./@module_ns}"
+            value="{./@module}"
+			owlProperty="learningRu:isTestOf" />
 	</rule>
 
 	<rule id="task_group" nodeBase="//test" owlType="ifmotest:GroupOfTasks" objectId="http://openedu.ifmo.ru/task_group/{./@name}" objectLabel="{./@name}">

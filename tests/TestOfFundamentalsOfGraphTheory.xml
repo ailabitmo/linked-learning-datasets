@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<test module="GraphTheory:m_FundamentalsOfGraphTheory" 
+<test module="m_FundamentalsOfGraphTheory"
+	module_ns="GraphTheory" 
 	uri="TestOfFundamentalsOfGraphTheory" 
 	name="Теория графов"
 	>

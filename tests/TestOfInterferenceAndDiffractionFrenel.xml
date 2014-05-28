@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<test module="Phisics:m_InterferenceAndCoherence" 
+<test module="m_InterferenceAndCoherence"
+	module_ns="Phisics"
 	uri="TestOfInterferenceAndDiffractionFrenel" 
 	name="Интерференция и дифракция Френеля"
 >

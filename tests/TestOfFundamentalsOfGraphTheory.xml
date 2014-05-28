@@ -2,7 +2,7 @@
 <test module="GraphTheory:m_FundamentalsOfGraphTheory" 
 	uri="TestOfFundamentalsOfGraphTheory" 
 	name="Теория графов"
-	source="TestOfFundamentalsOfGraphTheory.xml">
+	>
 <task id="1">
 <question_img>http://open.ifmo.ru/images/5/57/118558_a1.gif</question_img>
 <question> Для данного графа выбрать соответствующие ему определения. </question>

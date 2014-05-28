@@ -2,7 +2,6 @@
 <test module="Phisics:m_InterferenceAndCoherence" 
 	uri="TestOfInterferenceAndDiffractionFrenel" 
 	name="Интерференция и дифракция Френеля"
-	source="TestOfInterferenceAndDiffractionFrenel.xml"
 >
 <task id="1">
 <question>

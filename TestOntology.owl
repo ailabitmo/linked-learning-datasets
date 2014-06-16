@@ -11,11 +11,11 @@
 
 <rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#"
      xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13"/>
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.org/ailab/testontology"/>
     
 
 
@@ -30,86 +30,86 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer -->
+    <!-- http://purl.org/ailab/testontology#hasAnswer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasAnswer">
         <rdfs:label xml:lang="en">has answer</rdfs:label>
         <rdfs:label xml:lang="ru">есть ответ</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasCorrectAnswer -->
+    <!-- http://purl.org/ailab/testontology#hasCorrectAnswer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasCorrectAnswer">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasCorrectAnswer">
         <rdfs:label xml:lang="en">has correct answer</rdfs:label>
         <rdfs:label xml:lang="ru">есть правильный ответ</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasTask -->
+    <!-- http://purl.org/ailab/testontology#hasTask -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasTask">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasTask">
         <rdfs:label xml:lang="en">has task</rdfs:label>
         <rdfs:label xml:lang="ru">есть задача</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasWrongAnswer -->
+    <!-- http://purl.org/ailab/testontology#hasWrongAnswer -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasWrongAnswer">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasWrongAnswer">
         <rdfs:label xml:lang="en">has wrong answer</rdfs:label>
         <rdfs:label xml:lang="ru">есть неправильный ответ</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isAnswerOf -->
+    <!-- http://purl.org/ailab/testontology#isAnswerOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isAnswerOf">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isAnswerOf">
         <rdfs:label xml:lang="en">is answer of</rdfs:label>
         <rdfs:label xml:lang="ru">является ответом</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasAnswer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isCorrectAnswerOf -->
+    <!-- http://purl.org/ailab/testontology#isCorrectAnswerOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isCorrectAnswerOf">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isCorrectAnswerOf">
         <rdfs:label xml:lang="en">is correct answer of</rdfs:label>
         <rdfs:label xml:lang="ru">является правильным ответом</rdfs:label>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasCorrectAnswer"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isAnswerOf"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasCorrectAnswer"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#isAnswerOf"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isTaskOf -->
+    <!-- http://purl.org/ailab/testontology#isTaskOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isTaskOf">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isTaskOf">
         <rdfs:label xml:lang="en">is task of</rdfs:label>
         <rdfs:label xml:lang="ru">является задачей</rdfs:label>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#GroupOfTasks"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasTask"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Task"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasTask"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isWrongAnswerOf -->
+    <!-- http://purl.org/ailab/testontology#isWrongAnswerOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isWrongAnswerOf">
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isWrongAnswerOf">
         <rdfs:label xml:lang="en">is wrong answer of</rdfs:label>
         <rdfs:label xml:lang="ru">является неправильнм ответом</rdfs:label>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#hasWrongAnswer"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#isAnswerOf"/>
+        <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasWrongAnswer"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#isAnswerOf"/>
     </owl:ObjectProperty>
     
 
@@ -125,9 +125,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#description -->
+    <!-- http://purl.org/ailab/testontology#description -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#description">
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#description">
         <rdfs:label xml:lang="en">description</rdfs:label>
         <rdfs:label xml:lang="ru">описание</rdfs:label>
         <rdfs:range rdf:resource="&xsd;string"/>
@@ -135,32 +135,32 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#difficulty -->
+    <!-- http://purl.org/ailab/testontology#difficulty -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#difficulty">
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#difficulty">
         <rdfs:label xml:lang="en">difficulty</rdfs:label>
         <rdfs:label xml:lang="ru">сложность</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Task"/>
         <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#html_content -->
+    <!-- http://purl.org/ailab/testontology#html_content -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#html_content">
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#html_content">
         <rdfs:label xml:lang="en">html content</rdfs:label>
         <rdfs:label xml:lang="en">html контент</rdfs:label>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#text -->
+    <!-- http://purl.org/ailab/testontology#text -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#text">
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#text">
         <rdfs:label xml:lang="en">text</rdfs:label>
         <rdfs:label xml:lang="ru">текст
 </rdfs:label>
@@ -180,81 +180,81 @@
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer -->
+    <!-- http://purl.org/ailab/testontology#Answer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Answer">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Answer">
         <rdfs:label xml:lang="en">Answer</rdfs:label>
         <rdfs:label xml:lang="ru">Ответ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#GroupOfTasks -->
+    <!-- http://purl.org/ailab/testontology#GroupOfTasks -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#GroupOfTasks">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#GroupOfTasks">
         <rdfs:label xml:lang="en">Group Of Tasks</rdfs:label>
         <rdfs:label xml:lang="ru">Группа Заданий</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#MultipleChoiceQuestion -->
+    <!-- http://purl.org/ailab/testontology#MultipleChoiceQuestion -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#MultipleChoiceQuestion">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#MultipleChoiceQuestion">
         <rdfs:label xml:lang="en">Multiple Choise Question</rdfs:label>
         <rdfs:label xml:lang="ru">Вопрос С Множественным Выбором</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question -->
+    <!-- http://purl.org/ailab/testontology#Question -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Question">
         <rdfs:label xml:lang="en">Question</rdfs:label>
         <rdfs:label xml:lang="ru">Вопрос</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Task"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#SingleChoiceQuestion -->
+    <!-- http://purl.org/ailab/testontology#SingleChoiceQuestion -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#SingleChoiceQuestion">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#SingleChoiceQuestion">
         <rdfs:label xml:lang="en">Single Choise Question</rdfs:label>
         <rdfs:label xml:lang="ru">Вопрос C Единственным Выбором</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task -->
+    <!-- http://purl.org/ailab/testontology#Task -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Task">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Task">
         <rdfs:label xml:lang="en">Task</rdfs:label>
         <rdfs:label xml:lang="ru">Задание</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem -->
+    <!-- http://purl.org/ailab/testontology#TestingKnowledgeItem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TestingKnowledgeItem">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#TestingKnowledgeItem">
         <rdfs:label xml:lang="en">Testing Knowledge Item</rdfs:label>
         <rdfs:label xml:lang="ru">Объект Проверки Знаний</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TextQuestion -->
+    <!-- http://purl.org/ailab/testontology#TextQuestion -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#TextQuestion">
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#TextQuestion">
         <rdfs:label xml:lang="en">Text Question</rdfs:label>
         <rdfs:label xml:lang="ru">Текстовый Вопрос</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#Question"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
 </rdf:RDF>
 

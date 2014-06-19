@@ -35,6 +35,8 @@
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasAnswer">
         <rdfs:label xml:lang="en">has answer</rdfs:label>
         <rdfs:label xml:lang="ru">есть ответ</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:ObjectProperty>
     
 
@@ -54,6 +56,8 @@
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasTask">
         <rdfs:label xml:lang="en">has task</rdfs:label>
         <rdfs:label xml:lang="ru">есть задача</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:ObjectProperty>
     
 
@@ -64,6 +68,16 @@
         <rdfs:label xml:lang="en">has wrong answer</rdfs:label>
         <rdfs:label xml:lang="ru">есть неправильный ответ</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#has_group_of_task -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#has_group_of_task">
+        <rdfs:label xml:lang="en">has group of task</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Test"/>
     </owl:ObjectProperty>
     
 
@@ -114,6 +128,15 @@
     
 
 
+    <!-- http://purl.org/ailab/testontology#is_group_of_task_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#is_group_of_task_of">
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Test"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -130,6 +153,7 @@
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#description">
         <rdfs:label xml:lang="en">description</rdfs:label>
         <rdfs:label xml:lang="ru">описание</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Test"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -146,14 +170,31 @@
     
 
 
+    <!-- http://purl.org/ailab/testontology#group_description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#group_description">
+        <rdfs:label xml:lang="en">group description</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://purl.org/ailab/testontology#html_content -->
 
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#html_content">
         <rdfs:label xml:lang="en">html content</rdfs:label>
         <rdfs:label xml:lang="en">html контент</rdfs:label>
-        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#test_name -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#test_name">
+        <rdfs:label xml:lang="en">test name</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Test"/>
     </owl:DatatypeProperty>
     
 
@@ -184,8 +225,16 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#Answer">
         <rdfs:label xml:lang="en">Answer</rdfs:label>
-        <rdfs:label xml:lang="ru">Ответ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Task"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Fill-in_The_Blank -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Fill-in_The_Blank">
+        <rdfs:label xml:lang="en">Fill-in the Blank</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
     
 
@@ -194,17 +243,24 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#GroupOfTasks">
         <rdfs:label xml:lang="en">Group Of Tasks</rdfs:label>
-        <rdfs:label xml:lang="ru">Группа Заданий</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/ailab/testontology#MultipleChoiceQuestion -->
+    <!-- http://purl.org/ailab/testontology#Matching -->
 
-    <owl:Class rdf:about="http://purl.org/ailab/testontology#MultipleChoiceQuestion">
-        <rdfs:label xml:lang="en">Multiple Choise Question</rdfs:label>
-        <rdfs:label xml:lang="ru">Вопрос С Множественным Выбором</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Matching">
+        <rdfs:label xml:lang="en">Matching</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Multiple_Choice -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Multiple_Choice">
+        <rdfs:label xml:lang="en">Multiple Choice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
     
@@ -214,17 +270,15 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#Question">
         <rdfs:label xml:lang="en">Question</rdfs:label>
-        <rdfs:label xml:lang="ru">Вопрос</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Task"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/ailab/testontology#SingleChoiceQuestion -->
+    <!-- http://purl.org/ailab/testontology#Single_Answer -->
 
-    <owl:Class rdf:about="http://purl.org/ailab/testontology#SingleChoiceQuestion">
-        <rdfs:label xml:lang="en">Single Choise Question</rdfs:label>
-        <rdfs:label xml:lang="ru">Вопрос C Единственным Выбором</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Single_Answer">
+        <rdfs:label xml:lang="en">Single Answer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
     
@@ -234,9 +288,14 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#Task">
         <rdfs:label xml:lang="en">Task</rdfs:label>
-        <rdfs:label xml:lang="ru">Задание</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Test -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Test"/>
     
 
 
@@ -244,16 +303,23 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#TestingKnowledgeItem">
         <rdfs:label xml:lang="en">Testing Knowledge Item</rdfs:label>
-        <rdfs:label xml:lang="ru">Объект Проверки Знаний</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/ailab/testontology#TextQuestion -->
+    <!-- http://purl.org/ailab/testontology#Text_Answer -->
 
-    <owl:Class rdf:about="http://purl.org/ailab/testontology#TextQuestion">
-        <rdfs:label xml:lang="en">Text Question</rdfs:label>
-        <rdfs:label xml:lang="ru">Текстовый Вопрос</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Text_Answer">
+        <rdfs:label xml:lang="en">Text Answer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#True_False -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#True_False">
+        <rdfs:label xml:lang="en">True/False</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:Class>
 </rdf:RDF>

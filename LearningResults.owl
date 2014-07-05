@@ -92,6 +92,16 @@
     
 
 
+    <!-- http://purl.org/ailab/learningresults#hasTestElement -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasTestElement">
+        <rdfs:label xml:lang="en">has test element</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.org/ailab/learningresults#isAttemptToPassTestBy -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#isAttemptToPassTestBy">
@@ -108,6 +118,16 @@
         <rdfs:label xml:lang="en">is learning process of</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
         <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#isTestElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#isTestElementOf">
+        <rdfs:label xml:lang="en">is test element of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
     </owl:ObjectProperty>
     
 
@@ -298,6 +318,18 @@
     <owl:Class rdf:about="http://purl.org/ailab/learningresults#Video">
         <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Task -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Task"/>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Test -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Test"/>
 </rdf:RDF>
 
 

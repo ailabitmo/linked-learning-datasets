@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/ailab/learningresults#"
+     xml:base="http://purl.org/ailab/learningresults"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.org/ailab/learningresults">
+        <owl:imports rdf:resource="http://purl.org/ailab/testontology"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#enrolledCourse -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#enrolledCourse">
+        <rdfs:label xml:lang="en">enrolled course</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#finishedCourse -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#finishedCourse">
+        <rdfs:label xml:lang="en">finished course</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#hasAnswer -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasAnswer">
+        <rdfs:label xml:lang="en">has answer</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Answer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#hasAttemptToPassTest -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasAttemptToPassTest">
+        <rdfs:label xml:lang="en">has attempt to pass test</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#hasLearningProcess -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasLearningProcess">
+        <rdfs:label xml:lang="en">has learning process</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#hasTask -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasTask">
+        <rdfs:label xml:lang="en">has task</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Task"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#hasTestElement -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasTestElement">
+        <rdfs:label xml:lang="en">has test element</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#isAttemptToPassTestBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#isAttemptToPassTestBy">
+        <rdfs:label xml:lang="en">is attempt to pass test by</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#isLearningProcessOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#isLearningProcessOf">
+        <rdfs:label xml:lang="en">is learning process of</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#isTestElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#isTestElementOf">
+        <rdfs:label xml:lang="en">is test element of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#TestElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#knownTerm -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#knownTerm">
+        <rdfs:label xml:lang="en">known term</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Term"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#relatesToTest -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#relatesToTest">
+        <rdfs:label xml:lang="en">relates to test</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Test"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#unknownTerm -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#unknownTerm">
+        <rdfs:label xml:lang="en">unknown term</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Term"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#waitedCourse -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#waitedCourse">
+        <rdfs:label xml:lang="en">waited course</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#watchedVideo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#watchedVideo">
+        <rdfs:label xml:lang="en">watched video</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#Video"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#percentCompleteOfCourse -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/learningresults#percentCompleteOfCourse">
+        <rdfs:comment xml:lang="en">percent complete of course</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Course"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#percentCompleteOfTest -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/learningresults#percentCompleteOfTest">
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#rightAnswer -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/learningresults#rightAnswer">
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Answer"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#successfulAttempt -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/learningresults#successfulAttempt">
+        <rdfs:comment xml:lang="en">successful attempt</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#timestampOfAttempt -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ailab/learningresults#timestampOfAttempt">
+        <rdfs:comment xml:lang="en">timestamp of attempt</rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#Answer -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#Answer">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningResults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#AttemptToPassTest -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#AttemptToPassTest">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#Course -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#Course">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#LearningProcess -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#LearningProcess"/>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#LearningResults -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#LearningResults"/>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#Student -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#Student">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#Term -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#Term">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#TestElement -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#TestElement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningResults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/learningresults#Video -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/learningresults#Video">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/learningresults#LearningProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Task -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Task"/>
+    
+
+
+    <!-- http://purl.org/ailab/testontology#Test -->
+
+    <owl:Class rdf:about="http://purl.org/ailab/testontology#Test"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

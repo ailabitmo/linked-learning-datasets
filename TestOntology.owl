@@ -34,7 +34,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasAnswer">
         <rdfs:label xml:lang="en">has answer</rdfs:label>
-        <rdfs:label xml:lang="ru">есть ответ</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Answer"/>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
     </owl:ObjectProperty>
@@ -45,7 +44,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasCorrectAnswer">
         <rdfs:label xml:lang="en">has correct answer</rdfs:label>
-        <rdfs:label xml:lang="ru">есть правильный ответ</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
     </owl:ObjectProperty>
     
@@ -55,9 +55,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasTask">
         <rdfs:label xml:lang="en">has task</rdfs:label>
-        <rdfs:label xml:lang="ru">есть задача</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
-        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Task"/>
     </owl:ObjectProperty>
     
 
@@ -66,7 +65,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#hasWrongAnswer">
         <rdfs:label xml:lang="en">has wrong answer</rdfs:label>
-        <rdfs:label xml:lang="ru">есть неправильный ответ</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
     </owl:ObjectProperty>
     
@@ -86,7 +86,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isAnswerOf">
         <rdfs:label xml:lang="en">is answer of</rdfs:label>
-        <rdfs:label xml:lang="ru">является ответом</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
         <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasAnswer"/>
@@ -98,7 +97,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isCorrectAnswerOf">
         <rdfs:label xml:lang="en">is correct answer of</rdfs:label>
-        <rdfs:label xml:lang="ru">является правильным ответом</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasCorrectAnswer"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#isAnswerOf"/>
     </owl:ObjectProperty>
@@ -109,7 +109,6 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isTaskOf">
         <rdfs:label xml:lang="en">is task of</rdfs:label>
-        <rdfs:label xml:lang="ru">является задачей</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/ailab/testontology#GroupOfTasks"/>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Task"/>
         <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasTask"/>
@@ -121,7 +120,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#isWrongAnswerOf">
         <rdfs:label xml:lang="en">is wrong answer of</rdfs:label>
-        <rdfs:label xml:lang="ru">является неправильнм ответом</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Answer"/>
+        <rdfs:range rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <owl:inverseOf rdf:resource="http://purl.org/ailab/testontology#hasWrongAnswer"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/ailab/testontology#isAnswerOf"/>
     </owl:ObjectProperty>
@@ -152,7 +152,6 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#description">
         <rdfs:label xml:lang="en">description</rdfs:label>
-        <rdfs:label xml:lang="ru">описание</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Test"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
@@ -163,7 +162,6 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#difficulty">
         <rdfs:label xml:lang="en">difficulty</rdfs:label>
-        <rdfs:label xml:lang="ru">сложность</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Task"/>
         <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
@@ -203,8 +201,6 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#text">
         <rdfs:label xml:lang="en">text</rdfs:label>
-        <rdfs:label xml:lang="ru">текст
-</rdfs:label>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -225,7 +221,7 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#Answer">
         <rdfs:label xml:lang="en">Answer</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#Task"/>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </owl:Class>
     
 
@@ -243,7 +239,7 @@
 
     <owl:Class rdf:about="http://purl.org/ailab/testontology#GroupOfTasks">
         <rdfs:label xml:lang="en">Group Of Tasks</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/ailab/testontology#TestingKnowledgeItem"/>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </owl:Class>
     
 

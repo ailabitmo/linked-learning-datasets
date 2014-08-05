@@ -67,6 +67,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.org/ailab/learningresults#hasAttemptToPassTest">
         <rdfs:label xml:lang="en">has attempt to pass test</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/ailab/learningresults#AttemptToPassTest"/>
         <rdfs:domain rdf:resource="http://purl.org/ailab/learningresults#Student"/>
     </owl:ObjectProperty>
     

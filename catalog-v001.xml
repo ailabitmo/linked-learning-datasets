@@ -6,15 +6,15 @@
     <uri id="Imports Wizard Entry" name="http://xmlns.com/foaf/0.1/" uri="http://xmlns.com/foaf/0.1/‎"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning" uri="learningNEW.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://purl.org/ailab/learningresults" uri="LearningResults.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6" uri="SemanticWeb.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-7" uri="SemanticWebReasoner.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13" uri="TestOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14" uri="GraphTheoryNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/k0shk/ontologies/2013/98/math" uri="MathNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93" uri="PhysicsNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96" uri="TermsNew.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="http://www.w3.org/2002/07/owl" uri="learningNEW.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1404754282840" name="shadowed:http://purl.org/ailab/learningresults" uri="tests/LearningResults.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://purl.org/ailab/learningresults" uri="LearningResults.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6" uri="SemanticWeb.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-7" uri="SemanticWebReasoner.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13" uri="TestOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/k0shk/ontologies/2013/9/untitled-ontology-14" uri="GraphTheoryNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/k0shk/ontologies/2013/98/math" uri="MathNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93" uri="PhysicsNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96" uri="TermsNew.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="http://www.w3.org/2002/07/owl" uri="learningNEW.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1407368807543" name="shadowed:http://purl.org/ailab/learningresults" uri="tests/LearningResults.owl"/>
     </group>
 </catalog>

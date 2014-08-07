@@ -181,7 +181,6 @@
 
     <owl:DatatypeProperty rdf:about="http://purl.org/ailab/testontology#html_content">
         <rdfs:label xml:lang="en">html content</rdfs:label>
-        <rdfs:label xml:lang="en">html контент</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Question"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>

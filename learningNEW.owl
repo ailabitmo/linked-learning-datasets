@@ -26,7 +26,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
+    // Annotation properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -34,11 +34,44 @@
     
 
 
-    <!-- http://purl.org/vocab/aiiso/schema#teaches -->
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
 
-    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#teaches">
-        <equivalentProperty rdf:resource="&learning;isTeacherOf"/>
-    </rdf:Description>
+    <AnnotationProperty rdf:about="&learning;hasTeacher">
+        <rdfs:label xml:lang="en">has teacher</rdfs:label>
+        <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+
+    <AnnotationProperty rdf:about="&learning;isAuthorOf">
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+        <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+
+    <AnnotationProperty rdf:about="&learning;isModuleOf">
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+        <rdfs:label xml:lang="ru">является модулем</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
     
 
 
@@ -163,7 +196,6 @@
     <ObjectProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
         <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
-        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
         <inverseOf rdf:resource="&learning;isTeacherOf"/>
     </ObjectProperty>
     
@@ -237,7 +269,6 @@
         <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
         <inverseOf rdf:resource="&learning;hasAuthor"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
     </ObjectProperty>
     
 
@@ -301,7 +332,6 @@
         <rdfs:label xml:lang="en">is module of</rdfs:label>
         <rdfs:label xml:lang="ru">является модулем</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
-        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
         <inverseOf rdf:resource="&learning;hasModule"/>
     </ObjectProperty>
     
@@ -617,6 +647,12 @@
     
 
 
+    <!-- http://purl.org/vocab/aiiso/schema#KnowledgeGrouping -->
+
+    <Class rdf:about="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+    
+
+
     <!-- http://purl.org/vocab/aiiso/schema#Module -->
 
     <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Module">
@@ -875,6 +911,12 @@
     
 
 
+    <!-- http://xmlns.com/foaf/spec/Agent -->
+
+    <Class rdf:about="http://xmlns.com/foaf/spec/Agent"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -897,6 +939,14 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Book -->
 
     <NamedIndividual rdf:about="&learning;Book">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Presentation -->
+
+    <NamedIndividual rdf:about="&learning;Presentation">
         <rdf:type rdf:resource="&learning;Format"/>
     </NamedIndividual>
     

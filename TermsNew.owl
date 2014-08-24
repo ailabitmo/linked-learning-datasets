@@ -8186,6 +8186,1305 @@
 
 
 
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Abstract -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Abstract">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Abstract</rdfs:label>
+        <rdfs:label xml:lang="ru">Абстракция</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractBehavior -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractBehavior">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Abstract behavior</rdfs:label>
+        <rdfs:label xml:lang="ru">Абстракция поведения</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractEntities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractEntities">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Abstract entities</rdfs:label>
+        <rdfs:label xml:lang="ru">Абстракция сущности</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractVirtualMachine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbstractVirtualMachine">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Abstract virtual machine</rdfs:label>
+        <rdfs:label xml:lang="ru">Абстракция виртуальной машины</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbsurdType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AbsurdType">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Absurd type</rdfs:label>
+        <rdfs:label xml:lang="ru">Абсурдный тип</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Antecedent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Antecedent">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Antecedent (condition part)</rdfs:label>
+        <rdfs:label xml:lang="ru">Антецедент (Условная часть)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ArbitraryAbstraction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ArbitraryAbstraction">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Arbitrary abstraction</rdfs:label>
+        <rdfs:label xml:lang="ru">Произвольная абстракция</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AssociativeNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_AssociativeNetwork">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Associative Network</rdfs:label>
+        <rdfs:label xml:lang="ru">Ассоциативная сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_BioinsirirovannayaSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_BioinsirirovannayaSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Bioinsirirovannaya system</rdfs:label>
+        <rdfs:label xml:lang="ru">Биоинсирированная система</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_BioinspiredAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_BioinspiredAlgorithm">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Bioinspired algorithm</rdfs:label>
+        <rdfs:label xml:lang="ru">Биоинспирированный алгоритм</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CanonicalFormationRule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CanonicalFormationRule">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Canonical formation rule</rdfs:label>
+        <rdfs:label xml:lang="ru">Каноническое правило формирования</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CasalFrame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CasalFrame">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Casal frame</rdfs:label>
+        <rdfs:label xml:lang="ru">Падежный фрейм</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CasualNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CasualNetwork">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Casual network</rdfs:label>
+        <rdfs:label xml:lang="ru">Казуальная сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ChainOutput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ChainOutput">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Chain Output (Reasoning)</rdfs:label>
+        <rdfs:label xml:lang="ru">Цепочка вывода (Reasoning)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ClassicalCategorization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ClassicalCategorization">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Classical categorization</rdfs:label>
+        <rdfs:label xml:lang="ru">Классическая категоризация</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Classification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Classification">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Classification</rdfs:label>
+        <rdfs:label xml:lang="ru">Классификация</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CognitiveProcess -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CognitiveProcess">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Cognitive process</rdfs:label>
+        <rdfs:label xml:lang="ru">Когнитивный процесс</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CollectiveData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CollectiveData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Collective data</rdfs:label>
+        <rdfs:label xml:lang="ru">Коллективные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Combining -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Combining">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Combining</rdfs:label>
+        <rdfs:label xml:lang="ru">Объединение</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CommercialExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CommercialExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Commercial expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Коммерческая экспертная система</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualClustering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualClustering">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Conceptual Clustering</rdfs:label>
+        <rdfs:label xml:lang="ru">Концептуальная кластеризация</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualGraph">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Conceptual graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Концептуальный граф</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualRelation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualRelation">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Conceptual relation</rdfs:label>
+        <rdfs:label xml:lang="ru">Концептуальное отношение</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualizationOfTheData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualizationOfTheData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Conceptualization (structuring) of the data</rdfs:label>
+        <rdfs:label xml:lang="ru">Концептуализация (структурирование) данных</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Consequent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Consequent">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Consequent (action part)</rdfs:label>
+        <rdfs:label xml:lang="ru">Консеквент (Часть действия)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ContactTheChainOutput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ContactTheChainOutput">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Contact the chain Ooutput (output from the target)</rdfs:label>
+        <rdfs:label xml:lang="ru">Обратная цепочка вывода (Вывод от цели)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Contents -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Contents">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Contents</rdfs:label>
+        <rdfs:label xml:lang="ru">Контент</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Copy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Copy">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Copy</rdfs:label>
+        <rdfs:label xml:lang="ru">Копирование</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Count -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Count">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Count</rdfs:label>
+        <rdfs:label xml:lang="ru">Граф</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CycleDetectionAction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CycleDetectionAction">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Cycle-detection action</rdfs:label>
+        <rdfs:label xml:lang="ru">Цикл распознавание-действие</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Data -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Data">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Data</rdfs:label>
+        <rdfs:label xml:lang="ru">Данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DataExtraction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DataExtraction">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Data Extraction</rdfs:label>
+        <rdfs:label xml:lang="ru">Извлечение данных</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DefinitiveNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DefinitiveNetwork">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Definitive network</rdfs:label>
+        <rdfs:label xml:lang="ru">Дефинитивная сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DemonstrationPrototypeExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DemonstrationPrototypeExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Demonstration prototype expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Демонстрационный прототип экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DirectChainOutput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DirectChainOutput">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Direct chain output (output-based data)</rdfs:label>
+        <rdfs:label xml:lang="ru">Прямая цепочка вывода (Вывод на основе данных)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DirectlyObtainedData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_DirectlyObtainedData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Directly obtained data</rdfs:label>
+        <rdfs:label xml:lang="ru">Непосредственно полученные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExistentialGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExistentialGraph">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Existential graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Экзистенциональный граф</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Expert system (system based on knowledge)</rdfs:label>
+        <rdfs:label xml:lang="ru">Экспертная система (Система, основанная на знаниях)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExpertSystemShell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExpertSystemShell">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Expert system shell</rdfs:label>
+        <rdfs:label xml:lang="ru">Оболочка экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExplicitData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ExplicitData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Explicit data</rdfs:label>
+        <rdfs:label xml:lang="ru">Явные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Extensional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Extensional">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Extensional</rdfs:label>
+        <rdfs:label xml:lang="ru">Экстенсионал</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_FormalModel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_FormalModel">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Formal Model</rdfs:label>
+        <rdfs:label xml:lang="ru">Формальная модель</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_FormalizationOfData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_FormalizationOfData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Formalization of data</rdfs:label>
+        <rdfs:label xml:lang="ru">Формализация данных</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Frame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Frame">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Frame</rdfs:label>
+        <rdfs:label xml:lang="ru">Фрейм</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_GeneralizedMarker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_GeneralizedMarker">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Generalized marker</rdfs:label>
+        <rdfs:label xml:lang="ru">Обобщенный маркер</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_GrateMultipleInheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_GrateMultipleInheritance">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Grate multiple inheritance</rdfs:label>
+        <rdfs:label xml:lang="ru">Решетка множественного наследования</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Heuristic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Heuristic">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Heuristic (heuristic knowledge)</rdfs:label>
+        <rdfs:label xml:lang="ru">Эвристическое правило (эвристические знания)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ImplicitData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ImplicitData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Implicit data</rdfs:label>
+        <rdfs:label xml:lang="ru">Неявные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_InDepthKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_InDepthKnowledge">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">In-depth knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Глубинные знания</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndexMarker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndexMarker">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Index marker</rdfs:label>
+        <rdfs:label xml:lang="ru">Индексный маркер</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndirectlyObtainedData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndirectlyObtainedData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Indirectly obtained data</rdfs:label>
+        <rdfs:label xml:lang="ru">Опосредованно полученные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndividualConcept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndividualConcept">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Individual concept</rdfs:label>
+        <rdfs:label xml:lang="ru">Индивидуальный концепт</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndustryExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IndustryExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Industry expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Промышленная экспертная система</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Intension -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Intension">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Intension</rdfs:label>
+        <rdfs:label xml:lang="ru">Интенсионал</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IntuitiveData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_IntuitiveData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Intuitive data</rdfs:label>
+        <rdfs:label xml:lang="ru">Интуитивные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Knowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Knowledge">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Знания</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeBase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeBase">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Knowledge Base</rdfs:label>
+        <rdfs:label xml:lang="ru">База знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeEngineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeEngineering">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Knowledge Engineering</rdfs:label>
+        <rdfs:label xml:lang="ru">Инженерия знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Knowledge Representation</rdfs:label>
+        <rdfs:label xml:lang="ru">Представление знаний</rdfs:label>
+        <rdfs:label xml:lang="ru">Репрезентация знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeRepresentationLanguage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_KnowledgeRepresentationLanguage">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Knowledge representation language</rdfs:label>
+        <rdfs:label xml:lang="ru">Язык представления знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MaterializedData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MaterializedData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Materialized data</rdfs:label>
+        <rdfs:label xml:lang="ru">Материализованные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MentalData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MentalData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Mental data</rdfs:label>
+        <rdfs:label xml:lang="ru">Ментальные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Metapravilo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Metapravilo">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Metapravilo</rdfs:label>
+        <rdfs:label xml:lang="ru">Метаправило</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MethodOfDecisionMaking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MethodOfDecisionMaking">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Method of decision-making</rdfs:label>
+        <rdfs:label xml:lang="ru">Метод принятия решения</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ModelOfKnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ModelOfKnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Model of knowledge representation</rdfs:label>
+        <rdfs:label xml:lang="ru">Модель представления знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MonotonicOutput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MonotonicOutput">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Monotonic output</rdfs:label>
+        <rdfs:label xml:lang="ru">Монотонный вывод</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MultipleInheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_MultipleInheritance">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Multiple Inheritance</rdfs:label>
+        <rdfs:label xml:lang="ru">Множественное наследование</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NetProductionModel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NetProductionModel">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Net production model</rdfs:label>
+        <rdfs:label xml:lang="ru">Чистая продукционная модель</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Network">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Network</rdfs:label>
+        <rdfs:label xml:lang="ru">Сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NetworkStructuralInheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NetworkStructuralInheritance">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Network structural inheritance</rdfs:label>
+        <rdfs:label xml:lang="ru">Сеть структурного наследования</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NonmonotonicOutput -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_NonmonotonicOutput">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Nonmonotonic output</rdfs:label>
+        <rdfs:label xml:lang="ru">Немонотонный вывод</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ObjectOrientedApproach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ObjectOrientedApproach">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Object-oriented approach</rdfs:label>
+        <rdfs:label xml:lang="ru">Объектно-ориентированный подход</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PatternDesign -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PatternDesign">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Pattern Design</rdfs:label>
+        <rdfs:label xml:lang="ru">Шаблон проектирования</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PersonalData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PersonalData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Personal data</rdfs:label>
+        <rdfs:label xml:lang="ru">Личные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PerspectiveFrame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PerspectiveFrame">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Perspective frame</rdfs:label>
+        <rdfs:label xml:lang="ru">Аксонометрический фрейм</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProblemOfTheValidityAndConsistencyOfDecisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProblemOfTheValidityAndConsistencyOfDecisions">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Problem of the validity and consistency of decisions</rdfs:label>
+        <rdfs:label xml:lang="ru">Проблема истинности и непротиворечивости решений</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionModel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionModel">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Production Model</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукционная модель</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionModelWithReturnMechanism -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionModelWithReturnMechanism">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Production model with return mechanism</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукционная модель с механизмом возврата</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ProductionSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Production system</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукционная система</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Products">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Products (production rules)</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукция (Продукционное правило)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PropositionalSemanticNetwork -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PropositionalSemanticNetwork">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Propositional semantic network</rdfs:label>
+        <rdfs:label xml:lang="ru">Пропозициональная семантическая сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PrototypeExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PrototypeExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Prototype expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Прототип экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PrototypeTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_PrototypeTheory">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Prototype theory</rdfs:label>
+        <rdfs:label xml:lang="ru">Теория прототипов</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Refraction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Refraction">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Refraction</rdfs:label>
+        <rdfs:label xml:lang="ru">Рефракция</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_RelationshipConceptualDependence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_RelationshipConceptualDependence">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Relationship conceptual dependence</rdfs:label>
+        <rdfs:label xml:lang="ru">Отношения концептуальной зависимости</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_RematicheskyGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_RematicheskyGraph">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Rematichesky graph</rdfs:label>
+        <rdfs:label xml:lang="ru">Рематический граф</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ResearchPrototypeExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ResearchPrototypeExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Research prototype expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Исследовательский прототип экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Restriction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Restriction">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Restriction</rdfs:label>
+        <rdfs:label xml:lang="ru">Ограничение</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Saying -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Saying">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Saying</rdfs:label>
+        <rdfs:label xml:lang="ru">Высказывание</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Scenario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Scenario">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Scenario</rdfs:label>
+        <rdfs:label xml:lang="ru">Сценарий</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SchematicOfPreEmption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SchematicOfPreEmption">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Schematic of pre-emption</rdfs:label>
+        <rdfs:label xml:lang="ru">Схематическое упреждение</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Semantics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Semantics">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Semantics</rdfs:label>
+        <rdfs:label xml:lang="ru">Семантика</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Simplification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Simplification">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Simplification</rdfs:label>
+        <rdfs:label xml:lang="ru">Упрощение</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Skills -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Skills">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Skills</rdfs:label>
+        <rdfs:label xml:lang="ru">Умения</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SpatialFrame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SpatialFrame">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Spatial frame</rdfs:label>
+        <rdfs:label xml:lang="ru">Пространственный фрейм</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Specificity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_Specificity">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Specificity</rdfs:label>
+        <rdfs:label xml:lang="ru">Специфичность</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SuperficialKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_SuperficialKnowledge">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Superficial knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Поверхностные знания</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TableOfOperators -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TableOfOperators">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Table of operators</rdfs:label>
+        <rdfs:label xml:lang="ru">Таблица операторов</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TableSolutions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TableSolutions">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Table solutions</rdfs:label>
+        <rdfs:label xml:lang="ru">Таблица решений</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheBlackBoxMethod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheBlackBoxMethod">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The black box method</rdfs:label>
+        <rdfs:label xml:lang="ru">Метод черного ящика</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheCoreOfTheExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheCoreOfTheExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The core of the expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Ядро экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheDeveloperOfAnExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheDeveloperOfAnExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The developer of an expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Разработчик экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheGeneralConcept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheGeneralConcept">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The general concept</rdfs:label>
+        <rdfs:label xml:lang="ru">Общий концепт</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheLifeCycleOfKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheLifeCycleOfKnowledge">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The life cycle of knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Жизненный цикл знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheNovelty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheNovelty">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The novelty</rdfs:label>
+        <rdfs:label xml:lang="ru">Новизна</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheProblemOfFuzzyKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheProblemOfFuzzyKnowledge">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The problem of fuzzy knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Проблема нечетких знаний</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheProcessOfConflictResolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheProcessOfConflictResolution">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The process of conflict resolution</rdfs:label>
+        <rdfs:label xml:lang="ru">Процесс разрешения конфликтов</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ThePrototype -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ThePrototype">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The prototype</rdfs:label>
+        <rdfs:label xml:lang="ru">Прототип</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheSemanticWeb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheSemanticWeb">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The Semantic Web</rdfs:label>
+        <rdfs:label xml:lang="ru">Семантическая сеть</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheStrategyOfConflictResolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheStrategyOfConflictResolution">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The strategy of conflict resolution</rdfs:label>
+        <rdfs:label xml:lang="ru">Стратегия разрешения конфликтов</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheTheoryOfPropagationOfActivation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_TheTheoryOfPropagationOfActivation">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">The theory of propagation of activation</rdfs:label>
+        <rdfs:label xml:lang="ru">Теория распространения активации</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_UnformulatedData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_UnformulatedData">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Unformulated data</rdfs:label>
+        <rdfs:label xml:lang="ru">Несформулированные данные</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_UniversalType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_UniversalType">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Universal type</rdfs:label>
+        <rdfs:label xml:lang="ru">Универсальный тип</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_WorkingMemory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_WorkingMemory">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Working memory</rdfs:label>
+        <rdfs:label xml:lang="ru">Рабочая память</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_WorkingPrototypeExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_WorkingPrototypeExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Working prototype expert system</rdfs:label>
+        <rdfs:label xml:lang="ru">Действующий прототип экспертной системы</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CognitiveEconomy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_CognitiveEconomy">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Cognitive economy (inheritance)</rdfs:label>
+        <rdfs:label xml:lang="ru">Когнитивная экономия (наследование)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualGraph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_ConceptualGraph">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Conceptual graph (Count conceptual dependency)</rdfs:label>
+        <rdfs:label xml:lang="ru">Концептуальный граф (Граф концептуальной зависимости)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_StageOfDevelopmentOfThePrototypeExpertSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#t_StageOfDevelopmentOfThePrototypeExpertSystem">
+        <rdf:type rdf:resource="&learning;Term"/>
+        <rdfs:label xml:lang="en">Stage of development of the prototype expert system (?)</rdfs:label>
+        <rdfs:label xml:lang="ru">Стадии разработки прототипа экспертной системы (?)</rdfs:label>
+        <learning:isTermOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+
 
 
 

@@ -15,16 +15,33 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#"
      xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6"
      xmlns:schema="http://purl.org/vocab/aiiso/schema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6">
         <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
     
 
 
@@ -220,6 +237,80 @@
 &lt;/div&gt;</learning:content>
         <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Frames and Object Oriented Programming</rdfs:label>
+        <rdfs:label xml:lang="ru">Фреймы и ООП</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Introduction to systems based on knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Введение в системы, основанные на знаниях</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">1</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Overview of models and tools for knowledge representation</rdfs:label>
+        <rdfs:label xml:lang="ru">Обзор моделей и инструментов представления знаний</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Semantic networks</rdfs:label>
+        <rdfs:label xml:lang="ru">Семантические сети</rdfs:label>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The theory according to the rules (production model, rules and metapravila)</rdfs:label>
+        <rdfs:label xml:lang="ru">Теория по правилам (продукционная модель, правила и метаправила)</rdfs:label>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules">
+        <rdf:type rdf:resource="&schema;Module"/>
+        <rdfs:label xml:lang="en">Production Rules</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукционные правила</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">3</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+
     
 
 

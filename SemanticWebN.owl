@@ -227,7 +227,10 @@
         <rdfs:label xml:lang="ru">Фреймы и ООП</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
         <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming"/>
+>>>>>>> FETCH_HEAD
     </owl:NamedIndividual>
     
 
@@ -253,7 +256,10 @@
         <rdfs:label xml:lang="ru">Обзор моделей и инструментов представления знаний</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
         <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+>>>>>>> FETCH_HEAD
     </owl:NamedIndividual>
     
 
@@ -266,7 +272,10 @@
         <rdfs:label xml:lang="ru">Семантические сети</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
         <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks"/>
+>>>>>>> FETCH_HEAD
     </owl:NamedIndividual>
     
 
@@ -279,7 +288,10 @@
         <rdfs:label xml:lang="ru">Теория по правилам (продукционная модель, правила и метаправила)</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
         <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+>>>>>>> FETCH_HEAD
     </owl:NamedIndividual>
     
 
@@ -296,6 +308,8 @@
     
 
 
+<<<<<<< HEAD
+=======
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming">
@@ -346,6 +360,7 @@
     
 
 
+>>>>>>> FETCH_HEAD
     <!-- https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940 -->
 
     <owl:NamedIndividual rdf:about="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>

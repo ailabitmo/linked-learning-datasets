@@ -227,6 +227,7 @@
         <rdfs:label xml:lang="ru">Фреймы и ООП</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming"/>
     </owl:NamedIndividual>
     
 
@@ -252,6 +253,7 @@
         <rdfs:label xml:lang="ru">Обзор моделей и инструментов представления знаний</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
     </owl:NamedIndividual>
     
 
@@ -264,6 +266,7 @@
         <rdfs:label xml:lang="ru">Семантические сети</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks"/>
     </owl:NamedIndividual>
     
 
@@ -276,6 +279,7 @@
         <rdfs:label xml:lang="ru">Теория по правилам (продукционная модель, правила и метаправила)</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
         <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
     </owl:NamedIndividual>
     
 
@@ -292,11 +296,51 @@
     
 
 
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338536</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_IntroductionToSystemsBasedOnKnowledge -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_IntroductionToSystemsBasedOnKnowledge">
         <rdf:type rdf:resource="&learning;Resource"/>
-        <learning:url>http://www.slideshare.net/ailabifmo/1-38338068</learning:url>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338068</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338216</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338595</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338400</learning:url>
         <learning:resourceType rdf:resource="&learning;Presentation"/>
     </owl:NamedIndividual>
     

@@ -247,7 +247,7 @@
         <rdfs:label xml:lang="en">Frames and Object Oriented Programming</rdfs:label>
         <rdfs:label xml:lang="ru">Фреймы и ООП</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
     </owl:NamedIndividual>
     
 
@@ -271,7 +271,7 @@
         <rdfs:label xml:lang="en">Overview of models and tools for knowledge representation</rdfs:label>
         <rdfs:label xml:lang="ru">Обзор моделей и инструментов представления знаний</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
     </owl:NamedIndividual>
     
 
@@ -282,7 +282,8 @@
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Semantic networks</rdfs:label>
         <rdfs:label xml:lang="ru">Семантические сети</rdfs:label>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
     </owl:NamedIndividual>
     
 
@@ -293,7 +294,8 @@
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">The theory according to the rules (production model, rules and metapravila)</rdfs:label>
         <rdfs:label xml:lang="ru">Теория по правилам (продукционная модель, правила и метаправила)</rdfs:label>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
     </owl:NamedIndividual>
     
 
@@ -307,10 +309,6 @@
         <learning:numberOfModule rdf:datatype="&xsd;integer">3</learning:numberOfModule>
         <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
     </owl:NamedIndividual>
-    
-
-
-
     
 
 

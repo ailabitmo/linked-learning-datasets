@@ -178,7 +178,47 @@
         <rdfs:label xml:lang="en">Task 1</rdfs:label>
         <rdfs:label xml:lang="ru">Задание №1</rdfs:label>
         <learning:numberOfTask rdf:datatype="&xsd;integer">1</learning:numberOfTask>
-        <learning:content xml:lang="ru">&lt;div&gt;&lt;div&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня.Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/div&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;p&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня. &lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+&lt;/style&gt;
+&lt;table class=&quot;tg&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;Драгоценный камень&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;Твердость&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;Плотность&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;Цвет&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Алмаз&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;3,52&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;желтый, коричневый, зеленый,синий, белый, бесцветный&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Корунд&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;9&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;4&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;красный, розовый, желтый,коричневый, зеленый, синий,фиолетовый, черный, белый,бесцветный&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Хризоберилл&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;8.5&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;3.72&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;желтый, коричневый, зеленый&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Шпинель&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;8&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;3.6&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;красный, розовый, желтый,коричневый, зеленый, синий,фиолетовый, белый, бесцветный&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.&lt;/p&gt;
+&lt;p&gt;Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/p&gt;
+&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
         <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
     </owl:NamedIndividual>
     
@@ -191,7 +231,7 @@
         <rdfs:label xml:lang="en">Task 2</rdfs:label>
         <rdfs:label xml:lang="ru">Задание №2</rdfs:label>
         <learning:numberOfTask rdf:datatype="&xsd;integer">2</learning:numberOfTask>
-        <learning:content xml:lang="ru">&lt;div class=&quot;text-editable&quot;&gt;&lt;p&gt;Напишите правила, которые помогают в процессе выбора кустарника, подходящего для посадки. В таблице (картинка ниже по тексту) перечислено несколько видов кустарников и указано, обладает ли каждое их этих растений определенными характеристиками, которые включают устойчивость к холоду, к затенению, к засухе, к влажной и кислой почве, к городским условиям (к загазованности воздуха), пригодность для кадочного выращивания, простота культивирования и быстрота роста. Отметка в таблице указывает, что укастарник обладает соответствующей характеристикой. В качестве входных данных для программы должны использоваться факты, указывающие желательную характеристику, которую должн иметь кустарник, а результатом работы программы должен быть список растений, обладающих всеми необходимыми характеристиками.&lt;/p&gt;&lt;/div
+        <learning:content xml:lang="ru">&lt;div class=&quot;text-editable&quot;&gt;&lt;p&gt;Напишите правила, которые помогают в процессе выбора кустарника, подходящего для посадки. В таблице (картинка ниже по тексту) перечислено несколько видов кустарников и указано, обладает ли каждое их этих растений определенными характеристиками, которые включают устойчивость к холоду, к затенению, к засухе, к влажной и кислой почве, к городским условиям (к загазованности воздуха), пригодность для кадочного выращивания, простота культивирования и быстрота роста. Отметка в таблице указывает, что укастарник обладает соответствующей характеристикой. В качестве входных данных для программы должны использоваться факты, указывающие желательную характеристику, которую должн иметь кустарник, а результатом работы программы должен быть список растений, обладающих всеми необходимыми характеристиками.&lt;/p&gt;&lt;/div&gt;
 &lt;img class=&quot;unselectable js-image&quot; unselectable=&quot;on&quot; src=&quot;//static.versal.com/restapi/assets/b91d11d2-caf5-490f-ab1a-6a0dc8166829&quot; style=&quot;left: 0px; top: 0px; width: 713px; max-width: 713px; height: 341px; max-height: 341px;&quot;&gt;
 &lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;
 &lt;ul&gt;

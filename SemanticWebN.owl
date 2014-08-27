@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6"
+     xmlns:schema="http://purl.org/vocab/aiiso/schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6">
+        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;depiction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#description -->
+
+    <owl:DatatypeProperty rdf:about="&schema;description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://books.ifmo.ru/book/911/book_911.htm -->
+
+    <owl:NamedIndividual rdf:about="http://books.ifmo.ru/book/911/book_911.htm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems">
+        <rdf:type rdf:resource="&schema;Course"/>
+        <rdfs:label xml:lang="en">Intelligent Systems</rdfs:label>
+        <rdfs:label xml:lang="ru">Интеллектуальные системы</rdfs:label>
+        <schema:description xml:lang="ru">Курс по Интеллектуальным системам, включающий следующий темы: Экспертные системы и Технологии Семантического Веба.</schema:description>
+        <learning:hasResource rdf:resource="http://books.ifmo.ru/book/911/book_911.htm"/>
+        <foaf:depiction rdf:resource="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction">
+        <rdf:type rdf:resource="&learning;Instruction"/>
+        <rdfs:label xml:lang="ru">Инструкция по работе с Drools Guvnor</rdfs:label>
+        <learning:content xml:lang="ru">&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Для простоты установки и использования системы, подготовлен &lt;a target=&quot;_blank&quot; href=&quot;https://dl.dropboxusercontent.com/u/1497018/is-course/guvnor-distr.zip&quot;&gt;архив&lt;/a&gt;. Архив содержит Drools Guvnor, который может быть запущен на любом компьютере с установленной &lt;a target=&quot;_blank&quot; href=&quot;http://www.java.com/ru/&quot;&gt;Java&lt;/a&gt; 6 или выше.&lt;br&gt;Инструкция:&lt;br&gt;1. Скачать архив и разархивировать его в удобное место, например, C:\guvnor-distr\;&lt;br&gt;2. Открыть командную строку (для Windows) или терминал (для Linux);&lt;br&gt;3. Перейти в директорию bin, распакованного архива;&lt;br&gt;4. Запустить скрипт &lt;code&gt;startup.bat&lt;/code&gt; (для Windows) или &lt;code&gt;startup.sh&lt;/code&gt; (для Linux);&lt;br&gt;5. Откройте &lt;code&gt;http://localhost:9090&lt;/code&gt; в браузере;&lt;br&gt;6. А когда вы пожелаете остановить систему, выполните из скрипт &lt;code&gt;shutdown.bat&lt;/code&gt; (для Windows) или &lt;code&gt;shutdown.sh&lt;/code&gt; (для Linux).&lt;br&gt;&lt;em&gt;Замечание: все данные после остановки системы сохраняются на вашем компьютере, поэтому вы их не потеряете.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isInstructionOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain">
+        <rdf:type rdf:resource="&learning;VerificationSystem"/>
+        <rdfs:label xml:lang="ru">Система проверки решений для курса &quot;Интеллектуальные системы&quot;</rdfs:label>
+        <learning:url rdf:datatype="&xsd;string">http://expertsystems.tk/drools-tester/#/main</learning:url>
+        <learning:isVerificationSystemOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1">
+        <rdf:type rdf:resource="&learning;Practice"/>
+        <rdfs:label xml:lang="ru">Практическая работа по экспертным системам</rdfs:label>
+        <learning:content xml:lang="ru">&lt;p&gt;Практические задания будут выполняться в система &lt;a href=&quot;http://www.jboss.org/drools/&quot;&gt;Drools Guvnor&lt;/a&gt;. В качестве теоретического и практического руководства предлагается использовать методические указания &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1497018/metoda-guvnor.pdf&quot;&gt;&quot;Рассмотрение систем управления бизнес-правилами на примере Drools Guvnor&quot;&lt;/a&gt;.&lt;br&gt;В третьем подразделе вы найдете инструкцию по установке и запуску Drools Guvnor на ваш компьютер. Вся необходимая информацию по разработке ЭС в системе собрана в методическом указании.&lt;br&gt;В четвертом подразделе описаны шаги по экспорту вашего решения из Guvnor и его отправки в проверяющую систему.&lt;/p&gt;</learning:content>
+        <learning:hasInstruction rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsGuvnorInstruction"/>
+        <learning:hasVerificationSystem rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#DroolsTesterMain"/>
+        <learning:hasFAQ rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ"/>
+        <learning:hasInstruction rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction"/>
+        <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1"/>
+        <learning:hasPracticeTask rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2"/>
+        <learning:isPracticeOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsFAQ">
+        <rdf:type rdf:resource="&learning;FAQ"/>
+        <rdfs:label xml:lang="en">FAQ. Expert Systems</rdfs:label>
+        <rdfs:label xml:lang="ru">FAQ. Экспертные системы </rdfs:label>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div class=&quot;gadget-editor&quot;&gt;
+&lt;div class=&quot;gadget-text js-text-region&quot;&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Я создал модель, но система выдаёт ошибку &quot;Модель [&amp;lt;Модель&amp;gt;] необъявлена в пакете [&amp;lt;имя пакета&amp;gt;]&quot;&lt;/strong&gt;&lt;br&gt;Имя файла должно в точности совпадать с именем вашего пакета, например, если имя пакета &lt;em&gt;defaultPackage&lt;/em&gt;, то имя файла должно быть &lt;em&gt;defaultPackage.pkg&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Запуск &lt;code&gt;startup.bat&lt;/code&gt; скрипта заканчивается сообщением &quot;Neither the JAVA_HOME nor the JRE_HOME environment variable is defined. At least...&quot;&lt;/strong&gt;&lt;br&gt;Выполните команду &lt;code&gt;java -version&lt;/code&gt;, если распечаталась версия JRE или JDK, то вам нужно только объявить переменную окружения, если же команда выполнилась с ошибкой, тогда необходимо установить JRE (Java Runtime Edition) или JDK (Java Developer Edition) 6 или выше.&lt;br&gt;a. Чтобы установить переменную окружения JAVA_HOME, выполните следующую команду: &lt;code&gt;set JAVA_HOME=&amp;lt;абс. путь до папки, в которой установлена Java&amp;gt;&lt;/code&gt;.&lt;br&gt;b. Для скачивания и установки JRE перейдите на сайт &lt;a target=&quot;_blank&quot; href=&quot;http://java.com&quot;&gt;java.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Почему моё решение не проходит &lt;code&gt;test1&lt;/code&gt; для Задания №1?&lt;/strong&gt;&lt;br&gt;В первом задании есть один момент, который многими упускается: в тестах на вход НЕ дается экземпляр модели &lt;strong&gt;Output&lt;/strong&gt;, поэтому если вы пишите в части WHEN правила &quot;There is an Output...&quot;, а экземпляра модели &lt;strong&gt;Output&lt;/strong&gt; в рабочей памяти нет, то правило никогда не выполнится.&lt;br&gt;Как написано в условии к заданию, необходимо добавить экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; одним из правил, которое выполняется &lt;em&gt;всегда&lt;/em&gt; раньше всех остальных, для этого в правиле устанавливается параметр salience больший 0 и часть WHEN оставляется пустой, чтобы правило выполнялось всегда независимо от каких-либо условий.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;js-editor-region&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isFAQOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsSendResultsInstruction">
+        <rdf:type rdf:resource="&learning;Instruction"/>
+        <rdfs:label xml:lang="ru">Инструкция по отправке решений для проверки</rdfs:label>
+        <learning:content xml:lang="ru">&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Проверка решений происходит в автоматическом режиме на основе заранее подготовленных тестовых сценариев. Для этого вам необходимо экспортировать архив из Drools Guvnor, содержащий ваше решение, зайти в систему проверки решений &lt;a href=&quot;http://expertsystems.tk/drools-tester&quot;&gt;ссылка&lt;/a&gt; и отправить архив.&lt;br&gt;Шаги:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Откройте ваш пакет и перейдите во вкладку &lt;em&gt;Edit&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;Далее нажмите кнопку &lt;em&gt;Build package&lt;/em&gt;, если сборка пакета прошла успешно вы должны увидеть сообщение &lt;em&gt;Package built successfully&lt;/em&gt; и ссылку, по которой вы должны скачать файл с расширением &lt;em&gt;.pkg&lt;/em&gt;,&lt;/li&gt;
+&lt;li&gt;Отлично! Теперь заходите в Систему проверки решений и выберайте вкладку, соответствующую заданию,&lt;/li&gt;
+&lt;li&gt;Для отправки решения вам необходимо указать почтовый адрес, который был указан во время регистрации на Versal.com.&lt;/li&gt;
+&lt;li&gt;Все. Отправляйте решение и смотрите результаты во вкладке &lt;em&gt;Результаты&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isInstructionOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask1">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
+        <rdfs:label xml:lang="en">Task 1</rdfs:label>
+        <rdfs:label xml:lang="ru">Задание №1</rdfs:label>
+        <learning:numberOfTask rdf:datatype="&xsd;integer">1</learning:numberOfTask>
+        <learning:content xml:lang="ru">&lt;div&gt;&lt;div&gt;В таблице (ниже по тексту) приведены характеристики наиболее широко известных драгоценных камней, включая их твердость (сопротивление внешним усилиям, измеряемое по шкале твердости Мора), плотность (отношение массы к единице объема, измеряемое в граммах на кубический сантиметр) и цвета. Запишите правила, необходимые для того, чтобы определить, является ли драгоценный камень хризобериллом, если даны три факта, представляющие твердость, плотность и цвет драгоценного камня.Далее, описаны две модели (классы) фактов, которые должны быть созданы и использованы в вашей ЭС.Наименования моделей и поле должны точно совпадать с описанием в задании иначе ваше решение не будет принято проверяющей системой.&lt;/div&gt;&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Input&lt;/strong&gt;: - &lt;em&gt;модель входных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;constancy : Decimal number - &lt;em&gt;твердость камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;consistency : Decimal number -  &lt;em&gt;плотность камня&lt;/em&gt;,&lt;/li&gt;&lt;li&gt;color : Text - &lt;em&gt;цвет камня&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Output&lt;/strong&gt; - &lt;em&gt;модель выходных данных&lt;/em&gt;&lt;ul&gt;&lt;li&gt;isTarget : True or False -  &lt;em&gt;искомый камень или нет&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;На вход экспертной системы подается только экземпляр &lt;strong&gt;Input&lt;/strong&gt;. Экземпляр модели &lt;strong&gt;Output&lt;/strong&gt; должен быть добавлен в рабочую память одним из правил, которое выполняется всегда и первым, см. параметр salience (&lt;a target=&quot;_blank&quot; href=&quot;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&quot;&gt;http://docs.jboss.org/drools/release/5.5.0.Final/drools-expert-docs/html_single/index.html#d0e5150&lt;/a&gt;).&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystemsTask2">
+        <rdf:type rdf:resource="&learning;PracticeTask"/>
+        <rdfs:label xml:lang="en">Task 2</rdfs:label>
+        <rdfs:label xml:lang="ru">Задание №2</rdfs:label>
+        <learning:numberOfTask rdf:datatype="&xsd;integer">2</learning:numberOfTask>
+        <learning:content xml:lang="ru">&lt;div class=&quot;text-editable&quot;&gt;&lt;p&gt;Напишите правила, которые помогают в процессе выбора кустарника, подходящего для посадки. В таблице (картинка ниже по тексту) перечислено несколько видов кустарников и указано, обладает ли каждое их этих растений определенными характеристиками, которые включают устойчивость к холоду, к затенению, к засухе, к влажной и кислой почве, к городским условиям (к загазованности воздуха), пригодность для кадочного выращивания, простота культивирования и быстрота роста. Отметка в таблице указывает, что укастарник обладает соответствующей характеристикой. В качестве входных данных для программы должны использоваться факты, указывающие желательную характеристику, которую должн иметь кустарник, а результатом работы программы должен быть список растений, обладающих всеми необходимыми характеристиками.&lt;/p&gt;&lt;/div
+&lt;img class=&quot;unselectable js-image&quot; unselectable=&quot;on&quot; src=&quot;//static.versal.com/restapi/assets/b91d11d2-caf5-490f-ab1a-6a0dc8166829&quot; style=&quot;left: 0px; top: 0px; width: 713px; max-width: 713px; height: 341px; max-height: 341px;&quot;&gt;
+&lt;div class=&quot;spec-text-view&quot;&gt;&lt;p&gt;Модели фактов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Сharacteristic&lt;/strong&gt; - модель входных данных&lt;ul&gt;
+&lt;li&gt;coldWeather : True of False - &lt;em&gt;устойчивость к холоду,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;shade : True or False - &lt;em&gt;устойчивость к затенению,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;drought : True of False - &lt;em&gt;устойчивость к засухе,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;wetSoil : True of False - &lt;em&gt;устойчивость к влажной почве,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;acidSoil : True of False - &lt;em&gt;устойчивость к кислой почве,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;urbanConditions : True of False - &lt;em&gt;устойчивость к городским условиям,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;tubGrowing : True of False - &lt;em&gt;пригодность для кадочного выращивания,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;easeOfCultivation : True of False - &lt;em&gt;простота культивирования,&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;speedOfGrowth : True of False - &lt;em&gt;быстрота роста.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plant&lt;/strong&gt; - модель растения&lt;ul&gt;
+&lt;li&gt;name : Text - &lt;em&gt;имя кустарника&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;По завершению работы экспертной системы в рабочей памяти должны находиться экземпляры модели &lt;strong&gt;Plant&lt;/strong&gt;. Например, если в результате работы нашлись два кустарника обладающие желаемыми характеристиками, то в рабочей памяти должны быть два экземпляра &lt;strong&gt;Plant&lt;/strong&gt; с именами (name) соответсвующими именам кустарников.&lt;br&gt;На вход экспертной системы подаётся экземпляр модели &lt;strong&gt;Сharacteristic&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;</learning:content>
+        <learning:isPracticeTaskOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#PracticeExpertSystems1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_FramesAndObjectOrientedProgramming">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Frames and Object Oriented Programming</rdfs:label>
+        <rdfs:label xml:lang="ru">Фреймы и ООП</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming"/>
+>>>>>>> FETCH_HEAD
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_IntroductionToSystemsBasedOnKnowledge">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Introduction to systems based on knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Введение в системы, основанные на знаниях</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">1</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_IntroductionToSystemsBasedOnKnowledge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_OverviewOfModelsAndToolsForKnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Overview of models and tools for knowledge representation</rdfs:label>
+        <rdfs:label xml:lang="ru">Обзор моделей и инструментов представления знаний</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+>>>>>>> FETCH_HEAD
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_SemanticNetworks">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">Semantic networks</rdfs:label>
+        <rdfs:label xml:lang="ru">Семантические сети</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks"/>
+>>>>>>> FETCH_HEAD
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila">
+        <rdf:type rdf:resource="&learning;Lecture"/>
+        <rdfs:label xml:lang="en">The theory according to the rules (production model, rules and metapravila)</rdfs:label>
+        <rdfs:label xml:lang="ru">Теория по правилам (продукционная модель, правила и метаправила)</rdfs:label>
+        <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
+        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules"/>
+<<<<<<< HEAD
+=======
+        <learning:hasResource rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+>>>>>>> FETCH_HEAD
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#m_ProductionRules">
+        <rdf:type rdf:resource="&schema;Module"/>
+        <rdfs:label xml:lang="en">Production Rules</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукционные правила</rdfs:label>
+        <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
+        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#CourseIntelligentSystems"/>
+    </owl:NamedIndividual>
+    
+
+
+<<<<<<< HEAD
+=======
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_FramesAndObjectOrientedProgramming">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338536</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_IntroductionToSystemsBasedOnKnowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_IntroductionToSystemsBasedOnKnowledge">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338068</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_OverviewOfModelsAndToolsForKnowledgeRepresentation">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338216</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_SemanticNetworks">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338595</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fedulity/ontologies/2014/3/untitled-ontology-6#p_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila">
+        <rdf:type rdf:resource="&learning;Resource"/>
+        <learning:url>//www.slideshare.net/slideshow/embed_code/38338400</learning:url>
+        <learning:resourceType rdf:resource="&learning;Presentation"/>
+    </owl:NamedIndividual>
+    
+
+
+>>>>>>> FETCH_HEAD
+    <!-- https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940 -->
+
+    <owl:NamedIndividual rdf:about="https://stack.versal.com/api2/assets/17be447f-2944-438a-97ff-31feeee4d940"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

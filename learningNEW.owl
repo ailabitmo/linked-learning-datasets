@@ -12,12 +12,13 @@
 
 <rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.w3.org/2002/07/owl"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning">
+        <imports rdf:resource="http://linkedscience.org/teach/ns#"/>
         <imports rdf:resource="http://purl.org/vocab/aiiso/schema"/>
     </Ontology>
     
@@ -39,7 +40,6 @@
     <AnnotationProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
         <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
-        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
     </AnnotationProperty>
     
 
@@ -49,7 +49,6 @@
     <AnnotationProperty rdf:about="&learning;isAuthorOf">
         <rdfs:label xml:lang="en">is author of</rdfs:label>
         <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
     </AnnotationProperty>
     
 
@@ -59,7 +58,6 @@
     <AnnotationProperty rdf:about="&learning;isModuleOf">
         <rdfs:label xml:lang="en">is module of</rdfs:label>
         <rdfs:label xml:lang="ru">является модулем</rdfs:label>
-        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
     </AnnotationProperty>
     
 
@@ -72,6 +70,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#teacher -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#teacher">
+        <equivalentProperty rdf:resource="&learning;hasTeacher"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#teacherOf -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#teacherOf">
+        <equivalentProperty rdf:resource="&learning;isTeacherOf"/>
+    </rdf:Description>
     
 
 
@@ -109,6 +123,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasFAQ -->
 
     <ObjectProperty rdf:about="&learning;hasFAQ">
+        <rdfs:label xml:lang="en">has FAQ</rdfs:label>
         <rdfs:label xml:lang="ru">есть часто задаваемые вопросы</rdfs:label>
         <inverseOf rdf:resource="&learning;isFAQOf"/>
     </ObjectProperty>
@@ -118,6 +133,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasInstruction -->
 
     <ObjectProperty rdf:about="&learning;hasInstruction">
+        <rdfs:label xml:lang="en">has instruction</rdfs:label>
         <rdfs:label xml:lang="ru">есть инструкция</rdfs:label>
     </ObjectProperty>
     
@@ -196,6 +212,7 @@
     <ObjectProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
         <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
         <inverseOf rdf:resource="&learning;isTeacherOf"/>
     </ObjectProperty>
     
@@ -236,6 +253,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasVerificationSystem -->
 
     <ObjectProperty rdf:about="&learning;hasVerificationSystem">
+        <rdfs:label xml:lang="en">has verification system</rdfs:label>
         <rdfs:label xml:lang="ru">есть система проверки</rdfs:label>
         <inverseOf rdf:resource="&learning;isVerificationSystemOf"/>
     </ObjectProperty>
@@ -269,6 +287,7 @@
         <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
         <inverseOf rdf:resource="&learning;hasAuthor"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
     </ObjectProperty>
     
 
@@ -300,6 +319,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isFAQOf -->
 
     <ObjectProperty rdf:about="&learning;isFAQOf">
+        <rdfs:label xml:lang="en">is FAQ of</rdfs:label>
         <rdfs:label xml:lang="ru">являются часто задаваемые вопросы</rdfs:label>
     </ObjectProperty>
     
@@ -308,6 +328,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isInstructionOf -->
 
     <ObjectProperty rdf:about="&learning;isInstructionOf">
+        <rdfs:label xml:lang="en">is instruction of</rdfs:label>
         <rdfs:label xml:lang="ru">является инструкцией</rdfs:label>
         <inverseOf rdf:resource="&learning;hasInstruction"/>
     </ObjectProperty>
@@ -332,6 +353,7 @@
         <rdfs:label xml:lang="en">is module of</rdfs:label>
         <rdfs:label xml:lang="ru">является модулем</rdfs:label>
         <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
         <inverseOf rdf:resource="&learning;hasModule"/>
     </ObjectProperty>
     
@@ -430,6 +452,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isVerificationSystemOf -->
 
     <ObjectProperty rdf:about="&learning;isVerificationSystemOf">
+        <rdfs:label xml:lang="en">is verification system of</rdfs:label>
         <rdfs:label xml:lang="ru">является системой проверки</rdfs:label>
     </ObjectProperty>
     
@@ -453,8 +476,8 @@
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">previous lecture</rdfs:label>
         <rdfs:label xml:lang="ru">предыдущая лекция</rdfs:label>
-        <rdfs:range rdf:resource="&learning;Lecture"/>
         <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
     </ObjectProperty>
     
 
@@ -465,8 +488,8 @@
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
         <rdfs:label xml:lang="en">previous term</rdfs:label>
         <rdfs:label xml:lang="ru">предыдущий термин</rdfs:label>
-        <rdfs:range rdf:resource="&learning;Term"/>
         <rdfs:domain rdf:resource="&learning;Term"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
     </ObjectProperty>
     
 
@@ -613,6 +636,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfTask -->
 
     <DatatypeProperty rdf:about="&learning;numberOfTask">
+        <rdfs:label xml:lang="en">number of task</rdfs:label>
         <rdfs:label xml:lang="ru">номер задания</rdfs:label>
         <rdfs:domain rdf:resource="&learning;PracticeTask"/>
         <rdfs:range rdf:resource="&xsd;integer"/>
@@ -636,6 +660,30 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Course -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Course">
+        <equivalentClass rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Lecture -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Lecture">
+        <equivalentClass rdf:resource="&learning;Lecture"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Material -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Material">
+        <equivalentClass rdf:resource="&learning;Resource"/>
+    </rdf:Description>
     
 
 
@@ -675,7 +723,7 @@
 
     <Class rdf:about="&learning;Consultation">
         <rdfs:label xml:lang="en">Consultation</rdfs:label>
-        <rdfs:label>Консультация</rdfs:label>
+        <rdfs:label xml:lang="ru">Консультация</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
     </Class>
     
@@ -684,8 +732,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#CourseWork -->
 
     <Class rdf:about="&learning;CourseWork">
-        <rdfs:label xml:lang="en">Course Work</rdfs:label>
         <rdfs:label>Курсовая работа</rdfs:label>
+        <rdfs:label xml:lang="en">Course Work</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
     </Class>
     
@@ -714,6 +762,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#FAQ -->
 
     <Class rdf:about="&learning;FAQ">
+        <rdfs:label xml:lang="en">Manual</rdfs:label>
         <rdfs:label xml:lang="ru">Часто задаваемые вопросы</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Resource"/>
     </Class>
@@ -723,7 +772,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Field -->
 
     <Class rdf:about="&learning;Field">
-        <rdfs:label xml:lang="en"> Field</rdfs:label>
+        <rdfs:label xml:lang="en">Field</rdfs:label>
         <rdfs:label xml:lang="ru">Область</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
     </Class>
@@ -739,9 +788,9 @@
             <Class>
                 <oneOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&learning;Video"/>
+                    <rdf:Description rdf:about="&learning;Book"/>
                     <rdf:Description rdf:about="&learning;Text"/>
                     <rdf:Description rdf:about="&learning;Audio"/>
-                    <rdf:Description rdf:about="&learning;Book"/>
                 </oneOf>
             </Class>
         </equivalentClass>
@@ -761,8 +810,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#HomeWork -->
 
     <Class rdf:about="&learning;HomeWork">
+        <rdfs:label xml:lang="en">Home Work</rdfs:label>
         <rdfs:label>Домашняя работа</rdfs:label>
-        <rdfs:label xml:lang="en">HomeWork</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
     </Class>
     
@@ -771,6 +820,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Instruction -->
 
     <Class rdf:about="&learning;Instruction">
+        <rdfs:label xml:lang="en">Instruction</rdfs:label>
         <rdfs:label xml:lang="ru">Инструкция</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Resource"/>
     </Class>
@@ -799,8 +849,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PersonalWork -->
 
     <Class rdf:about="&learning;PersonalWork">
-        <rdfs:label>СРС</rdfs:label>
         <rdfs:label xml:lang="en">PersonalWork</rdfs:label>
+        <rdfs:label>СРС</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
     </Class>
     
@@ -809,8 +859,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Practice -->
 
     <Class rdf:about="&learning;Practice">
-        <rdfs:label>Практическая работа</rdfs:label>
         <rdfs:label xml:lang="en">Practice</rdfs:label>
+        <rdfs:label>Практическая работа</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
     </Class>
     
@@ -867,9 +917,9 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Test -->
 
     <Class rdf:about="&learning;Test">
-        <rdfs:label xml:lang="en">Test</rdfs:label>
         <rdfs:label>Тест
 </rdfs:label>
+        <rdfs:label xml:lang="en">Test</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
     </Class>
     
@@ -895,6 +945,7 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#VerificationSystem -->
 
     <Class rdf:about="&learning;VerificationSystem">
+        <rdfs:label xml:lang="en">Verification System</rdfs:label>
         <rdfs:label xml:lang="ru">Система проверки</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Framework"/>
     </Class>
@@ -904,8 +955,8 @@
     <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Workshop -->
 
     <Class rdf:about="&learning;Workshop">
-        <rdfs:label>Семинар</rdfs:label>
         <rdfs:label xml:lang="en">Workshop</rdfs:label>
+        <rdfs:label>Семинар</rdfs:label>
         <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
     </Class>
     
@@ -969,5 +1020,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 

@@ -687,7 +687,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer20_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
-        <testontology:html_content xml:lang="ru">на инженере по знаниям</testontology:html_content>
+        <testontology:html_content xml:lang="ru">на программисте</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
         <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
     </owl:NamedIndividual>

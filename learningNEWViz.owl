@@ -1,0 +1,771 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning">
+        <imports rdf:resource="http://purl.org/vocab/aiiso/schema"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
+
+    <AnnotationProperty rdf:about="&learning;hasTeacher">
+        <rdfs:label xml:lang="en">has teacher</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+
+    <AnnotationProperty rdf:about="&learning;isAuthorOf">
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+
+    <AnnotationProperty rdf:about="&learning;isModuleOf">
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasAuthor -->
+
+    <ObjectProperty rdf:about="&learning;hasAuthor">
+        <rdfs:label xml:lang="en">has author</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasExam -->
+
+    <ObjectProperty rdf:about="&learning;hasExam">
+        <rdfs:label xml:lang="en">has exam</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="&learning;Exam"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasFAQ -->
+
+    <ObjectProperty rdf:about="&learning;hasFAQ">
+        <rdfs:label xml:lang="en">has FAQ</rdfs:label>
+        <inverseOf rdf:resource="&learning;isFAQOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasInstruction -->
+
+    <ObjectProperty rdf:about="&learning;hasInstruction">
+        <rdfs:label xml:lang="en">has manual</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasLecture -->
+
+    <ObjectProperty rdf:about="&learning;hasLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has lecture</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
+        <inverseOf rdf:resource="&learning;isLectureOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasModule -->
+
+    <ObjectProperty rdf:about="&learning;hasModule">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has module</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPractice -->
+
+    <ObjectProperty rdf:about="&learning;hasPractice">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has practice</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&learning;Practice"/>
+        <inverseOf rdf:resource="&learning;isPracticeOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPracticeTask -->
+
+    <ObjectProperty rdf:about="&learning;hasPracticeTask">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has practice task</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+        <rdfs:range rdf:resource="&learning;PracticeTask"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasResource -->
+
+    <ObjectProperty rdf:about="&learning;hasResource">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has resource</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="&learning;Resource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
+
+    <ObjectProperty rdf:about="&learning;hasTeacher">
+        <rdfs:label xml:lang="en">has teacher</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <inverseOf rdf:resource="&learning;isTeacherOf"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTerm -->
+
+    <ObjectProperty rdf:about="&learning;hasTerm">
+        <rdfs:label xml:lang="en">has term</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
+        <inverseOf rdf:resource="&learning;isTermOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTest -->
+
+    <ObjectProperty rdf:about="&learning;hasTest">
+        <rdfs:label xml:lang="en">has test</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Test"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasWorkshop -->
+
+    <ObjectProperty rdf:about="&learning;hasWorkshop">
+        <rdfs:label xml:lang="en">has workshop</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&learning;Workshop"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAFieldOf -->
+
+    <ObjectProperty rdf:about="&learning;isAFieldOf">
+        <rdfs:label xml:lang="en">is a field of</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Field"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
+        <inverseOf rdf:resource="&learning;relatesToField"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+
+    <ObjectProperty rdf:about="&learning;isAuthorOf">
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <inverseOf rdf:resource="&learning;hasAuthor"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isExamOf -->
+
+    <ObjectProperty rdf:about="&learning;isExamOf">
+        <rdfs:label xml:lang="en">is exam of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="&learning;Exam"/>
+        <inverseOf rdf:resource="&learning;hasExam"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isFAQOf -->
+
+    <ObjectProperty rdf:about="&learning;isFAQOf">
+        <rdfs:label xml:lang="en">is FAQ of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isInstructionOf -->
+
+    <ObjectProperty rdf:about="&learning;isInstructionOf">
+        <rdfs:label xml:lang="en">is manual of</rdfs:label>
+        <inverseOf rdf:resource="&learning;hasInstruction"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isLectureOf -->
+
+    <ObjectProperty rdf:about="&learning;isLectureOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdfs:label xml:lang="en">is lecture of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+
+    <ObjectProperty rdf:about="&learning;isModuleOf">
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <inverseOf rdf:resource="&learning;hasModule"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeOf -->
+
+    <ObjectProperty rdf:about="&learning;isPracticeOf">
+        <rdfs:label xml:lang="en">is practice of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeTaskOf -->
+
+    <ObjectProperty rdf:about="&learning;isPracticeTaskOf">
+        <rdfs:label xml:lang="en">is practice task of</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Practice"/>
+        <rdfs:domain rdf:resource="&learning;PracticeTask"/>
+        <inverseOf rdf:resource="&learning;hasPracticeTask"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceOf -->
+
+    <ObjectProperty rdf:about="&learning;isResourceOf">
+        <rdfs:label xml:lang="en">is resource of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <inverseOf rdf:resource="&learning;hasResource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTeacherOf -->
+
+    <ObjectProperty rdf:about="&learning;isTeacherOf">
+        <rdfs:label xml:lang="en">is teacher of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTermOf -->
+
+    <ObjectProperty rdf:about="&learning;isTermOf">
+        <rdfs:label xml:lang="en">is term of</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestOf -->
+
+    <ObjectProperty rdf:about="&learning;isTestOf">
+        <rdfs:label xml:lang="en">is test of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Test"/>
+        <inverseOf rdf:resource="&learning;hasTest"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isWorkshopOf -->
+
+    <ObjectProperty rdf:about="&learning;isWorkshopOf">
+        <rdfs:label xml:lang="en">is workshop of</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Workshop"/>
+        <inverseOf rdf:resource="&learning;hasWorkshop"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousLecture -->
+
+    <ObjectProperty rdf:about="&learning;previousLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">previous lecture</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousTerm -->
+
+    <ObjectProperty rdf:about="&learning;previousTerm">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">previous term</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#relatesToField -->
+
+    <ObjectProperty rdf:about="&learning;relatesToField">
+        <rdfs:label xml:lang="en">relates to field</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Field"/>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#resourceType -->
+
+    <ObjectProperty rdf:about="&learning;resourceType">
+        <rdfs:label xml:lang="en">resource type</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Format"/>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#content -->
+
+    <DatatypeProperty rdf:about="&learning;content">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hours -->
+
+    <DatatypeProperty rdf:about="&learning;hours">
+        <rdfs:label xml:lang="en">hours</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isPracticeRequired">
+        <rdfs:label xml:lang="en">practice is required</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isRequired">
+        <rdfs:label xml:lang="en">lecture is required</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceFromTeacher -->
+
+    <DatatypeProperty rdf:about="&learning;isResourceFromTeacher">
+        <rdfs:label xml:lang="en">resource is from teacher</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isResourceRequired">
+        <rdfs:label xml:lang="en">resource is required</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isTestRequired">
+        <rdfs:label xml:lang="en">test is required</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Test"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#lemma -->
+
+    <DatatypeProperty rdf:about="&learning;lemma">
+        <rdfs:label xml:lang="en">lemma</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfLecture -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfLecture">
+        <rdfs:label xml:lang="en">number of lecture</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfModule -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfModule">
+        <rdfs:label xml:lang="en">number of module</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfTask -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfTask">
+        <rdfs:label xml:lang="en">number of task</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;PracticeTask"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#url -->
+
+    <DatatypeProperty rdf:about="&learning;url">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#KnowledgeGrouping -->
+
+    <Class rdf:about="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Candidat -->
+
+    <Class rdf:about="&learning;Candidat">
+        <rdfs:label xml:lang="en">Terms candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Term"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#CourseWork -->
+
+    <Class rdf:about="&learning;CourseWork">
+        <rdfs:label xml:lang="en">Course Work</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Credit -->
+
+    <Class rdf:about="&learning;Credit">
+        <rdfs:label xml:lang="en">Credit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Exam -->
+
+    <Class rdf:about="&learning;Exam">
+        <rdfs:label xml:lang="en">Exam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#FAQ -->
+
+    <Class rdf:about="&learning;FAQ">
+        <rdfs:label xml:lang="en">FAQ</rdfs:label>
+        <rdfs:label xml:lang="ru">Часто задаваемые вопросы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Resource"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Field -->
+
+    <Class rdf:about="&learning;Field">
+        <rdfs:label xml:lang="en">Field</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Format -->
+
+    <Class rdf:about="&learning;Format">
+        <rdfs:label xml:lang="en">Format</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&learning;Video"/>
+                    <rdf:Description rdf:about="&learning;Book"/>
+                    <rdf:Description rdf:about="&learning;Text"/>
+                    <rdf:Description rdf:about="&learning;Audio"/>
+                </oneOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Instruction -->
+
+    <Class rdf:about="&learning;Instruction">
+        <rdfs:label xml:lang="en">Manual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Resource"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lecture -->
+
+    <Class rdf:about="&learning;Lecture">
+        <rdfs:label xml:lang="en">Lecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lesson -->
+
+    <Class rdf:about="&learning;Lesson">
+        <rdfs:label xml:lang="en">Lesson</rdfs:label>
+        <rdfs:label xml:lang="ru">Тип занятий</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Practice -->
+
+    <Class rdf:about="&learning;Practice">
+        <rdfs:label xml:lang="en">Practice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PracticeTask -->
+
+    <Class rdf:about="&learning;PracticeTask">
+        <rdfs:label xml:lang="en">Practice Task</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Resource -->
+
+    <Class rdf:about="&learning;Resource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <rdfs:label xml:lang="ru">Ресурс</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#SubjectArea -->
+
+    <Class rdf:about="&learning;SubjectArea">
+        <rdfs:label xml:lang="en">Subject area</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Term -->
+
+    <Class rdf:about="&learning;Term">
+        <rdfs:label xml:lang="en">Term</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Test -->
+
+    <Class rdf:about="&learning;Test">
+        <rdfs:label xml:lang="en">Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#TestingKnowledge -->
+
+    <Class rdf:about="&learning;TestingKnowledge">
+        <rdfs:label xml:lang="en">Testing knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Тестирование знаний</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Workshop -->
+
+    <Class rdf:about="&learning;Workshop">
+        <rdfs:label xml:lang="en">Workshop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/spec/Agent -->
+
+    <Class rdf:about="http://xmlns.com/foaf/spec/Agent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Audio -->
+
+    <NamedIndividual rdf:about="&learning;Audio">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Book -->
+
+    <NamedIndividual rdf:about="&learning;Book">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Presentation -->
+
+    <NamedIndividual rdf:about="&learning;Presentation">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Text -->
+
+    <NamedIndividual rdf:about="&learning;Text">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Video -->
+
+    <NamedIndividual rdf:about="&learning;Video">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

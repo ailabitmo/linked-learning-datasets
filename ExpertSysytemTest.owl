@@ -2154,6 +2154,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #7</rdfs:label>
         <testontology:html_content xml:lang="ru">В чем заключается основное различие между основными направлениями в искусственном интеллекте (биоинспирированные алгоритмы и системы «черного ящика»)?</testontology:html_content>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
         <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
     </owl:NamedIndividual>
     

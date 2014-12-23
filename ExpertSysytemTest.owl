@@ -1945,7 +1945,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #10</rdfs:label>
         <testontology:html_content xml:lang="ru">Что можно отнести к основным свойствам трудноформализуемых знаний, важных с точки зрения построения интеллектуальных систем?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
     </owl:NamedIndividual>
     
 
@@ -1956,6 +1955,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #11</rdfs:label>
         <testontology:html_content xml:lang="ru">Что такое интенсионал понятия?</testontology:html_content>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
         <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
     </owl:NamedIndividual>
     
@@ -1978,7 +1978,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #13</rdfs:label>
         <testontology:html_content xml:lang="ru">Какие признаки содержит классификация знаний, предложенная проф. Гавриловой Т.А.? </testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version1"/>
     </owl:NamedIndividual>
     
 
@@ -1989,6 +1988,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #14</rdfs:label>
         <testontology:html_content xml:lang="ru">Что верно для поверхностных знаний?</testontology:html_content>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version1"/>
         <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
     </owl:NamedIndividual>
     
@@ -2000,7 +2000,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #15</rdfs:label>
         <testontology:html_content xml:lang="ru">Что относится к явным знаниям?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
     </owl:NamedIndividual>
     
 
@@ -2011,6 +2010,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #16</rdfs:label>
         <testontology:html_content xml:lang="ru">При каких условиях эффективно применение экспертных систем?</testontology:html_content>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
         <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version4"/>
     </owl:NamedIndividual>
     
@@ -2022,7 +2022,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #17</rdfs:label>
         <testontology:html_content xml:lang="ru">Какие из перечисленных характеристик относятся к задачам для экспертных систем?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version1"/>
     </owl:NamedIndividual>
     
 
@@ -2033,7 +2032,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #18</rdfs:label>
         <testontology:html_content xml:lang="ru">Что НЕ относится к областям применения для ЭС?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
     </owl:NamedIndividual>
     
 
@@ -2044,7 +2042,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #19</rdfs:label>
         <testontology:html_content xml:lang="ru">Какие компоненты входят в архитектуру ЭС?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
     </owl:NamedIndividual>
     
 
@@ -2066,6 +2063,9 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #20</rdfs:label>
         <testontology:html_content xml:lang="ru">На ком из членов команды разработчиков ЭС лежит основная ответственность за успех всей работы?</testontology:html_content>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version1"/>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
+        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version3"/>
         <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version4"/>
     </owl:NamedIndividual>
     
@@ -2144,7 +2144,6 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #6</rdfs:label>
         <testontology:html_content xml:lang="ru">Какие гуманитарные науки разрабатывают теории, изучающие природу знаний и необходимые для построения систем, основанных на знаниях?</testontology:html_content>
-        <testontology:isTaskOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#Version2"/>
     </owl:NamedIndividual>
     
 

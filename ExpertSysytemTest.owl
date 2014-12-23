@@ -40,6 +40,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">моделирование структуры и функций объектов реального мира</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -49,6 +50,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysANswer8_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">репрезентация знаний в компьютерной памяти </testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
@@ -59,6 +61,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysANswer8_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">когнитивные процессы</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
@@ -69,6 +72,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysANswer8_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">моделирование процесса рассуждений</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
@@ -80,6 +84,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">проблема определения истинности и непротиворечивости решений</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -89,6 +94,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysANswer8_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">представление и обработка нечетких знаний</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
@@ -99,6 +105,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer10_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания всегда выражены в текстовой форме</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
@@ -110,6 +117,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания субъективны</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
 
@@ -120,6 +128,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания могут быть зафиксированы на материальных носителях</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
 
@@ -130,6 +139,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания могут быть алгоритмизированы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
 
@@ -139,6 +149,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer10_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания оперируют связанным набором понятий</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
@@ -149,6 +160,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer10_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для знаний разработана непротиворечивая теория</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
@@ -159,6 +171,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer11_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">определение через соотнесение с понятием более высокого уровня абстракции с указанием специфических свойств</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL11"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL11"/>
     </owl:NamedIndividual>
     
@@ -169,6 +182,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer11_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">соотнесение с понятиями более низкого уровня абстракции или перечисление фактов, относящихся к определяемому объекту</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL11"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL11"/>
     </owl:NamedIndividual>
     
@@ -180,6 +194,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">летающее животное с крыльями и клювом</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL12"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL12"/>
     </owl:NamedIndividual>
     
 
@@ -189,6 +204,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer12_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">голубь, воробей, ворона, чайка и др.</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL12"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL12"/>
     </owl:NamedIndividual>
     
@@ -199,6 +215,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer13_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по глубине</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
@@ -209,6 +226,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer13_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по структуре</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
@@ -220,6 +238,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по владельцу</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -230,6 +249,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по пользователю</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -239,6 +259,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer13_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по назначению</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
@@ -250,6 +271,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по форме</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -259,6 +281,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer13_7">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по источнику</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
@@ -270,6 +293,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по языку</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -279,6 +303,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer13_9">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по применению</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
@@ -290,6 +315,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">содержат абстракции, аналогии, схемы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -299,6 +325,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer14_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">объясняют явления в предметной области</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
@@ -310,6 +337,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">описывают видимых взаимосвязях между отдельными событиями и фактами</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -320,6 +348,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">отражают природу процессов</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -330,6 +359,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ментальные</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
 
@@ -339,6 +369,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer15_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">интуитивные</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
@@ -349,6 +380,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer15_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">несформулированные</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
@@ -359,6 +391,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer15_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">умения</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
@@ -370,6 +403,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">материализованные</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
 
@@ -380,6 +414,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">при наличии большого числа пользователей</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
     </owl:NamedIndividual>
     
 
@@ -389,6 +424,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer16_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в специфических «экспертных» областях, использующих эмпирический опыт специалистов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
     </owl:NamedIndividual>
     
@@ -399,6 +435,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer16_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">при использовании математических методов моделирования</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL16"/>
     </owl:NamedIndividual>
     
@@ -409,6 +446,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer17_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">не содержат «шума» в данных</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
@@ -419,6 +457,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer17_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">являются узкоспециализированными</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
@@ -430,6 +469,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">достаточно просты в решении</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
 
@@ -439,6 +479,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer17_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">эксперту требуется значительное время для поиска решения</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
@@ -450,6 +491,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">не зависят в значительной степени от общечеловеческих знаний или соображений здравого смысла</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
 
@@ -460,6 +502,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">интерпретация данных</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -470,6 +513,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">диагностика</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -480,6 +524,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">численное моделирование</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -489,6 +534,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer18_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">проектирование</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
@@ -500,6 +546,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">планирование</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -509,6 +556,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer18_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">статистическая обработка данных</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
@@ -520,6 +568,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">обучение</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -529,6 +578,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer19_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">система управления базой данных</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
@@ -539,6 +589,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer19_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">машина вывода</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
@@ -549,6 +600,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer19_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">рабочая память</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
@@ -560,6 +612,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">подсистема ввода-вывода</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
 
@@ -570,6 +623,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ограниченная вычислительная мощность первых компьютеров</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -580,6 +634,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">трудности при формализации решения интеллектуальных задач</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -590,6 +645,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">отсутствие математического аппарата для решение логических задач</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -599,6 +655,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer20_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на эксперте</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
     </owl:NamedIndividual>
     
@@ -609,6 +666,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer20_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на инженере по знаниям</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
     </owl:NamedIndividual>
     
@@ -620,6 +678,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на аналитике</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
     </owl:NamedIndividual>
     
 
@@ -630,6 +689,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на инженере по знаниям</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL20"/>
     </owl:NamedIndividual>
     
 
@@ -640,6 +700,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">идентификация проблемы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -649,6 +710,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer21_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">получение знаний</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
@@ -659,6 +721,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer21_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">структурирование</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
@@ -670,6 +733,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формализация</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -679,6 +743,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer21_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">реализация</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
@@ -690,6 +755,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">тестирование</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -700,6 +766,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">идентификация проблемы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -709,6 +776,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer22_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">получение знаний</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
@@ -719,6 +787,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer22_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">структурирование</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
@@ -730,6 +799,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формализация</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -740,6 +810,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">реализация</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -749,6 +820,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer22_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">тестирование</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
@@ -760,6 +832,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">версия ЭС, показывающая, что задача может быть решена выбранными методами</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -770,6 +843,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ЭС, в которой установлена основная структура БЗ </testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -780,6 +854,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">работающая ЭС, на которой происходит доработка и адаптация интересов</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -790,6 +865,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">семейство различных версий ЭС</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -799,6 +875,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer2_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в выборе корректной классификации систем управления и математических моделей</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
     </owl:NamedIndividual>
     
@@ -809,6 +886,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer2_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в применении методов математики, статистики, экономики, менеджмента и психологии</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
     </owl:NamedIndividual>
     
@@ -820,6 +898,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в выполнении машиной отдельных операций по обработке данных, анализу изображений и т.п. на основе базы знаний</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL2"/>
     </owl:NamedIndividual>
     
 
@@ -829,6 +908,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer3_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">использование интуиции</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
     </owl:NamedIndividual>
     
@@ -840,6 +920,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">математическое моделирование</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
     </owl:NamedIndividual>
     
 
@@ -849,6 +930,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer3_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">логические рассуждения</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL3"/>
     </owl:NamedIndividual>
     
@@ -859,6 +941,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формализованные знания верны в любом контексте решаемой задачи</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
@@ -870,6 +953,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">истинность знаний зависит от контекста решения задачи и является относительной</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
 
@@ -880,6 +964,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">развитие теории определяет истинность знаний вне зависимости от контекста</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
 
@@ -889,6 +974,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer5_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">необходимо стремиться к описанию процесса решений в виде алгоритмов и математических формул</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
     </owl:NamedIndividual>
     
@@ -899,6 +985,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer5_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">известные математические уравнения адаптируются в процессе формализации задачи с помощью подбора параметров</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
     </owl:NamedIndividual>
     
@@ -909,6 +996,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer5_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">выбор модели должен быть адекватен природе и языку решаемой задачи</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL5"/>
     </owl:NamedIndividual>
     
@@ -920,6 +1008,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">литература</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
 
@@ -929,6 +1018,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer6_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">психология</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
@@ -939,6 +1029,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer6_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">социология</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
@@ -949,6 +1040,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer6_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">история</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
@@ -959,6 +1051,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer6_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">политология</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
@@ -970,6 +1063,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">философия</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
 
@@ -979,6 +1073,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer6_7">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">география</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
@@ -990,6 +1085,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">биология</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
 
@@ -1000,6 +1096,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в использовании знаний в явном виде про построении систем искусственного интеллекта</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
     </owl:NamedIndividual>
     
 
@@ -1009,6 +1106,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer7_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в подходах к моделированию функционирования живых организмов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
     </owl:NamedIndividual>
     
@@ -1020,6 +1118,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в применении различных принципов логических рассуждений и моделировании структуры памяти</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
     </owl:NamedIndividual>
     
 
@@ -1030,6 +1129,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">неупорядоченная и неструктурированная информация, представленная в памяти компьютера</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
     </owl:NamedIndividual>
     
 
@@ -1039,6 +1139,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer9_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">информация, имеющая тип и характеризующаяся моделью данных</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
     </owl:NamedIndividual>
     
@@ -1049,6 +1150,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer9_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">закономерности предметной области, полученные в результате практической деятельности и профессионального опыта</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL9"/>
     </owl:NamedIndividual>
     
@@ -1060,6 +1162,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">методика и форма описания и хранения в памяти вычислительной машины знаний о каком-либо предмете или задаче</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
     </owl:NamedIndividual>
     
 
@@ -1070,6 +1173,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">синтаксические соглашения о последовательности записи переменных в правилах базы знаний</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
     </owl:NamedIndividual>
     
 
@@ -1080,6 +1184,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">высокоуровневое описание знаний об объектах окружающего мира</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
     </owl:NamedIndividual>
     
 
@@ -1090,6 +1195,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">кодирование информации в базе знаний</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_1"/>
     </owl:NamedIndividual>
     
 
@@ -1099,6 +1205,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An2_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">коды операций или инструкции для выполнения возможных действий</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
@@ -1109,6 +1216,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An2_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">символы 1 или 0</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
@@ -1119,6 +1227,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An2_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">символ «-» («не имеет значения»)</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
@@ -1130,6 +1239,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">логические операторы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
 
@@ -1139,6 +1249,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An2_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формулы для вычисления решений</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
@@ -1149,6 +1260,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An3_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">сжатие данных в строках</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
     </owl:NamedIndividual>
     
@@ -1159,6 +1271,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An3_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">объединение похожих ситуаций</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
     </owl:NamedIndividual>
     
@@ -1169,6 +1282,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An3_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">сортировка значений в матрице соответствия условий</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_3"/>
     </owl:NamedIndividual>
     
@@ -1179,6 +1293,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">высокая степень формализации, наглядности</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
@@ -1190,6 +1305,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">регулярный принцип построения</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
 
@@ -1199,6 +1315,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An4_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ориентация на задачи, содержащие ситуации с ограниченным набором условий</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
@@ -1209,6 +1326,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An4_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">разреженность таблиц для ситуаций, характеризующимися разными условиями</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
@@ -1219,6 +1337,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An5_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">предикат-аргумент</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
     </owl:NamedIndividual>
     
@@ -1230,6 +1349,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">условные операторы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
     </owl:NamedIndividual>
     
 
@@ -1240,6 +1360,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">рекурсивные функции</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_5"/>
     </owl:NamedIndividual>
     
 
@@ -1250,6 +1371,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">логические формулы, отражающие последовательность решения задачи</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
     </owl:NamedIndividual>
     
 
@@ -1259,6 +1381,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An6_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">предикаты, описывающие набор конкретных объектов, их свойств и отношений</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
     </owl:NamedIndividual>
     
@@ -1270,6 +1393,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">функциональные модели объектов системы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_6"/>
     </owl:NamedIndividual>
     
 
@@ -1280,6 +1404,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в последовательном переборе решений для выбора наилучшего варианта с учетом целевым состоянием среды</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
     </owl:NamedIndividual>
     
 
@@ -1290,6 +1415,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в анализе свойств среды планирования для определения оптимальной последовательности действий, приводящих к цели</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
     </owl:NamedIndividual>
     
 
@@ -1299,6 +1425,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An7_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в уменьшении отличия между текущим состоянием и целевым с каждой новой операцией планирования</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_7"/>
     </owl:NamedIndividual>
     
@@ -1309,6 +1436,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An8_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">единственной конструкцией для описания операторов, модель мира и цели является предикат–аргумент</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
@@ -1319,6 +1447,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An8_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">простой алгоритм поиска необходимых для достижения цели операций</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
@@ -1329,6 +1458,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL2An8_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">существование аномалий планирования</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
@@ -1339,6 +1469,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An10_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для программирования исключительных ситуаций</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
     </owl:NamedIndividual>
     
@@ -1350,6 +1481,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для структурирования и упорядочивания правил базы знаний в процессе вывода</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
     </owl:NamedIndividual>
     
 
@@ -1359,6 +1491,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An10_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для индексирования и оптимизации поиска правил базы знаний</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_10"/>
     </owl:NamedIndividual>
     
@@ -1370,6 +1503,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для индексирования правил базы знаний</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
     </owl:NamedIndividual>
     
 
@@ -1380,6 +1514,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для сборки мусора в продукционных системах</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
     </owl:NamedIndividual>
     
 
@@ -1390,6 +1525,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для ускорения поиска правил в процессе сопоставления с образцом</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_11"/>
     </owl:NamedIndividual>
     
 
@@ -1399,6 +1535,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An1_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на использовании формул логического следствия и предикатов первого порядка</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
@@ -1409,6 +1546,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An1_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на операции объединения теории множеств</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
@@ -1420,6 +1558,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на правилах вида «ЕСЛИ условие, ТО действие»</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
 
@@ -1430,6 +1569,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">любые системы в математике или логике</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
     </owl:NamedIndividual>
     
 
@@ -1439,6 +1579,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An2_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">только логические исчисления первого порядка</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
     </owl:NamedIndividual>
     
@@ -1450,6 +1591,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">только алгебраические математические системы</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_2"/>
     </owl:NamedIndividual>
     
 
@@ -1459,6 +1601,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An3_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">множество продукционных правил</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
     </owl:NamedIndividual>
     
@@ -1469,6 +1612,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An3_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">текущее описание модели мира в процессе рассуждений</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
     </owl:NamedIndividual>
     
@@ -1479,6 +1623,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An3_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">множество допустимых продукций на текущей итерации логического вывода</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_3"/>
     </owl:NamedIndividual>
     
@@ -1489,6 +1634,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">активация одной из допустимых продукций и модификация рабочей памяти</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
     </owl:NamedIndividual>
     
@@ -1499,6 +1645,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An4_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">устранение конфликтов и противоречий в базе знаний</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
     </owl:NamedIndividual>
     
@@ -1509,6 +1656,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An4_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">устранение неоднозначности результатов работы системы</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_4"/>
     </owl:NamedIndividual>
     
@@ -1519,6 +1667,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An5_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">вывод осуществляется от данных к цели</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
     </owl:NamedIndividual>
     
@@ -1530,6 +1679,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">обратным выводом</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
     </owl:NamedIndividual>
     
 
@@ -1540,6 +1690,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">допускает удаление фактов из рабочей памяти</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_5"/>
     </owl:NamedIndividual>
     
 
@@ -1550,6 +1701,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">определение типа объекта на основании имеющихся фактов</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
     </owl:NamedIndividual>
     
 
@@ -1559,6 +1711,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An6_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в ситуации, когда решение может быть получено прямым следствием от исходных фактов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
     </owl:NamedIndividual>
     
@@ -1570,6 +1723,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">проверка гипотез в процессе решения </testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_6"/>
     </owl:NamedIndividual>
     
 
@@ -1580,6 +1734,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии поиска в глубину</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
 
@@ -1589,6 +1744,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An7_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии поиска в ширину</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
@@ -1599,6 +1755,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An7_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии анализа целей и средств</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
@@ -1609,6 +1766,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An7_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии разрешения конфликтов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
@@ -1619,6 +1777,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An8_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">определение типа объекта на основании имеющихся фактов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
     </owl:NamedIndividual>
     
@@ -1629,6 +1788,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An8_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в ситуации, когда решение может быть получено обратным преобразованием исходных фактов</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
     </owl:NamedIndividual>
     
@@ -1640,6 +1800,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">проверка гипотез в процессе решения </testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_8"/>
     </owl:NamedIndividual>
     
 
@@ -1649,6 +1810,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An9_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии поиска в глубину</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
     </owl:NamedIndividual>
     
@@ -1659,6 +1821,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysL3An9_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии поиска в ширину</testontology:html_content>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
     </owl:NamedIndividual>
     
@@ -1670,6 +1833,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии анализа целей и средств</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
     </owl:NamedIndividual>
     
 
@@ -1680,6 +1844,7 @@
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии разрешения конфликтов</testontology:html_content>
         <testontology:isWrongAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
+        <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#qExpSysL3_9"/>
     </owl:NamedIndividual>
     
 

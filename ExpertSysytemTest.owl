@@ -335,7 +335,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer14_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
-        <testontology:html_content xml:lang="ru">описывают видимых взаимосвязях между отдельными событиями и фактами</testontology:html_content>
+        <testontology:html_content xml:lang="ru">описывают видимые взаимосвязи между отдельными событиями и фактами</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
         <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL14"/>
     </owl:NamedIndividual>
@@ -1094,7 +1094,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#ExpSysAnswer7_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
-        <testontology:html_content xml:lang="ru">в использовании знаний в явном виде про построении систем искусственного интеллекта</testontology:html_content>
+        <testontology:html_content xml:lang="ru">в использовании знаний в явном виде при построении систем искусственного интеллекта</testontology:html_content>
         <testontology:isCorrectAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
         <testontology:isAnswerOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/11/untitled-ontology-15#q_ExpSystL7"/>
     </owl:NamedIndividual>

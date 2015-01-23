@@ -8,21 +8,21 @@
     <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#"
-     xml:base="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93"
+<rdf:RDF xmlns="http://ailab.ifmo.ru/elearning/physics#"
+     xml:base="http://ailab.ifmo.ru/elearning/physics"
      xmlns:schema="http://purl.org/vocab/aiiso/schema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93">
-        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#">
+    <owl:Ontology rdf:about="http://ailab.ifmo.ru/elearning/physics">
+        <owl:imports rdf:resource="http://ailab.ifmo.ru/elearning/learning"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
     </owl:Ontology>
     
@@ -39,7 +39,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#relatesToField -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#relatesToField -->
 
     <owl:AnnotationProperty rdf:about="&learning;relatesToField"/>
     
@@ -56,9 +56,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#learning:relatesToField -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#learning:relatesToField -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#learning:relatesToField"/>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/physics#learning:relatesToField"/>
     
 
 
@@ -73,9 +73,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Field -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#Field -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Field">
+    <owl:Class rdf:about="http://ailab.ifmo.ru/elearning/physics#Field">
         <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
     </owl:Class>
     
@@ -179,33 +179,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_BundleOfLinesInSpace -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#t_BundleOfLinesInSpace -->
 
     <owl:NamedIndividual rdf:about="&learning;t_BundleOfLinesInSpace"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_TheDirectionCosinesOfTheLine -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#t_TheDirectionCosinesOfTheLine -->
 
     <owl:NamedIndividual rdf:about="&learning;t_TheDirectionCosinesOfTheLine"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_Vector -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#t_Vector -->
 
     <owl:NamedIndividual rdf:about="&learning;t_Vector"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#t_VectorProduct -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#t_VectorProduct -->
 
     <owl:NamedIndividual rdf:about="&learning;t_VectorProduct"/>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Physics -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#Physics -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Physics">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#Physics">
         <rdf:type rdf:resource="&schema;Course"/>
         <rdfs:label xml:lang="en">Physics</rdfs:label>
         <rdfs:label xml:lang="ru">Физика</rdfs:label>
@@ -221,465 +221,465 @@
         <learning:hasResource rdf:resource="http://books.ifmo.ru/book/229/book_229.htm"/>
         <learning:hasResource rdf:resource="http://books.ifmo.ru/book/488/book_488.htm"/>
         <foaf:depiction rdf:resource="http://lectoriy.mipt.ru/storage/course/Physics-Optics-SMK-Lects/icon.jpg/300x.jpg"/>
-        <learning:hasModule rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence"/>
-        <learning:hasModule rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
+        <learning:hasModule rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence"/>
+        <learning:hasModule rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Bands of equal inclination</rdfs:label>
         <rdfs:label xml:lang="ru">Полосы равного наклона</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">5</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Bands of equal thickness</rdfs:label>
         <rdfs:label xml:lang="ru">Полосы равной толщины</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">4</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Huygens&apos; principle</rdfs:label>
         <rdfs:label xml:lang="ru">Принцип Гюйгенса</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">7</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Method of dividing the wavefront (Young Experience)</rdfs:label>
         <rdfs:label xml:lang="ru">Метод деления волнового фронта (Опыт Юнга)</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">6</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Occurrence of interference</rdfs:label>
         <rdfs:label xml:lang="ru">Возникновение интерференции</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">1</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Temporal and spatial coherence</rdfs:label>
         <rdfs:label xml:lang="ru">Временная и пространственная когерентность</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">3</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference">
         <rdf:type rdf:resource="&learning;Lecture"/>
         <rdfs:label xml:lang="en">Two-beam interference</rdfs:label>
         <rdfs:label xml:lang="ru">Двухлучевая интерференция</rdfs:label>
         <learning:numberOfLecture rdf:datatype="&xsd;integer">2</learning:numberOfLecture>
-        <learning:isLectureOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence"/>
+        <learning:isLectureOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_InterferenceAndCoherence">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#m_InterferenceAndCoherence">
         <rdf:type rdf:resource="&schema;Module"/>
         <rdfs:label xml:lang="en">Interference and coherence</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференция и когерентность</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">1</learning:numberOfModule>
-        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Physics"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isModuleOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#Physics"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#m_MethodsOfObservationOfInterferencePatterns">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#m_MethodsOfObservationOfInterferencePatterns">
         <rdf:type rdf:resource="&schema;Module"/>
         <rdfs:label xml:lang="en">Methods of observation of interference patterns</rdfs:label>
         <rdfs:label xml:lang="ru">Методы наблюдения интерференционных картин</rdfs:label>
         <learning:numberOfModule rdf:datatype="&xsd;integer">2</learning:numberOfModule>
-        <learning:isModuleOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#Physics"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
-        <learning:hasLecture rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isModuleOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#Physics"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple"/>
+        <learning:hasLecture rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AdditionWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_AdditionWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AdditionWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_AdditionWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Addition waves</rdfs:label>
         <rdfs:label xml:lang="ru">Сложение волн</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AirGap -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_AirGap -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AirGap">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_AirGap">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Air gap</rdfs:label>
         <rdfs:label xml:lang="ru">Воздушная прослойка</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BandsOfEqualInclination -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_BandsOfEqualInclination -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BandsOfEqualInclination">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_BandsOfEqualInclination">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Bands of equal inclination</rdfs:label>
         <rdfs:label xml:lang="ru">Полосы равного наклона</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BandsOfEqualThickness -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_BandsOfEqualThickness -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BandsOfEqualThickness">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_BandsOfEqualThickness">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Bands of equal thickness</rdfs:label>
         <rdfs:label xml:lang="ru">Полосы равной толщины</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheInterferencePattern"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_PathDifferenceWaves"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_TheInterferencePattern"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BeamOfLight -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_BeamOfLight -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BeamOfLight">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_BeamOfLight">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Beam of light</rdfs:label>
         <rdfs:label xml:lang="ru">Пучок света</rdfs:label>
         <learning:previousTerm rdf:resource="&learning;t_BundleOfLinesInSpace"/>
         <learning:previousTerm rdf:resource="&learning;t_TheDirectionCosinesOfTheLine"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Diffraction -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Diffraction -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Diffraction">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Diffraction">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Diffraction</rdfs:label>
         <rdfs:label xml:lang="ru">Дифракция</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SecondaryWaves"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_SecondaryWaves"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ElectromagneticWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_ElectromagneticWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ElectromagneticWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_ElectromagneticWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Electromagnetic waves</rdfs:label>
         <rdfs:label xml:lang="ru">Электромагнитные волны</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_FilmThickness -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_FilmThickness -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_FilmThickness">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_FilmThickness">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Film thickness</rdfs:label>
         <rdfs:label xml:lang="ru">Толщина пленки</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinFilms"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_ThinFilms"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Filter -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Filter -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Filter">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Filter">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Filter</rdfs:label>
         <rdfs:label xml:lang="ru">Светофильтр</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Fringes -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Fringes -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Fringes">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Fringes">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Fringes</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференционные полосы</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_HuygensPrinciple -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_HuygensPrinciple -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_HuygensPrinciple">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_HuygensPrinciple">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Huygens&apos; principle</rdfs:label>
         <rdfs:label xml:lang="ru">Принцип Гюйгенса</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SecondaryWaves"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_SecondaryWaves"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illuminant -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Illuminant -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illuminant">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Illuminant">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Illuminant</rdfs:label>
         <rdfs:label xml:lang="ru">Источник света</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illumination -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Illumination -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illumination">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Illumination">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Illumination</rdfs:label>
         <rdfs:label xml:lang="ru">Освещенность</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Intensity -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Intensity -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Intensity">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Intensity">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Intensity</rdfs:label>
         <rdfs:label xml:lang="ru">Интенсивность</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Interference -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Interference">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Interference</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференция</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illuminant"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Illumination"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Intensity"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LawOfEnergyConservation"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Light"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LightEnergy"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OpticalPhenomenon"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Illuminant"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Illumination"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Intensity"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_LawOfEnergyConservation"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Light"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_LightEnergy"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_OpticalPhenomenon"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_WaveProcess"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Interference effect</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференционный эффект</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_AdditionWaves"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_BeamOfLight"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingsubtractionWaves"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavelength"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_AdditionWaves"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_BeamOfLight"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_QuenchingsubtractionWaves"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_WaveProcess"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Wavelength"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceInTheThinFilm -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_InterferenceInTheThinFilm -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceInTheThinFilm">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_InterferenceInTheThinFilm">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Interference in the thin film</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференция в тонкой пленке</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinFilms"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_ThinFilms"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LawOfEnergyConservation -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_LawOfEnergyConservation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LawOfEnergyConservation">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_LawOfEnergyConservation">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Law of energy conservation</rdfs:label>
         <rdfs:label xml:lang="ru">Закон сохранения энергии</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Light -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Light -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Light">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Light">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Light</rdfs:label>
         <rdfs:label xml:lang="ru">Свет</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ElectromagneticWaves"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_ElectromagneticWaves"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LightEnergy -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_LightEnergy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_LightEnergy">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_LightEnergy">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Light energy</rdfs:label>
         <rdfs:label xml:lang="ru">Световая энергия</rdfs:label>
         <learning:previousTerm rdf:resource="&learning;t_Vector"/>
         <learning:previousTerm rdf:resource="&learning;t_VectorProduct"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MethodOfDividingTheWavefront -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_MethodOfDividingTheWavefront -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MethodOfDividingTheWavefront">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_MethodOfDividingTheWavefront">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Method of dividing the wavefront</rdfs:label>
         <rdfs:label xml:lang="ru">Метод деления волнового фронта</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MoireMoire -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_MoireMoire -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MoireMoire">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_MoireMoire">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Moire</rdfs:label>
         <rdfs:label xml:lang="ru">Муаровые полосы, Муар</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_NewtonsRings -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_NewtonsRings -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_NewtonsRings">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_NewtonsRings">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Newton&apos;s Rings</rdfs:label>
         <rdfs:label xml:lang="ru">Кольца Ньютона</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OpticalPhenomenon -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_OpticalPhenomenon -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OpticalPhenomenon">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_OpticalPhenomenon">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Optical phenomenon</rdfs:label>
         <rdfs:label xml:lang="ru">Оптическое явление</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_OccurrenceOfInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_OccurrenceOfInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OscillationFrequency -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_OscillationFrequency -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_OscillationFrequency">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_OscillationFrequency">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Oscillation frequency</rdfs:label>
         <rdfs:label xml:lang="ru">Частота колебаний</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_PathDifferenceWaves"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_PathDifferenceWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_PathDifferenceWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Path difference waves</rdfs:label>
         <rdfs:label xml:lang="ru">Разность хода волн</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_ExpansionOfTheFourierSeries"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_PhaseDifference"/>
@@ -688,78 +688,78 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PeriodOfTheInterference -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_PeriodOfTheInterference -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PeriodOfTheInterference">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_PeriodOfTheInterference">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Period of the interference</rdfs:label>
         <rdfs:label xml:lang="ru">Период интерференции</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingsubtractionWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_QuenchingsubtractionWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_QuenchingsubtractionWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_QuenchingsubtractionWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Quenching (subtraction) waves</rdfs:label>
         <rdfs:label xml:lang="ru">Гашение (вычитание) волн</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Range -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Range -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Range">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Range">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Range</rdfs:label>
         <rdfs:label xml:lang="ru">Спектр</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_FourierAnalysis"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ReflectionOfLightWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_ReflectionOfLightWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ReflectionOfLightWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_ReflectionOfLightWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Reflection of light waves</rdfs:label>
         <rdfs:label xml:lang="ru">Отражение световых волн</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SecondaryWaves -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_SecondaryWaves -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SecondaryWaves">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_SecondaryWaves">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Secondary waves</rdfs:label>
         <rdfs:label xml:lang="ru">Вторичные волны</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_HuygensPrinciple"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_HuygensPrinciple"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SpatialCoherence -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_SpatialCoherence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_SpatialCoherence">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_SpatialCoherence">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Spatial coherence</rdfs:label>
         <rdfs:label xml:lang="ru">Пространственная когерентность</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheAngularSizeOfTheRadiationSource"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_TheAngularSizeOfTheRadiationSource"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_Autocorrelation"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_Correlation"/>
@@ -767,17 +767,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TemporalCoherence -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_TemporalCoherence -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TemporalCoherence">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_TemporalCoherence">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Temporal coherence</rdfs:label>
         <rdfs:label xml:lang="ru">Временная когерентность</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Range"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Range"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_Autocorrelation"/>
         <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#t_Correlation"/>
@@ -785,135 +785,135 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheAngularSizeOfTheRadiationSource -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_TheAngularSizeOfTheRadiationSource -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheAngularSizeOfTheRadiationSource">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_TheAngularSizeOfTheRadiationSource">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The angular size of the radiation source</rdfs:label>
         <rdfs:label xml:lang="ru">Угловой размер источника излучения</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheInterferencePattern -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_TheInterferencePattern -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheInterferencePattern">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_TheInterferencePattern">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">The interference pattern</rdfs:label>
         <rdfs:label xml:lang="ru">Интерференционная картина</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_PathDifferenceWaves"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_PathDifferenceWaves"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinFilms -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_ThinFilms -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinFilms">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_ThinFilms">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Thin films</rdfs:label>
         <rdfs:label xml:lang="ru">Тонкие пленки</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinGaps -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_ThinGaps -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_ThinGaps">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_ThinGaps">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Thin gaps</rdfs:label>
         <rdfs:label xml:lang="ru">Тонкие зазоры</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualThickness"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualThickness"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TwoBeamInterference -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_TwoBeamInterference -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TwoBeamInterference">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_TwoBeamInterference">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Two-beam interference</rdfs:label>
         <rdfs:label xml:lang="ru">Двухлучевая интерференция</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Interference"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_InterferenceEffect"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_Interference"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_InterferenceEffect"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_WaveProcess -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_WaveProcess">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Wave process</rdfs:label>
         <rdfs:label xml:lang="ru">Волновой процесс</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavefront -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Wavefront -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavefront">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Wavefront">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Wavefront</rdfs:label>
         <rdfs:label xml:lang="ru">Волновой фронт</rdfs:label>
         <learning:previousTerm rdf:resource="&learning;t_Vector"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WaveProcess"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_WaveProcess"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavelength -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_Wavelength -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_Wavelength">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_Wavelength">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Wavelength</rdfs:label>
         <rdfs:label xml:lang="ru">Длина волны</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_BandsOfEqualInclination"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TemporalAndSpatialCoherence"/>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_TwoBeamInterference"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_BandsOfEqualInclination"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TemporalAndSpatialCoherence"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_TwoBeamInterference"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WhiteLight -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_WhiteLight -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_WhiteLight">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_WhiteLight">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">White Light</rdfs:label>
         <rdfs:label xml:lang="ru">Белый свет</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_YoungsExperiment -->
+    <!-- http://ailab.ifmo.ru/elearning/physics#t_YoungsExperiment -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_YoungsExperiment">
+    <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/physics#t_YoungsExperiment">
         <rdf:type rdf:resource="&learning;Term"/>
         <rdfs:label xml:lang="en">Young&apos;s experiment</rdfs:label>
         <rdfs:label xml:lang="ru">Опыт Юнга</rdfs:label>
-        <learning:isTermOf rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#l_MethodOfDividingTheWavefrontyoungExperience"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_MethodOfDividingTheWavefront"/>
-        <learning:previousTerm rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-93#t_TheInterferencePattern"/>
+        <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/physics#l_MethodOfDividingTheWavefrontyoungExperience"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_MethodOfDividingTheWavefront"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/physics#t_TheInterferencePattern"/>
         <learning:relatesToField rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96#f_Optics"/>
     </owl:NamedIndividual>
     

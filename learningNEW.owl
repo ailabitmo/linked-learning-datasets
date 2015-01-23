@@ -6,7 +6,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
 ]>
 
 
@@ -15,9 +15,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#"
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning">
+    <Ontology rdf:about="http://ailab.ifmo.ru/elearning/learning">
         <imports rdf:resource="http://linkedscience.org/teach/ns#"/>
         <imports rdf:resource="http://purl.org/vocab/aiiso/schema"/>
     </Ontology>
@@ -35,7 +35,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
 
     <AnnotationProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
@@ -44,7 +44,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
 
     <AnnotationProperty rdf:about="&learning;isAuthorOf">
         <rdfs:label xml:lang="en">is author of</rdfs:label>
@@ -53,7 +53,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
 
     <AnnotationProperty rdf:about="&learning;isModuleOf">
         <rdfs:label xml:lang="en">is module of</rdfs:label>
@@ -89,7 +89,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasAuthor -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasAuthor -->
 
     <ObjectProperty rdf:about="&learning;hasAuthor">
         <rdfs:label xml:lang="en">has author</rdfs:label>
@@ -100,7 +100,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasConsultation -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasConsultation -->
 
     <ObjectProperty rdf:about="&learning;hasConsultation">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -111,7 +111,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasExam -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasExam -->
 
     <ObjectProperty rdf:about="&learning;hasExam">
         <rdfs:label xml:lang="en">has exam</rdfs:label>
@@ -120,7 +120,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasFAQ -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasFAQ -->
 
     <ObjectProperty rdf:about="&learning;hasFAQ">
         <rdfs:label xml:lang="en">has FAQ</rdfs:label>
@@ -130,7 +130,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasInstruction -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasInstruction -->
 
     <ObjectProperty rdf:about="&learning;hasInstruction">
         <rdfs:label xml:lang="en">has instruction</rdfs:label>
@@ -139,7 +139,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasLecture -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasLecture -->
 
     <ObjectProperty rdf:about="&learning;hasLecture">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -151,7 +151,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasModule -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasModule -->
 
     <ObjectProperty rdf:about="&learning;hasModule">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -161,7 +161,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPersonalWork -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPersonalWork -->
 
     <ObjectProperty rdf:about="&learning;hasPersonalWork">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -173,7 +173,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPractice -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPractice -->
 
     <ObjectProperty rdf:about="&learning;hasPractice">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -184,7 +184,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasPracticeTask -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPracticeTask -->
 
     <ObjectProperty rdf:about="&learning;hasPracticeTask">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -196,7 +196,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasResource -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasResource -->
 
     <ObjectProperty rdf:about="&learning;hasResource">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -207,7 +207,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTeacher -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
 
     <ObjectProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
@@ -218,7 +218,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTerm -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTerm -->
 
     <ObjectProperty rdf:about="&learning;hasTerm">
         <rdfs:label xml:lang="en">has term</rdfs:label>
@@ -230,7 +230,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTest -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTest -->
 
     <ObjectProperty rdf:about="&learning;hasTest">
         <rdfs:label xml:lang="en">has test</rdfs:label>
@@ -239,7 +239,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTheme -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTheme -->
 
     <ObjectProperty rdf:about="&learning;hasTheme">
         <rdfs:label xml:lang="en">has theme</rdfs:label>
@@ -250,7 +250,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasVerificationSystem -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasVerificationSystem -->
 
     <ObjectProperty rdf:about="&learning;hasVerificationSystem">
         <rdfs:label xml:lang="en">has verification system</rdfs:label>
@@ -260,7 +260,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasWorkshop -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasWorkshop -->
 
     <ObjectProperty rdf:about="&learning;hasWorkshop">
         <rdfs:label xml:lang="en">has workshop</rdfs:label>
@@ -270,7 +270,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAFieldOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAFieldOf -->
 
     <ObjectProperty rdf:about="&learning;isAFieldOf">
         <rdfs:label xml:lang="en">is a field of</rdfs:label>
@@ -280,7 +280,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isAuthorOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
 
     <ObjectProperty rdf:about="&learning;isAuthorOf">
         <rdfs:label xml:lang="en">is author of</rdfs:label>
@@ -292,7 +292,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isConsultationOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isConsultationOf -->
 
     <ObjectProperty rdf:about="&learning;isConsultationOf">
         <rdfs:label xml:lang="en">is consultation of</rdfs:label>
@@ -304,7 +304,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isExamOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isExamOf -->
 
     <ObjectProperty rdf:about="&learning;isExamOf">
         <rdfs:label xml:lang="en">is exam of</rdfs:label>
@@ -316,7 +316,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isFAQOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isFAQOf -->
 
     <ObjectProperty rdf:about="&learning;isFAQOf">
         <rdfs:label xml:lang="en">is FAQ of</rdfs:label>
@@ -325,7 +325,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isInstructionOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isInstructionOf -->
 
     <ObjectProperty rdf:about="&learning;isInstructionOf">
         <rdfs:label xml:lang="en">is instruction of</rdfs:label>
@@ -335,7 +335,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isLectureOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isLectureOf -->
 
     <ObjectProperty rdf:about="&learning;isLectureOf">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -347,7 +347,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isModuleOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
 
     <ObjectProperty rdf:about="&learning;isModuleOf">
         <rdfs:label xml:lang="en">is module of</rdfs:label>
@@ -359,7 +359,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPersonalWorkOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPersonalWorkOf -->
 
     <ObjectProperty rdf:about="&learning;isPersonalWorkOf">
         <rdfs:label xml:lang="en">is personal work of</rdfs:label>
@@ -370,7 +370,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeOf -->
 
     <ObjectProperty rdf:about="&learning;isPracticeOf">
         <rdfs:label xml:lang="en">is practice of</rdfs:label>
@@ -381,7 +381,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeTaskOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeTaskOf -->
 
     <ObjectProperty rdf:about="&learning;isPracticeTaskOf">
         <rdfs:label xml:lang="en">is practice task of</rdfs:label>
@@ -392,7 +392,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceOf -->
 
     <ObjectProperty rdf:about="&learning;isResourceOf">
         <rdfs:label xml:lang="en">is resource of</rdfs:label>
@@ -404,7 +404,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTeacherOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTeacherOf -->
 
     <ObjectProperty rdf:about="&learning;isTeacherOf">
         <rdfs:label xml:lang="en">is teacher of</rdfs:label>
@@ -415,7 +415,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTermOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTermOf -->
 
     <ObjectProperty rdf:about="&learning;isTermOf">
         <rdfs:label xml:lang="en">is term of</rdfs:label>
@@ -426,7 +426,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTestOf -->
 
     <ObjectProperty rdf:about="&learning;isTestOf">
         <rdfs:label xml:lang="en">is test of</rdfs:label>
@@ -438,7 +438,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isThemeOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isThemeOf -->
 
     <ObjectProperty rdf:about="&learning;isThemeOf">
         <rdfs:label xml:lang="en">is theme of</rdfs:label>
@@ -449,7 +449,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isVerificationSystemOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isVerificationSystemOf -->
 
     <ObjectProperty rdf:about="&learning;isVerificationSystemOf">
         <rdfs:label xml:lang="en">is verification system of</rdfs:label>
@@ -458,7 +458,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isWorkshopOf -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isWorkshopOf -->
 
     <ObjectProperty rdf:about="&learning;isWorkshopOf">
         <rdfs:label xml:lang="en">is workshop of</rdfs:label>
@@ -470,7 +470,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousLecture -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#previousLecture -->
 
     <ObjectProperty rdf:about="&learning;previousLecture">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -482,7 +482,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#previousTerm -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#previousTerm -->
 
     <ObjectProperty rdf:about="&learning;previousTerm">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -494,7 +494,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#relatesToField -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#relatesToField -->
 
     <ObjectProperty rdf:about="&learning;relatesToField">
         <rdfs:label xml:lang="en">relates to field</rdfs:label>
@@ -505,7 +505,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#resourceType -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#resourceType -->
 
     <ObjectProperty rdf:about="&learning;resourceType">
         <rdfs:label xml:lang="en">resource type</rdfs:label>
@@ -527,7 +527,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#content -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#content -->
 
     <DatatypeProperty rdf:about="&learning;content">
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
@@ -535,7 +535,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hours -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#hours -->
 
     <DatatypeProperty rdf:about="&learning;hours">
         <rdfs:label xml:lang="en">hours</rdfs:label>
@@ -546,7 +546,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isPracticeRequired -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeRequired -->
 
     <DatatypeProperty rdf:about="&learning;isPracticeRequired">
         <rdfs:label xml:lang="en">practice is required</rdfs:label>
@@ -557,7 +557,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isRequired -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isRequired -->
 
     <DatatypeProperty rdf:about="&learning;isRequired">
         <rdfs:label xml:lang="en">lecture is required</rdfs:label>
@@ -568,7 +568,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceFromTeacher -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceFromTeacher -->
 
     <DatatypeProperty rdf:about="&learning;isResourceFromTeacher">
         <rdfs:label xml:lang="en">resource is from teacher</rdfs:label>
@@ -579,7 +579,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isResourceRequired -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceRequired -->
 
     <DatatypeProperty rdf:about="&learning;isResourceRequired">
         <rdfs:label xml:lang="en">resource is required</rdfs:label>
@@ -590,7 +590,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#isTestRequired -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTestRequired -->
 
     <DatatypeProperty rdf:about="&learning;isTestRequired">
         <rdfs:label xml:lang="en">test is required</rdfs:label>
@@ -601,7 +601,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#lemma -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#lemma -->
 
     <DatatypeProperty rdf:about="&learning;lemma">
         <rdfs:label xml:lang="en">lemma</rdfs:label>
@@ -611,7 +611,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfLecture -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfLecture -->
 
     <DatatypeProperty rdf:about="&learning;numberOfLecture">
         <rdfs:label xml:lang="en">number of lecture</rdfs:label>
@@ -622,7 +622,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfModule -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfModule -->
 
     <DatatypeProperty rdf:about="&learning;numberOfModule">
         <rdfs:label xml:lang="en">number of module</rdfs:label>
@@ -633,7 +633,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#numberOfTask -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfTask -->
 
     <DatatypeProperty rdf:about="&learning;numberOfTask">
         <rdfs:label xml:lang="en">number of task</rdfs:label>
@@ -644,7 +644,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#url -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#url -->
 
     <DatatypeProperty rdf:about="&learning;url">
         <rdfs:range rdf:resource="&xsd;string"/>
@@ -709,7 +709,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Candidat -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Candidat -->
 
     <Class rdf:about="&learning;Candidat">
         <rdfs:label xml:lang="en">Terms candidate</rdfs:label>
@@ -719,7 +719,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Consultation -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Consultation -->
 
     <Class rdf:about="&learning;Consultation">
         <rdfs:label xml:lang="en">Consultation</rdfs:label>
@@ -729,7 +729,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#CourseWork -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#CourseWork -->
 
     <Class rdf:about="&learning;CourseWork">
         <rdfs:label>Курсовая работа</rdfs:label>
@@ -739,7 +739,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Credit -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Credit -->
 
     <Class rdf:about="&learning;Credit">
         <rdfs:label>Зачет</rdfs:label>
@@ -749,7 +749,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Exam -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Exam -->
 
     <Class rdf:about="&learning;Exam">
         <rdfs:label xml:lang="en">Exam</rdfs:label>
@@ -759,7 +759,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#FAQ -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#FAQ -->
 
     <Class rdf:about="&learning;FAQ">
         <rdfs:label xml:lang="en">Manual</rdfs:label>
@@ -769,7 +769,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Field -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Field -->
 
     <Class rdf:about="&learning;Field">
         <rdfs:label xml:lang="en">Field</rdfs:label>
@@ -779,7 +779,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Format -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Format -->
 
     <Class rdf:about="&learning;Format">
         <rdfs:label xml:lang="en">Format</rdfs:label>
@@ -798,7 +798,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Framework -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Framework -->
 
     <Class rdf:about="&learning;Framework">
         <rdfs:label xml:lang="en">Framework</rdfs:label>
@@ -807,7 +807,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#HomeWork -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#HomeWork -->
 
     <Class rdf:about="&learning;HomeWork">
         <rdfs:label xml:lang="en">Home Work</rdfs:label>
@@ -817,7 +817,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Instruction -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Instruction -->
 
     <Class rdf:about="&learning;Instruction">
         <rdfs:label xml:lang="en">Instruction</rdfs:label>
@@ -827,7 +827,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lecture -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Lecture -->
 
     <Class rdf:about="&learning;Lecture">
         <rdfs:label xml:lang="en">Lecture</rdfs:label>
@@ -837,7 +837,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Lesson -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Lesson -->
 
     <Class rdf:about="&learning;Lesson">
         <rdfs:label xml:lang="en">Lesson</rdfs:label>
@@ -846,7 +846,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PersonalWork -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#PersonalWork -->
 
     <Class rdf:about="&learning;PersonalWork">
         <rdfs:label xml:lang="en">PersonalWork</rdfs:label>
@@ -856,7 +856,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Practice -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Practice -->
 
     <Class rdf:about="&learning;Practice">
         <rdfs:label xml:lang="en">Practice</rdfs:label>
@@ -866,7 +866,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#PracticeTask -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#PracticeTask -->
 
     <Class rdf:about="&learning;PracticeTask">
         <rdfs:label xml:lang="en">Practice Task</rdfs:label>
@@ -876,7 +876,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#ReferenceWork -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#ReferenceWork -->
 
     <Class rdf:about="&learning;ReferenceWork">
         <rdfs:label xml:lang="en">Reference Work</rdfs:label>
@@ -886,7 +886,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Resource -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Resource -->
 
     <Class rdf:about="&learning;Resource">
         <rdfs:label xml:lang="en">Resource</rdfs:label>
@@ -895,7 +895,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#SubjectArea -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#SubjectArea -->
 
     <Class rdf:about="&learning;SubjectArea">
         <rdfs:label xml:lang="en">Subject area</rdfs:label>
@@ -904,7 +904,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Term -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Term -->
 
     <Class rdf:about="&learning;Term">
         <rdfs:label xml:lang="en">Term</rdfs:label>
@@ -914,7 +914,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Test -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Test -->
 
     <Class rdf:about="&learning;Test">
         <rdfs:label>Тест
@@ -925,7 +925,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#TestingKnowledge -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#TestingKnowledge -->
 
     <Class rdf:about="&learning;TestingKnowledge">
         <rdfs:label xml:lang="en">Testing knowledge</rdfs:label>
@@ -934,7 +934,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Theme -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Theme -->
 
     <Class rdf:about="&learning;Theme">
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
@@ -942,7 +942,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#VerificationSystem -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#VerificationSystem -->
 
     <Class rdf:about="&learning;VerificationSystem">
         <rdfs:label xml:lang="en">Verification System</rdfs:label>
@@ -952,7 +952,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Workshop -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Workshop -->
 
     <Class rdf:about="&learning;Workshop">
         <rdfs:label xml:lang="en">Workshop</rdfs:label>
@@ -979,7 +979,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Audio -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Audio -->
 
     <NamedIndividual rdf:about="&learning;Audio">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -987,7 +987,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Book -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Book -->
 
     <NamedIndividual rdf:about="&learning;Book">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -995,7 +995,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Presentation -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Presentation -->
 
     <NamedIndividual rdf:about="&learning;Presentation">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -1003,7 +1003,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Text -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Text -->
 
     <NamedIndividual rdf:about="&learning;Text">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -1011,7 +1011,7 @@
     
 
 
-    <!-- http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#Video -->
+    <!-- http://ailab.ifmo.ru/elearning/learning#Video -->
 
     <NamedIndividual rdf:about="&learning;Video">
         <rdf:type rdf:resource="&learning;Format"/>

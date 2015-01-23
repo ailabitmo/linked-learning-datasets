@@ -9,8 +9,8 @@
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13#"
-     xml:base="http://www.semanticweb.org/fedulity/ontologies/2014/4/untitled-ontology-13"
+<rdf:RDF xmlns="http://ailab.ifmo.ru/elearning/testOntology#"
+     xml:base="http://ailab.ifmo.ru/elearning/testOntology"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"

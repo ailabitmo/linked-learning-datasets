@@ -8,7 +8,7 @@
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
 
         <uri id="Automatically generated entry, Timestamp=1408992115573" name="http://purl.org/ailab/learningresults" uri="LearningResults.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1408992115573" name="hhttp://ailab.ifmo.ru/elearning/semanticWebCourse" uri="SemanticWeb.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1408992115573" name="http://ailab.ifmo.ru/elearning/semanticWebCourse" uri="SemanticWeb.owl"/>
         <uri id="Automatically generated entry, Timestamp=1408992115573" name="http://ailab.ifmo.ru/elearning/SemanticWebReasoner" uri="SemanticWebReasoner.owl"/>
         <uri id="Automatically generated entry, Timestamp=1408992115573" name="http://ailab.ifmo.ru/elearning/testOntology" uri="TestOntology.owl"/>
         <uri id="Automatically generated entry, Timestamp=1408992115573" name="http://ailab.ifmo.ru/elearning/GraphTheory" uri="GraphTheoryNew.owl"/>

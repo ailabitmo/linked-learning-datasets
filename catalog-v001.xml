@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution" name="http://ailab.ifmo.ru/elearning/terms" uri="TermsNew.owl"/>
-    <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning" uri="learningNEW.owl"/>
+    <uri id="User Entered Import Resolution" name="http://ailab.ifmo.ru/elearning/learning" uri="learningNEW.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.org/vocab/aiiso/schema" uri="all.rdf"/>
     <uri id="User Entered Import Resolution" name="http://purl.org/ailab/testontology" uri="TestOntology.owl"/>
     <uri id="Imports Wizard Entry" name="http://linkedscience.org/teach/ns#" uri="http://linkedscience.org/teach/ns/teach.rdf"/>

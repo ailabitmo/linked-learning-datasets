@@ -8,7 +8,7 @@
     <!ENTITY schema "http://purl.org/vocab/aiiso/schema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
 ]>
 
 
@@ -20,9 +20,9 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#">
     <owl:Ontology rdf:about="http://ailab.ifmo.ru/elearning/GraphTheory">
-        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+        <owl:imports rdf:resource="http://ailab.ifmo.ru/elearning/learning"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
     </owl:Ontology>
     

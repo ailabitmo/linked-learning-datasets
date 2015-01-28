@@ -6,19 +6,19 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
 ]>
 
 
 <rdf:RDF xmlns="http://ailab.ifmo.ru/elearning/terms#"
-     xml:base="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96"
+     xml:base="http://ailab.ifmo.ru/elearning/terms"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:learning="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/k0shk/ontologies/2014/0/untitled-ontology-96">
-        <owl:imports rdf:resource="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning"/>
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#">
+    <owl:Ontology rdf:about="http://ailab.ifmo.ru/elearning/terms">
+        <owl:imports rdf:resource="http://ailab.ifmo.ru/elearning/learning"/>
     </owl:Ontology>
     
 
@@ -3629,7 +3629,7 @@
     <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Regular_graph"/>
 
 
- <!-- http://www.semanticweb.org/k0shk/ontologies/2013/11/untitled-ontology-50#DiscreteMath -->
+ <!-- http://ailab.ifmo.ru/elearning/math#DiscreteMath -->
 
     <owl:NamedIndividual rdf:about="&learning;DiscreteMath">
         <rdf:type rdf:resource="&learning;Field"/>

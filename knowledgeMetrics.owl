@@ -60,10 +60,10 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnAttemptRang -->
+    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnAttemptRate -->
 
-    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnAttemptRang">
-        <rdfs:label xml:lang="en">based on attempt rang</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnAttemptRate">
+        <rdfs:label xml:lang="en">based on attempt rate</rdfs:label>
         <rdfs:comment xml:lang="ru">Связывает средний рейтинг по тесту с рейтингом по попытке сдачи теста</rdfs:comment>
         <rdfs:domain rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#AvTestAttemptRate"/>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#TestAttemptRate"/>
@@ -82,10 +82,10 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnRangs -->
+    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnRates -->
 
-    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnRangs">
-        <rdfs:label xml:lang="en">based on rangs</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnRates">
+        <rdfs:label xml:lang="en">based on rates</rdfs:label>
         <rdfs:comment xml:lang="ru">Связывает ранг предметной области с общим рейтингом термина</rdfs:comment>
         <rdfs:domain rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#DomainRate"/>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#TotalTermRate"/>
@@ -93,10 +93,10 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnTermsRanks -->
+    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnTermsRates -->
 
-    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnTermsRanks">
-        <rdfs:label xml:lang="en">based on terms ranks</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#basedOnTermsRates">
+        <rdfs:label xml:lang="en">based on terms rates</rdfs:label>
         <rdfs:comment xml:lang="ru">Связывает общий рейтинг термина со всеми рейтингами данного термина (средним по тестам и с рейтингом по лекциям)</rdfs:comment>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#AvTestAttemptRate"/>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#LecturesRate"/>
@@ -127,10 +127,10 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#calculatedOfField -->
+    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#calculatedOfDomain -->
 
-    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#calculatedOfField">
-        <rdfs:label xml:lang="en">calculated of field</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#calculatedOfDomain">
+        <rdfs:label xml:lang="en">calculated of domain</rdfs:label>
         <rdfs:comment xml:lang="ru">связывает ранг предметной области с предметной областью, для которой он был рассчитан</rdfs:comment>
         <rdfs:domain rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#DomainRate"/>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/learning#Field"/>
@@ -138,10 +138,10 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#hasPersonalRanks -->
+    <!-- http://ailab.ifmo.ru/elearning/knowledgeMetrics#hasPersonalRate -->
 
-    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#hasPersonalRanks">
-        <rdfs:label xml:lang="en">has personal ranks</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://ailab.ifmo.ru/elearning/knowledgeMetrics#hasPersonalRate">
+        <rdfs:label xml:lang="en">has personal rate</rdfs:label>
         <rdfs:comment xml:lang="ru">Связывает студента со всеми рангами</rdfs:comment>
         <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#Rate"/>
         <owl:inverseOf rdf:resource="http://ailab.ifmo.ru/elearning/knowledgeMetrics#calculatedForStudent"/>

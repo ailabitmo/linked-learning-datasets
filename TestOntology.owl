@@ -15,7 +15,9 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.org/ailab/testontology"/>
+    <owl:Ontology rdf:about="http://purl.org/ailab/testontology">
+        <owl:imports rdf:resource="http://ailab.ifmo.ru/elearning/terms"/>
+    </owl:Ontology>
     
 
 
@@ -27,6 +29,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/ailab/testontology#checksTerm -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ailab/testontology#checksTerm">
+        <rdfs:comment xml:lang="en">checks term</rdfs:comment>
+        <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/learning#Term"/>
+        <rdfs:domain rdf:resource="http://purl.org/ailab/testontology#Task"/>
+    </owl:ObjectProperty>
     
 
 

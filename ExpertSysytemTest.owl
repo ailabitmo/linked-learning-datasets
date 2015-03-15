@@ -39,8 +39,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysANswer8_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">моделирование структуры и функций объектов реального мира</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -50,8 +50,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysANswer8_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">репрезентация знаний в компьютерной памяти </testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -61,8 +61,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysANswer8_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">когнитивные процессы</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -72,8 +72,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysANswer8_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">моделирование процесса рассуждений</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -83,8 +83,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysANswer8_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">проблема определения истинности и непротиворечивости решений</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL8"/>
     </owl:NamedIndividual>
     
 
@@ -105,8 +105,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer10_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания всегда выражены в текстовой форме</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
 
@@ -149,8 +149,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer10_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">знания оперируют связанным набором понятий</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL10"/>
     </owl:NamedIndividual>
     
 
@@ -182,8 +182,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer11_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">соотнесение с понятиями более низкого уровня абстракции или перечисление фактов, относящихся к определяемому объекту</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL11"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL11"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL11"/>
     </owl:NamedIndividual>
     
 
@@ -204,8 +204,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer12_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">голубь, воробей, ворона, чайка и др.</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL12"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL12"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL12"/>
     </owl:NamedIndividual>
     
 
@@ -215,8 +215,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по глубине</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -226,8 +226,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по структуре</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -237,8 +237,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по владельцу</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -248,8 +248,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по пользователю</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -259,8 +259,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по назначению</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -281,8 +281,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_7">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по источнику</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -292,8 +292,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer13_8">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">по языку</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL13"/>
     </owl:NamedIndividual>
     
 
@@ -314,8 +314,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer14_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">содержат абстракции, аналогии, схемы</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -325,8 +325,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer14_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">объясняют явления в предметной области</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -336,8 +336,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer14_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">описывают видимые взаимосвязи между отдельными событиями и фактами</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL14"/>
     </owl:NamedIndividual>
     
 
@@ -358,8 +358,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer15_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ментальные</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
 
@@ -380,8 +380,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer15_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">несформулированные</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
 
@@ -391,8 +391,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer15_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">умения</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL15"/>
     </owl:NamedIndividual>
     
 
@@ -468,8 +468,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer17_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">достаточно просты в решении</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
 
@@ -479,8 +479,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer17_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">эксперту требуется значительное время для поиска решения</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL17"/>
     </owl:NamedIndividual>
     
 
@@ -501,8 +501,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer18_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">интерпретация данных</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -523,8 +523,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer18_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">численное моделирование</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -545,8 +545,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer18_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">планирование</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -556,8 +556,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer18_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">статистическая обработка данных</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL18"/>
     </owl:NamedIndividual>
     
 
@@ -589,8 +589,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer19_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">машина вывода</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
 
@@ -600,8 +600,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer19_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">рабочая память</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL19"/>
     </owl:NamedIndividual>
     
 
@@ -622,8 +622,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer1_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ограниченная вычислительная мощность первых компьютеров</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -633,8 +633,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer1_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">трудности при формализации решения интеллектуальных задач</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -644,8 +644,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer1_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">отсутствие математического аппарата для решение логических задач</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL1"/>
     </owl:NamedIndividual>
     
 
@@ -699,8 +699,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer21_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">идентификация проблемы</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -709,7 +709,7 @@
 
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer21_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
-        <testontology:html_content xml:lang="ru">получение знаний</testontology:html_content>
+        <testontology:html_content xml:lang="ru">получение (извлечение) знаний</testontology:html_content>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
     </owl:NamedIndividual>
@@ -732,8 +732,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer21_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формализация</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -743,8 +743,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer21_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">реализация</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -754,8 +754,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer21_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">тестирование</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL21"/>
     </owl:NamedIndividual>
     
 
@@ -765,8 +765,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer22_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">идентификация проблемы</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -809,8 +809,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer22_5">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">реализация</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -820,8 +820,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer22_6">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">тестирование</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL22"/>
     </owl:NamedIndividual>
     
 
@@ -831,8 +831,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer23_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">версия ЭС, показывающая, что задача может быть решена выбранными методами</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -842,8 +842,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer23_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ЭС, в которой установлена основная структура БЗ </testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -853,8 +853,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer23_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">работающая ЭС, на которой происходит доработка и адаптация интересов</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL23"/>
     </owl:NamedIndividual>
     
 
@@ -886,8 +886,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer2_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в применении методов математики, статистики, экономики, менеджмента и психологии</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
     </owl:NamedIndividual>
     
 
@@ -897,8 +897,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer2_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в выполнении машиной отдельных операций по обработке данных, анализу изображений и т.п. на основе базы знаний</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL2"/>
     </owl:NamedIndividual>
     
 
@@ -919,8 +919,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer3_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">математическое моделирование</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL3"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL3"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL3"/>
     </owl:NamedIndividual>
     
 
@@ -941,8 +941,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">формализованные знания верны в любом контексте решаемой задачи</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
 
@@ -952,8 +952,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer4_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">истинность знаний зависит от контекста решения задачи и является относительной</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
 
@@ -963,8 +963,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer4_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">развитие теории определяет истинность знаний вне зависимости от контекста</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL4"/>
     </owl:NamedIndividual>
     
 
@@ -985,8 +985,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer5_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">известные математические уравнения адаптируются в процессе формализации задачи с помощью подбора параметров</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
     </owl:NamedIndividual>
     
 
@@ -996,8 +996,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer5_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">выбор модели должен быть адекватен природе и языку решаемой задачи</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL5"/>
     </owl:NamedIndividual>
     
 
@@ -1007,8 +1007,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer6_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">литература</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
 
@@ -1018,8 +1018,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer6_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">психология</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL6"/>
     </owl:NamedIndividual>
     
 
@@ -1128,8 +1128,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer9_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">неупорядоченная и неструктурированная информация, представленная в памяти компьютера</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
     </owl:NamedIndividual>
     
 
@@ -1139,8 +1139,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysAnswer9_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">информация, имеющая тип и характеризующаяся моделью данных</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSystL9"/>
     </owl:NamedIndividual>
     
 
@@ -1194,8 +1194,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An1_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">кодирование информации в базе знаний</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_1"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_1"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_1"/>
     </owl:NamedIndividual>
     
 
@@ -1205,8 +1205,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An2_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">коды операций или инструкции для выполнения возможных действий</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
 
@@ -1216,8 +1216,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An2_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">символы 1 или 0</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
 
@@ -1227,8 +1227,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An2_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">символ «-» («не имеет значения»)</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_2"/>
     </owl:NamedIndividual>
     
 
@@ -1260,8 +1260,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An3_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">сжатие данных в строках</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_3"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_3"/>
     </owl:NamedIndividual>
     
 
@@ -1293,8 +1293,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">высокая степень формализации, наглядности</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
 
@@ -1315,8 +1315,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An4_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">ориентация на задачи, содержащие ситуации с ограниченным набором условий</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_4"/>
     </owl:NamedIndividual>
     
 
@@ -1370,8 +1370,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An6_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">логические формулы, отражающие последовательность решения задачи</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
     </owl:NamedIndividual>
     
 
@@ -1392,8 +1392,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An6_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">функциональные модели объектов системы</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_6"/>
     </owl:NamedIndividual>
     
 
@@ -1425,8 +1425,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An7_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">в уменьшении отличия между текущим состоянием и целевым с каждой новой операцией планирования</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_7"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_7"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_7"/>
     </owl:NamedIndividual>
     
 
@@ -1436,8 +1436,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An8_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">единственной конструкцией для описания операторов, модель мира и цели является предикат–аргумент</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
 
@@ -1447,8 +1447,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An8_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">простой алгоритм поиска необходимых для достижения цели операций</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
 
@@ -1458,8 +1458,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL2An8_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">существование аномалий планирования</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#q_ExpSysL2_8"/>
     </owl:NamedIndividual>
     
 
@@ -1480,8 +1480,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An10_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для структурирования и упорядочивания правил базы знаний в процессе вывода</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_10"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_10"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_10"/>
     </owl:NamedIndividual>
     
 
@@ -1502,8 +1502,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An11_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">для индексирования правил базы знаний</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_11"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_11"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_11"/>
     </owl:NamedIndividual>
     
 
@@ -1535,8 +1535,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An1_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на использовании формул логического следствия и предикатов первого порядка</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
 
@@ -1546,8 +1546,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An1_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на операции объединения теории множеств</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
 
@@ -1557,8 +1557,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An1_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на правилах вида «ЕСЛИ условие, ТО действие»</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_1"/>
     </owl:NamedIndividual>
     
 
@@ -1568,8 +1568,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An2_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">любые системы в математике или логике</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
     </owl:NamedIndividual>
     
 
@@ -1590,8 +1590,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An2_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">только алгебраические математические системы</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_2"/>
     </owl:NamedIndividual>
     
 
@@ -1601,8 +1601,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An3_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">множество продукционных правил</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_3"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_3"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_3"/>
     </owl:NamedIndividual>
     
 
@@ -1634,8 +1634,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An4_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">активация одной из допустимых продукций и модификация рабочей памяти</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_4"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_4"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_4"/>
     </owl:NamedIndividual>
     
 
@@ -1678,8 +1678,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An5_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">обратным выводом</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
     </owl:NamedIndividual>
     
 
@@ -1689,8 +1689,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An5_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">допускает удаление фактов из рабочей памяти</testontology:html_content>
-        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
+        <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_5"/>
     </owl:NamedIndividual>
     
 
@@ -1744,8 +1744,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An7_2">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии поиска в ширину</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
         <testontology:isCorrectAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
 
@@ -1755,8 +1755,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An7_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии анализа целей и средств</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
 
@@ -1766,8 +1766,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An7_4">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии разрешения конфликтов</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_7"/>
     </owl:NamedIndividual>
     
 
@@ -1777,8 +1777,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An8_1">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">определение типа объекта на основании имеющихся фактов</testontology:html_content>
-        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_8"/>
         <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_8"/>
+        <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_8"/>
     </owl:NamedIndividual>
     
 
@@ -1832,8 +1832,8 @@
     <owl:NamedIndividual rdf:about="http://ailab.ifmo.ru/elearning/expertSystems#ExpSysL3An9_3">
         <rdf:type rdf:resource="&testontology;Answer"/>
         <testontology:html_content xml:lang="ru">на стратегии анализа целей и средств</testontology:html_content>
-        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_9"/>
         <testontology:isAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_9"/>
+        <testontology:isWrongAnswerOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#qExpSysL3_9"/>
     </owl:NamedIndividual>
     
 

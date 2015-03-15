@@ -6,6 +6,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY testontology "http://purl.org/ailab/testontology#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
 
@@ -16,6 +17,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#"
      xmlns:testontology="http://purl.org/ailab/testontology#">
     <owl:Ontology rdf:about="http://ailab.ifmo.ru/elearning/expertSystems">
         <owl:imports rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse"/>
@@ -1865,6 +1867,7 @@
         <rdf:type rdf:resource="&testontology;GroupOfTasks"/>
         <rdfs:label xml:lang="ru">Вариант 1</rdfs:label>
         <testontology:is_group_of_task_of rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#TestExpertSystem"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentationLanguage"/>
     </owl:NamedIndividual>
     
 
@@ -1905,6 +1908,14 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">На чем основана модель вычислений в продукционной системе?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Antecedent"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Consequent"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Heuristic"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_NetProductionModel"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ProductionModel"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ProductionModelWithReturnMechanism"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ProductionSystem"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheStrategyOfConflictResolution"/>
     </owl:NamedIndividual>
     
 
@@ -1915,6 +1926,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Для чего нужны метаправила в базе знаний?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Metapravilo"/>
     </owl:NamedIndividual>
     
 
@@ -1926,6 +1938,7 @@
         <testontology:html_content xml:lang="ru">Каково назначение алгоритма Rete?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
     </owl:NamedIndividual>
     
 
@@ -1936,6 +1949,8 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Какие формализмы могут быть представлены в виде продукционных правил?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ProductionModel"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Products"/>
     </owl:NamedIndividual>
     
 
@@ -1946,6 +1961,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Что содержится в рабочей памяти продукционной системы?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_WorkingMemory"/>
     </owl:NamedIndividual>
     
 
@@ -1956,6 +1972,9 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Что является результатов процедуры разрешения конфликтов в продукционной системе?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_CycleDetectionAction"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheProcessOfConflictResolution"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_WorkingMemory"/>
     </owl:NamedIndividual>
     
 
@@ -1966,6 +1985,9 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Чем характеризуется немонотонный вывод в продукционных системах?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_MonotonicOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_NonmonotonicOutput"/>
     </owl:NamedIndividual>
     
 
@@ -1976,6 +1998,8 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Для каких задач применяется прямой вывод?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_DirectChainOutput"/>
     </owl:NamedIndividual>
     
 
@@ -1986,6 +2010,8 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">На чем основан алгоритм прямого вывода?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_DirectChainOutput"/>
     </owl:NamedIndividual>
     
 
@@ -1996,6 +2022,8 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Для каких задач применяется обратный вывод?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ContactTheChainOutput"/>
     </owl:NamedIndividual>
     
 
@@ -2006,6 +2034,8 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">На чем основан алгоритм обратного вывода?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ContactTheChainOutput"/>
     </owl:NamedIndividual>
     
 
@@ -2016,6 +2046,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Что понимается под представлением знаний?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentation"/>
     </owl:NamedIndividual>
     
 
@@ -2026,6 +2057,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Что НЕ используется в ячейках таблицы решений?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableSolutions"/>
     </owl:NamedIndividual>
     
 
@@ -2037,6 +2069,7 @@
         <testontology:html_content xml:lang="ru">Что происходит в процессе оптимизации таблицы решений?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableSolutions"/>
     </owl:NamedIndividual>
     
 
@@ -2048,6 +2081,7 @@
         <testontology:html_content xml:lang="ru">Что является недостатком таблиц решений?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableSolutions"/>
     </owl:NamedIndividual>
     
 
@@ -2059,6 +2093,7 @@
         <testontology:html_content xml:lang="ru">Какие конструкции используются в таблицах операторов?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableOfOperators"/>
     </owl:NamedIndividual>
     
 
@@ -2070,6 +2105,8 @@
         <testontology:html_content xml:lang="ru">Что содержит модель мира в STRIPS-подобных системах?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableOfOperators"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/terms#t_STRIPSModel"/>
     </owl:NamedIndividual>
     
 
@@ -2080,6 +2117,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">В чем заключается суть метода «анализа целей и средств»?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/terms#t_AnalysisOfGoalsAndMeans"/>
     </owl:NamedIndividual>
     
 
@@ -2090,6 +2128,7 @@
         <rdf:type rdf:resource="&testontology;Single_Answer"/>
         <testontology:html_content xml:lang="ru">Что является недостатком таблиц операторов?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TableOfOperators"/>
     </owl:NamedIndividual>
     
 
@@ -2101,6 +2140,8 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #1</rdfs:label>
         <testontology:html_content xml:lang="ru">С какими трудностями столкнулись специалисты в процессе создания первых систем искусственного интеллекта, основанных на знаниях?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_FormalModel"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_FormalizationOfKnowledge"/>
     </owl:NamedIndividual>
     
 
@@ -2123,6 +2164,7 @@
         <testontology:html_content xml:lang="ru">Что такое интенсионал понятия?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Intension"/>
     </owl:NamedIndividual>
     
 
@@ -2134,6 +2176,7 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #12</rdfs:label>
         <testontology:html_content xml:lang="ru">Какой из предложенных вариантов является экстенсионалом понятия «птица»?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Extensional"/>
     </owl:NamedIndividual>
     
 
@@ -2156,6 +2199,7 @@
         <testontology:html_content xml:lang="ru">Что верно для поверхностных знаний?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Knowledge"/>
     </owl:NamedIndividual>
     
 
@@ -2178,6 +2222,7 @@
         <testontology:html_content xml:lang="ru">При каких условиях эффективно применение экспертных систем?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ExpertSystem"/>
     </owl:NamedIndividual>
     
 
@@ -2219,6 +2264,7 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #2</rdfs:label>
         <testontology:html_content xml:lang="ru">В чем состоит «интеллектуальное поведение машины»?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeBase"/>
     </owl:NamedIndividual>
     
 
@@ -2233,6 +2279,7 @@
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
     </owl:NamedIndividual>
     
 
@@ -2244,6 +2291,8 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #21</rdfs:label>
         <testontology:html_content xml:lang="ru">На какой стадии разработки ЭС происходит перенос компетентности экспертов на инженеров по знаниям?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeExtraction"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheLifeCycleOfKnowledge"/>
     </owl:NamedIndividual>
     
 
@@ -2255,6 +2304,8 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #22</rdfs:label>
         <testontology:html_content xml:lang="ru">На какой стадии разработки ЭС выполняется разработка базы знаний на языке представления знаний?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_FormalizationOfKnowledge"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheLifeCycleOfKnowledge"/>
     </owl:NamedIndividual>
     
 
@@ -2267,6 +2318,7 @@
         <testontology:html_content xml:lang="ru">Что называется прототипом ЭС?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_PrototypeExpertSystem"/>
     </owl:NamedIndividual>
     
 
@@ -2278,6 +2330,7 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #3</rdfs:label>
         <testontology:html_content xml:lang="ru">Что характеризует поиск решений трудноформализуемых задач человеком?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_IntuitiveKnowledge"/>
     </owl:NamedIndividual>
     
 
@@ -2310,6 +2363,7 @@
         <rdf:type rdf:resource="&testontology;Multiple_Choice"/>
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #6</rdfs:label>
         <testontology:html_content xml:lang="ru">Какие гуманитарные науки разрабатывают теории, изучающие природу знаний и необходимые для построения систем, основанных на знаниях?</testontology:html_content>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ExpertSystem"/>
     </owl:NamedIndividual>
     
 
@@ -2322,6 +2376,8 @@
         <testontology:html_content xml:lang="ru">В чем заключается основное различие между основными направлениями в искусственном интеллекте (биоинспирированные алгоритмы и системы «черного ящика»)?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version2"/>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version3"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_BioinspiredAlgorithm"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/terms#t_BlackBoxSystem"/>
     </owl:NamedIndividual>
     
 
@@ -2333,6 +2389,7 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #8</rdfs:label>
         <testontology:html_content xml:lang="ru">Что НЕ является предметом изучения теории систем, основанных на знаниях?</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version4"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ExpertSystem"/>
     </owl:NamedIndividual>
     
 
@@ -2344,6 +2401,7 @@
         <rdfs:label xml:lang="en">Test of Expert Systems: Lecture 1 #9</rdfs:label>
         <testontology:html_content xml:lang="ru">С точки зрения теории систем, основанных на знаниях, знания - это:</testontology:html_content>
         <testontology:isTaskOf rdf:resource="http://ailab.ifmo.ru/elearning/expertSystems#Version1"/>
+        <learning:hasTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Knowledge"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

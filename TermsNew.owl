@@ -7895,6 +7895,11 @@
         <rdfs:label xml:lang="en">Chain Output (Reasoning)</rdfs:label>
         <rdfs:label xml:lang="ru">Цепочка вывода (Reasoning)</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ContactTheChainOutput"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_DirectChainOutput"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_MonotonicOutput"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_NonmonotonicOutput"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheProcessOfConflictResolution"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -7986,6 +7991,7 @@
         <rdfs:label xml:lang="en">Conceptualization (structuring) of the data</rdfs:label>
         <rdfs:label xml:lang="ru">Концептуализация (структурирование) данных</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8126,6 +8132,8 @@
         <rdfs:label xml:lang="en">Expert system shell</rdfs:label>
         <rdfs:label xml:lang="ru">Оболочка экспертной системы</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ExpertSystem"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeBase"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8162,6 +8170,8 @@
         <rdfs:label xml:lang="en">Formalization of knowledge</rdfs:label>
         <rdfs:label xml:lang="ru">Формализация знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_FormalModel"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8276,6 +8286,9 @@
         <rdfs:label xml:lang="en">Knowledge</rdfs:label>
         <rdfs:label xml:lang="ru">Знания</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Extensional"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Intension"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_IntuitiveKnowledge"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8300,6 +8313,8 @@
         <rdfs:label xml:lang="en">Knowledge Engineering</rdfs:label>
         <rdfs:label xml:lang="ru">Инженерия знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Knowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeExtraction"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8312,6 +8327,7 @@
         <rdfs:label xml:lang="en">Knowledge Extraction</rdfs:label>
         <rdfs:label xml:lang="ru">Извлечение знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8325,6 +8341,8 @@
         <rdfs:label xml:lang="ru">Представление (репрезентация) знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentationLanguage"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8338,6 +8356,7 @@
         <rdfs:label xml:lang="ru">Язык представления знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8385,6 +8404,7 @@
         <rdfs:label xml:lang="en">Monotonic output</rdfs:label>
         <rdfs:label xml:lang="ru">Монотонный вывод</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_WorkingMemory"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8408,6 +8428,8 @@
         <rdfs:label xml:lang="en">Net production model</rdfs:label>
         <rdfs:label xml:lang="ru">Чистая продукционная модель</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ProductionModel"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_WorkingMemory"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8442,6 +8464,7 @@
         <rdfs:label xml:lang="en">Nonmonotonic output</rdfs:label>
         <rdfs:label xml:lang="ru">Немонотонный вывод</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_WorkingMemory"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8487,6 +8510,7 @@
         <rdfs:label xml:lang="en">Production Model</rdfs:label>
         <rdfs:label xml:lang="ru">Продукционная модель</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentation"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8499,6 +8523,7 @@
         <rdfs:label xml:lang="en">Production model with return mechanism</rdfs:label>
         <rdfs:label xml:lang="ru">Продукционная модель с механизмом возврата</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8511,6 +8536,10 @@
         <rdfs:label xml:lang="en">Production system</rdfs:label>
         <rdfs:label xml:lang="ru">Продукционная система</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ChainOutput"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_CycleDetectionAction"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Products"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_TheProcessOfConflictResolution"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8523,6 +8552,8 @@
         <rdfs:label xml:lang="en">Products (production rules)</rdfs:label>
         <rdfs:label xml:lang="ru">Продукция (Продукционное правило)</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Antecedent"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_Consequent"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8668,7 +8699,9 @@
         <rdfs:label xml:lang="en">Table of operators</rdfs:label>
         <rdfs:label xml:lang="ru">Таблица операторов</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentation"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/terms#t_STRIPSModel"/>
     </owl:NamedIndividual>
     
 
@@ -8680,6 +8713,7 @@
         <rdfs:label xml:lang="en">Table solutions</rdfs:label>
         <rdfs:label xml:lang="ru">Таблица решений</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_OverviewOfModelsAndToolsForKnowledgeRepresentation"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeRepresentation"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8703,6 +8737,8 @@
         <rdfs:label xml:lang="en">The core of the expert system</rdfs:label>
         <rdfs:label xml:lang="ru">Ядро экспертной системы</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_ExpertSystem"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeBase"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8726,6 +8762,7 @@
         <rdfs:label xml:lang="en">The life cycle of knowledge</rdfs:label>
         <rdfs:label xml:lang="ru">Жизненный цикл знаний</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_IntroductionToSystemsBasedOnKnowledge"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_KnowledgeEngineering"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     
@@ -8772,6 +8809,7 @@
         <rdfs:label xml:lang="en">The strategy of conflict resolution</rdfs:label>
         <rdfs:label xml:lang="ru">Стратегия разрешения конфликтов</rdfs:label>
         <learning:isTermOf rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#l_TheTheoryAccordingToTheRulesProductionModelRulesAndMetapravila"/>
+        <learning:previousTerm rdf:resource="http://ailab.ifmo.ru/elearning/semanticWebCourse#t_CycleDetectionAction"/>
         <learning:relatesToField rdf:resource="http://ailab.ifmo.ru/elearning/terms#ExpertSystemsField"/>
     </owl:NamedIndividual>
     

@@ -1,0 +1,1024 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://ailab.ifmo.ru/elearning/learning">
+        <imports rdf:resource="http://linkedscience.org/teach/ns#"/>
+        <imports rdf:resource="http://purl.org/vocab/aiiso/schema"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
+
+    <AnnotationProperty rdf:about="&learning;hasTeacher">
+        <rdfs:label xml:lang="en">has teacher</rdfs:label>
+        <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
+
+    <AnnotationProperty rdf:about="&learning;isAuthorOf">
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+        <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
+
+    <AnnotationProperty rdf:about="&learning;isModuleOf">
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+        <rdfs:label xml:lang="ru">является модулем</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#teacher -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#teacher">
+        <equivalentProperty rdf:resource="&learning;hasTeacher"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#teacherOf -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#teacherOf">
+        <equivalentProperty rdf:resource="&learning;isTeacherOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasAuthor -->
+
+    <ObjectProperty rdf:about="&learning;hasAuthor">
+        <rdfs:label xml:lang="en">has author</rdfs:label>
+        <rdfs:label xml:lang="ru">составлен автором</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasConsultation -->
+
+    <ObjectProperty rdf:about="&learning;hasConsultation">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has consultation</rdfs:label>
+        <rdfs:label xml:lang="ru">есть консультация</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasExam -->
+
+    <ObjectProperty rdf:about="&learning;hasExam">
+        <rdfs:label xml:lang="en">has exam</rdfs:label>
+        <rdfs:label xml:lang="ru">есть экзамен</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasFAQ -->
+
+    <ObjectProperty rdf:about="&learning;hasFAQ">
+        <rdfs:label xml:lang="en">has FAQ</rdfs:label>
+        <rdfs:label xml:lang="ru">есть часто задаваемые вопросы</rdfs:label>
+        <inverseOf rdf:resource="&learning;isFAQOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasInstruction -->
+
+    <ObjectProperty rdf:about="&learning;hasInstruction">
+        <rdfs:label xml:lang="en">has instruction</rdfs:label>
+        <rdfs:label xml:lang="ru">есть инструкция</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasLecture -->
+
+    <ObjectProperty rdf:about="&learning;hasLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has lecture</rdfs:label>
+        <rdfs:label xml:lang="ru">есть лекция</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <inverseOf rdf:resource="&learning;isLectureOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasModule -->
+
+    <ObjectProperty rdf:about="&learning;hasModule">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has module</rdfs:label>
+        <rdfs:label xml:lang="ru">есть модуль</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPersonalWork -->
+
+    <ObjectProperty rdf:about="&learning;hasPersonalWork">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has personal work</rdfs:label>
+        <rdfs:label xml:lang="ru">есть самостоятельная работа</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <inverseOf rdf:resource="&learning;isPersonalWorkOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPractice -->
+
+    <ObjectProperty rdf:about="&learning;hasPractice">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has practice</rdfs:label>
+        <rdfs:label xml:lang="ru">есть практическое занятие</rdfs:label>
+        <inverseOf rdf:resource="&learning;isPracticeOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasPracticeTask -->
+
+    <ObjectProperty rdf:about="&learning;hasPracticeTask">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has practice task</rdfs:label>
+        <rdfs:label xml:lang="ru">есть практическое задание</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+        <rdfs:range rdf:resource="&learning;PracticeTask"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasResource -->
+
+    <ObjectProperty rdf:about="&learning;hasResource">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">has resource</rdfs:label>
+        <rdfs:label xml:lang="ru">есть ресурс</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Resource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
+
+    <ObjectProperty rdf:about="&learning;hasTeacher">
+        <rdfs:label xml:lang="en">has teacher</rdfs:label>
+        <rdfs:label xml:lang="ru">ведется преподавателем</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <inverseOf rdf:resource="&learning;isTeacherOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTerm -->
+
+    <ObjectProperty rdf:about="&learning;hasTerm">
+        <rdfs:label xml:lang="en">has term</rdfs:label>
+        <rdfs:label xml:lang="ru">есть термин</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
+        <inverseOf rdf:resource="&learning;isTermOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTest -->
+
+    <ObjectProperty rdf:about="&learning;hasTest">
+        <rdfs:label xml:lang="en">has test</rdfs:label>
+        <rdfs:label xml:lang="ru">есть тест</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasTheme -->
+
+    <ObjectProperty rdf:about="&learning;hasTheme">
+        <rdfs:label xml:lang="en">has theme</rdfs:label>
+        <rdfs:label xml:lang="ru">есть тема (раздел)</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <inverseOf rdf:resource="&learning;isThemeOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasVerificationSystem -->
+
+    <ObjectProperty rdf:about="&learning;hasVerificationSystem">
+        <rdfs:label xml:lang="en">has verification system</rdfs:label>
+        <rdfs:label xml:lang="ru">есть система проверки</rdfs:label>
+        <inverseOf rdf:resource="&learning;isVerificationSystemOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hasWorkshop -->
+
+    <ObjectProperty rdf:about="&learning;hasWorkshop">
+        <rdfs:label xml:lang="en">has workshop</rdfs:label>
+        <rdfs:label xml:lang="ru">есть семинар</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAFieldOf -->
+
+    <ObjectProperty rdf:about="&learning;isAFieldOf">
+        <rdfs:label xml:lang="en">is a field of</rdfs:label>
+        <rdfs:label xml:lang="ru">является предметной областью</rdfs:label>
+        <inverseOf rdf:resource="&learning;relatesToField"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
+
+    <ObjectProperty rdf:about="&learning;isAuthorOf">
+        <rdfs:label xml:lang="en">is author of</rdfs:label>
+        <rdfs:label xml:lang="ru">составитель курса</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <inverseOf rdf:resource="&learning;hasAuthor"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isConsultationOf -->
+
+    <ObjectProperty rdf:about="&learning;isConsultationOf">
+        <rdfs:label xml:lang="en">is consultation of</rdfs:label>
+        <rdfs:label xml:lang="ru">является консультацией</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Consultation"/>
+        <inverseOf rdf:resource="&learning;hasConsultation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isExamOf -->
+
+    <ObjectProperty rdf:about="&learning;isExamOf">
+        <rdfs:label xml:lang="en">is exam of</rdfs:label>
+        <rdfs:label xml:lang="ru">является экзаменом</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="&learning;Exam"/>
+        <inverseOf rdf:resource="&learning;hasExam"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isFAQOf -->
+
+    <ObjectProperty rdf:about="&learning;isFAQOf">
+        <rdfs:label xml:lang="en">is FAQ of</rdfs:label>
+        <rdfs:label xml:lang="ru">являются часто задаваемые вопросы</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isInstructionOf -->
+
+    <ObjectProperty rdf:about="&learning;isInstructionOf">
+        <rdfs:label xml:lang="en">is instruction of</rdfs:label>
+        <rdfs:label xml:lang="ru">является инструкцией</rdfs:label>
+        <inverseOf rdf:resource="&learning;hasInstruction"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isLectureOf -->
+
+    <ObjectProperty rdf:about="&learning;isLectureOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdfs:label xml:lang="en">is lecture of</rdfs:label>
+        <rdfs:label xml:lang="ru">является лекцией</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
+
+    <ObjectProperty rdf:about="&learning;isModuleOf">
+        <rdfs:label xml:lang="en">is module of</rdfs:label>
+        <rdfs:label xml:lang="ru">является модулем</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <inverseOf rdf:resource="&learning;hasModule"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPersonalWorkOf -->
+
+    <ObjectProperty rdf:about="&learning;isPersonalWorkOf">
+        <rdfs:label xml:lang="en">is personal work of</rdfs:label>
+        <rdfs:label xml:lang="ru">является самостоятельной работой</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;PersonalWork"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeOf -->
+
+    <ObjectProperty rdf:about="&learning;isPracticeOf">
+        <rdfs:label xml:lang="en">is practice of</rdfs:label>
+        <rdfs:label xml:lang="ru">является практической работой</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeTaskOf -->
+
+    <ObjectProperty rdf:about="&learning;isPracticeTaskOf">
+        <rdfs:label xml:lang="en">is practice task of</rdfs:label>
+        <rdfs:label xml:lang="ru">является практическим заданием</rdfs:label>
+        <inverseOf rdf:resource="&learning;hasPracticeTask"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceOf -->
+
+    <ObjectProperty rdf:about="&learning;isResourceOf">
+        <rdfs:label xml:lang="en">is resource of</rdfs:label>
+        <rdfs:label xml:lang="ru">является ресурсом</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <inverseOf rdf:resource="&learning;hasResource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTeacherOf -->
+
+    <ObjectProperty rdf:about="&learning;isTeacherOf">
+        <rdfs:label xml:lang="en">is teacher of</rdfs:label>
+        <rdfs:label xml:lang="ru">преподаватель курса</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/spec/Agent"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTermOf -->
+
+    <ObjectProperty rdf:about="&learning;isTermOf">
+        <rdfs:label xml:lang="en">is term of</rdfs:label>
+        <rdfs:label xml:lang="ru">является термином</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTestOf -->
+
+    <ObjectProperty rdf:about="&learning;isTestOf">
+        <rdfs:label xml:lang="en">is test of</rdfs:label>
+        <rdfs:label xml:lang="ru">является тестом</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Test"/>
+        <inverseOf rdf:resource="&learning;hasTest"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isThemeOf -->
+
+    <ObjectProperty rdf:about="&learning;isThemeOf">
+        <rdfs:label xml:lang="en">is theme of</rdfs:label>
+        <rdfs:label xml:lang="ru">является темой (разделом)</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Theme"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isVerificationSystemOf -->
+
+    <ObjectProperty rdf:about="&learning;isVerificationSystemOf">
+        <rdfs:label xml:lang="en">is verification system of</rdfs:label>
+        <rdfs:label xml:lang="ru">является системой проверки</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isWorkshopOf -->
+
+    <ObjectProperty rdf:about="&learning;isWorkshopOf">
+        <rdfs:label xml:lang="en">is workshop of</rdfs:label>
+        <rdfs:label xml:lang="ru">является семинаром</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:domain rdf:resource="&learning;Workshop"/>
+        <inverseOf rdf:resource="&learning;hasWorkshop"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#previousLecture -->
+
+    <ObjectProperty rdf:about="&learning;previousLecture">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">previous lecture</rdfs:label>
+        <rdfs:label xml:lang="ru">предыдущая лекция</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&learning;Lecture"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#previousTerm -->
+
+    <ObjectProperty rdf:about="&learning;previousTerm">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label xml:lang="en">previous term</rdfs:label>
+        <rdfs:label xml:lang="ru">предыдущий термин</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+        <rdfs:range rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#relatesToField -->
+
+    <ObjectProperty rdf:about="&learning;relatesToField">
+        <rdfs:label xml:lang="en">relates to field</rdfs:label>
+        <rdfs:label xml:lang="ru">относится к предметной области</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Field"/>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#resourceType -->
+
+    <ObjectProperty rdf:about="&learning;resourceType">
+        <rdfs:label xml:lang="en">resource type</rdfs:label>
+        <rdfs:label xml:lang="ru">тип ресурса</rdfs:label>
+        <rdfs:range rdf:resource="&learning;Format"/>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#content -->
+
+    <DatatypeProperty rdf:about="&learning;content">
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#hours -->
+
+    <DatatypeProperty rdf:about="&learning;hours">
+        <rdfs:label xml:lang="en">hours</rdfs:label>
+        <rdfs:label xml:lang="ru">количество часов</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isPracticeRequired">
+        <rdfs:label xml:lang="en">practice is required</rdfs:label>
+        <rdfs:label xml:lang="ru">практическая работа обязательна</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Practice"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isRequired">
+        <rdfs:label xml:lang="en">lecture is required</rdfs:label>
+        <rdfs:label xml:lang="ru">лекция обязательна</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceFromTeacher -->
+
+    <DatatypeProperty rdf:about="&learning;isResourceFromTeacher">
+        <rdfs:label xml:lang="en">resource is from teacher</rdfs:label>
+        <rdfs:label xml:lang="ru">источник предоставлен учителем</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isResourceRequired">
+        <rdfs:label xml:lang="en">resource is required</rdfs:label>
+        <rdfs:label xml:lang="ru">источник обязателен</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Resource"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#isTestRequired -->
+
+    <DatatypeProperty rdf:about="&learning;isTestRequired">
+        <rdfs:label xml:lang="en">test is required</rdfs:label>
+        <rdfs:label xml:lang="ru">тест обязателен</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Test"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#lemma -->
+
+    <DatatypeProperty rdf:about="&learning;lemma">
+        <rdfs:label xml:lang="en">lemma</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Term"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfLecture -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfLecture">
+        <rdfs:label xml:lang="en">number of lecture</rdfs:label>
+        <rdfs:label xml:lang="ru">номер лекции</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;Lecture"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfModule -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfModule">
+        <rdfs:label xml:lang="en">number of module</rdfs:label>
+        <rdfs:label xml:lang="ru">номер модуля</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Module"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfTask -->
+
+    <DatatypeProperty rdf:about="&learning;numberOfTask">
+        <rdfs:label xml:lang="en">number of task</rdfs:label>
+        <rdfs:label xml:lang="ru">номер задания</rdfs:label>
+        <rdfs:domain rdf:resource="&learning;PracticeTask"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#url -->
+
+    <DatatypeProperty rdf:about="&learning;url">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Course -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Course">
+        <equivalentClass rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Lecture -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Lecture">
+        <equivalentClass rdf:resource="&learning;Lecture"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Material -->
+
+    <rdf:Description rdf:about="http://linkedscience.org/teach/ns#Material">
+        <equivalentClass rdf:resource="&learning;Resource"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Course -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Course">
+        <rdfs:label xml:lang="ru">Курс</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#KnowledgeGrouping -->
+
+    <Class rdf:about="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Module -->
+
+    <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Module">
+        <rdfs:label xml:lang="ru">Модуль</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Candidat -->
+
+    <Class rdf:about="&learning;Candidat">
+        <rdfs:label xml:lang="en">Terms candidate</rdfs:label>
+        <rdfs:label xml:lang="ru">Кандидат в термины</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Term"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Consultation -->
+
+    <Class rdf:about="&learning;Consultation">
+        <rdfs:label xml:lang="en">Consultation</rdfs:label>
+        <rdfs:label xml:lang="ru">Консультация</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#CourseWork -->
+
+    <Class rdf:about="&learning;CourseWork">
+        <rdfs:label>Курсовая работа</rdfs:label>
+        <rdfs:label xml:lang="en">Course Work</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Credit -->
+
+    <Class rdf:about="&learning;Credit">
+        <rdfs:label>Зачет</rdfs:label>
+        <rdfs:label xml:lang="en">Credit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Exam -->
+
+    <Class rdf:about="&learning;Exam">
+        <rdfs:label xml:lang="en">Exam</rdfs:label>
+        <rdfs:label>Экзамен</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#FAQ -->
+
+    <Class rdf:about="&learning;FAQ">
+        <rdfs:label xml:lang="en">Manual</rdfs:label>
+        <rdfs:label xml:lang="ru">Часто задаваемые вопросы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Resource"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Field -->
+
+    <Class rdf:about="&learning;Field">
+        <rdfs:label xml:lang="en">Field</rdfs:label>
+        <rdfs:label xml:lang="ru">Область</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Format -->
+
+    <Class rdf:about="&learning;Format">
+        <rdfs:label xml:lang="en">Format</rdfs:label>
+        <rdfs:label xml:lang="ru">Формат</rdfs:label>
+        <equivalentClass>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&learning;Video"/>
+                    <rdf:Description rdf:about="&learning;Book"/>
+                    <rdf:Description rdf:about="&learning;Text"/>
+                    <rdf:Description rdf:about="&learning;Audio"/>
+                </oneOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Framework -->
+
+    <Class rdf:about="&learning;Framework">
+        <rdfs:label xml:lang="en">Framework</rdfs:label>
+        <rdfs:label xml:lang="ru">Фреймворк</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#HomeWork -->
+
+    <Class rdf:about="&learning;HomeWork">
+        <rdfs:label xml:lang="en">Home Work</rdfs:label>
+        <rdfs:label>Домашняя работа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Instruction -->
+
+    <Class rdf:about="&learning;Instruction">
+        <rdfs:label xml:lang="en">Instruction</rdfs:label>
+        <rdfs:label xml:lang="ru">Инструкция</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Resource"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Lecture -->
+
+    <Class rdf:about="&learning;Lecture">
+        <rdfs:label xml:lang="en">Lecture</rdfs:label>
+        <rdfs:label>Лекция</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Lesson -->
+
+    <Class rdf:about="&learning;Lesson">
+        <rdfs:label xml:lang="en">Lesson</rdfs:label>
+        <rdfs:label xml:lang="ru">Тип занятий</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#PersonalWork -->
+
+    <Class rdf:about="&learning;PersonalWork">
+        <rdfs:label xml:lang="en">PersonalWork</rdfs:label>
+        <rdfs:label>СРС</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Practice -->
+
+    <Class rdf:about="&learning;Practice">
+        <rdfs:label xml:lang="en">Practice</rdfs:label>
+        <rdfs:label>Практическая работа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#PracticeTask -->
+
+    <Class rdf:about="&learning;PracticeTask">
+        <rdfs:label xml:lang="en">Practice Task</rdfs:label>
+        <rdfs:label xml:lang="ru">Практическое задание</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#ReferenceWork -->
+
+    <Class rdf:about="&learning;ReferenceWork">
+        <rdfs:label xml:lang="en">Reference Work</rdfs:label>
+        <rdfs:label>Контрольная работа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Resource -->
+
+    <Class rdf:about="&learning;Resource">
+        <rdfs:label xml:lang="en">Resource</rdfs:label>
+        <rdfs:label xml:lang="ru">Ресурс</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#SubjectArea -->
+
+    <Class rdf:about="&learning;SubjectArea">
+        <rdfs:label xml:lang="en">Subject area</rdfs:label>
+        <rdfs:label xml:lang="ru">Предметная область</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Term -->
+
+    <Class rdf:about="&learning;Term">
+        <rdfs:label xml:lang="en">Term</rdfs:label>
+        <rdfs:label xml:lang="ru">Термин</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;SubjectArea"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Test -->
+
+    <Class rdf:about="&learning;Test">
+        <rdfs:label>Тест
+</rdfs:label>
+        <rdfs:label xml:lang="en">Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;TestingKnowledge"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#TestingKnowledge -->
+
+    <Class rdf:about="&learning;TestingKnowledge">
+        <rdfs:label xml:lang="en">Testing knowledge</rdfs:label>
+        <rdfs:label xml:lang="ru">Тестирование знаний</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Theme -->
+
+    <Class rdf:about="&learning;Theme">
+        <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#VerificationSystem -->
+
+    <Class rdf:about="&learning;VerificationSystem">
+        <rdfs:label xml:lang="en">Verification System</rdfs:label>
+        <rdfs:label xml:lang="ru">Система проверки</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Framework"/>
+    </Class>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Workshop -->
+
+    <Class rdf:about="&learning;Workshop">
+        <rdfs:label xml:lang="en">Workshop</rdfs:label>
+        <rdfs:label>Семинар</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&learning;Lesson"/>
+    </Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/spec/Agent -->
+
+    <Class rdf:about="http://xmlns.com/foaf/spec/Agent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Audio -->
+
+    <NamedIndividual rdf:about="&learning;Audio">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Book -->
+
+    <NamedIndividual rdf:about="&learning;Book">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Presentation -->
+
+    <NamedIndividual rdf:about="&learning;Presentation">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Text -->
+
+    <NamedIndividual rdf:about="&learning;Text">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Video -->
+
+    <NamedIndividual rdf:about="&learning;Video">
+        <rdf:type rdf:resource="&learning;Format"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

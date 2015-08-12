@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+http://purl.org/ailab/ecole/core<?xml version="1.0"?>
 
 
 <!DOCTYPE rdf:RDF [
@@ -6,7 +6,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY learning "http://ailab.ifmo.ru/elearning/learning#" >
+    <!ENTITY learning "http://purl.org/ailab/ecole/core#" >
 ]>
 
 
@@ -15,9 +15,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:learning="http://ailab.ifmo.ru/elearning/learning#"
+     xmlns:learning="http://purl.org/ailab/ecole/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <Ontology rdf:about="http://ailab.ifmo.ru/elearning/learning">
+    <Ontology rdf:about="http://purl.org/ailab/ecole/core">
         <imports rdf:resource="http://linkedscience.org/teach/ns#"/>
         <imports rdf:resource="http://purl.org/vocab/aiiso/schema"/>
     </Ontology>
@@ -35,7 +35,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
+    <!-- http://purl.org/ailab/ecole/core#hasTeacher -->
 
     <AnnotationProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
@@ -44,7 +44,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
+    <!-- http://purl.org/ailab/ecole/core#isAuthorOf -->
 
     <AnnotationProperty rdf:about="&learning;isAuthorOf">
         <rdfs:label xml:lang="en">is author of</rdfs:label>
@@ -53,7 +53,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
+    <!-- http://purl.org/ailab/ecole/core#isModuleOf -->
 
     <AnnotationProperty rdf:about="&learning;isModuleOf">
         <rdfs:label xml:lang="en">is module of</rdfs:label>
@@ -89,7 +89,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasAuthor -->
+    <!-- http://purl.org/ailab/ecole/core#hasAuthor -->
 
     <ObjectProperty rdf:about="&learning;hasAuthor">
         <rdfs:label xml:lang="en">has author</rdfs:label>
@@ -100,7 +100,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasConsultation -->
+    <!-- http://purl.org/ailab/ecole/core#hasConsultation -->
 
     <ObjectProperty rdf:about="&learning;hasConsultation">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -111,7 +111,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasExam -->
+    <!-- http://purl.org/ailab/ecole/core#hasExam -->
 
     <ObjectProperty rdf:about="&learning;hasExam">
         <rdfs:label xml:lang="en">has exam</rdfs:label>
@@ -120,7 +120,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasFAQ -->
+    <!-- http://purl.org/ailab/ecole/core#hasFAQ -->
 
     <ObjectProperty rdf:about="&learning;hasFAQ">
         <rdfs:label xml:lang="en">has FAQ</rdfs:label>
@@ -130,7 +130,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasInstruction -->
+    <!-- http://purl.org/ailab/ecole/core#hasInstruction -->
 
     <ObjectProperty rdf:about="&learning;hasInstruction">
         <rdfs:label xml:lang="en">has instruction</rdfs:label>
@@ -139,7 +139,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasLecture -->
+    <!-- http://purl.org/ailab/ecole/core#hasLecture -->
 
     <ObjectProperty rdf:about="&learning;hasLecture">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -151,7 +151,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasModule -->
+    <!-- http://purl.org/ailab/ecole/core#hasModule -->
 
     <ObjectProperty rdf:about="&learning;hasModule">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -161,7 +161,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasPersonalWork -->
+    <!-- http://purl.org/ailab/ecole/core#hasPersonalWork -->
 
     <ObjectProperty rdf:about="&learning;hasPersonalWork">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -173,7 +173,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasPractice -->
+    <!-- http://purl.org/ailab/ecole/core#hasPractice -->
 
     <ObjectProperty rdf:about="&learning;hasPractice">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -184,7 +184,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasPracticeTask -->
+    <!-- http://purl.org/ailab/ecole/core#hasPracticeTask -->
 
     <ObjectProperty rdf:about="&learning;hasPracticeTask">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -196,7 +196,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasResource -->
+    <!-- http://purl.org/ailab/ecole/core#hasResource -->
 
     <ObjectProperty rdf:about="&learning;hasResource">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -207,7 +207,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasTeacher -->
+    <!-- http://purl.org/ailab/ecole/core#hasTeacher -->
 
     <ObjectProperty rdf:about="&learning;hasTeacher">
         <rdfs:label xml:lang="en">has teacher</rdfs:label>
@@ -218,7 +218,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasTerm -->
+    <!-- http://purl.org/ailab/ecole/core#hasTerm -->
 
     <ObjectProperty rdf:about="&learning;hasTerm">
         <rdfs:label xml:lang="en">has term</rdfs:label>
@@ -230,7 +230,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasTest -->
+    <!-- http://purl.org/ailab/ecole/core#hasTest -->
 
     <ObjectProperty rdf:about="&learning;hasTest">
         <rdfs:label xml:lang="en">has test</rdfs:label>
@@ -239,7 +239,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasTheme -->
+    <!-- http://purl.org/ailab/ecole/core#hasTheme -->
 
     <ObjectProperty rdf:about="&learning;hasTheme">
         <rdfs:label xml:lang="en">has theme</rdfs:label>
@@ -250,7 +250,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasVerificationSystem -->
+    <!-- http://purl.org/ailab/ecole/core#hasVerificationSystem -->
 
     <ObjectProperty rdf:about="&learning;hasVerificationSystem">
         <rdfs:label xml:lang="en">has verification system</rdfs:label>
@@ -260,7 +260,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hasWorkshop -->
+    <!-- http://purl.org/ailab/ecole/core#hasWorkshop -->
 
     <ObjectProperty rdf:about="&learning;hasWorkshop">
         <rdfs:label xml:lang="en">has workshop</rdfs:label>
@@ -270,7 +270,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isAFieldOf -->
+    <!-- http://purl.org/ailab/ecole/core#isAFieldOf -->
 
     <ObjectProperty rdf:about="&learning;isAFieldOf">
         <rdfs:label xml:lang="en">is a field of</rdfs:label>
@@ -280,7 +280,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isAuthorOf -->
+    <!-- http://purl.org/ailab/ecole/core#isAuthorOf -->
 
     <ObjectProperty rdf:about="&learning;isAuthorOf">
         <rdfs:label xml:lang="en">is author of</rdfs:label>
@@ -292,7 +292,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isConsultationOf -->
+    <!-- http://purl.org/ailab/ecole/core#isConsultationOf -->
 
     <ObjectProperty rdf:about="&learning;isConsultationOf">
         <rdfs:label xml:lang="en">is consultation of</rdfs:label>
@@ -304,7 +304,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isExamOf -->
+    <!-- http://purl.org/ailab/ecole/core#isExamOf -->
 
     <ObjectProperty rdf:about="&learning;isExamOf">
         <rdfs:label xml:lang="en">is exam of</rdfs:label>
@@ -316,7 +316,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isFAQOf -->
+    <!-- http://purl.org/ailab/ecole/core#isFAQOf -->
 
     <ObjectProperty rdf:about="&learning;isFAQOf">
         <rdfs:label xml:lang="en">is FAQ of</rdfs:label>
@@ -325,7 +325,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isInstructionOf -->
+    <!-- http://purl.org/ailab/ecole/core#isInstructionOf -->
 
     <ObjectProperty rdf:about="&learning;isInstructionOf">
         <rdfs:label xml:lang="en">is instruction of</rdfs:label>
@@ -335,7 +335,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isLectureOf -->
+    <!-- http://purl.org/ailab/ecole/core#isLectureOf -->
 
     <ObjectProperty rdf:about="&learning;isLectureOf">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -347,7 +347,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isModuleOf -->
+    <!-- http://purl.org/ailab/ecole/core#isModuleOf -->
 
     <ObjectProperty rdf:about="&learning;isModuleOf">
         <rdfs:label xml:lang="en">is module of</rdfs:label>
@@ -359,7 +359,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isPersonalWorkOf -->
+    <!-- http://purl.org/ailab/ecole/core#isPersonalWorkOf -->
 
     <ObjectProperty rdf:about="&learning;isPersonalWorkOf">
         <rdfs:label xml:lang="en">is personal work of</rdfs:label>
@@ -370,7 +370,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeOf -->
+    <!-- http://purl.org/ailab/ecole/core#isPracticeOf -->
 
     <ObjectProperty rdf:about="&learning;isPracticeOf">
         <rdfs:label xml:lang="en">is practice of</rdfs:label>
@@ -381,7 +381,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeTaskOf -->
+    <!-- http://purl.org/ailab/ecole/core#isPracticeTaskOf -->
 
     <ObjectProperty rdf:about="&learning;isPracticeTaskOf">
         <rdfs:label xml:lang="en">is practice task of</rdfs:label>
@@ -392,7 +392,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceOf -->
+    <!-- http://purl.org/ailab/ecole/core#isResourceOf -->
 
     <ObjectProperty rdf:about="&learning;isResourceOf">
         <rdfs:label xml:lang="en">is resource of</rdfs:label>
@@ -404,7 +404,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isTeacherOf -->
+    <!-- http://purl.org/ailab/ecole/core#isTeacherOf -->
 
     <ObjectProperty rdf:about="&learning;isTeacherOf">
         <rdfs:label xml:lang="en">is teacher of</rdfs:label>
@@ -415,7 +415,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isTermOf -->
+    <!-- http://purl.org/ailab/ecole/core#isTermOf -->
 
     <ObjectProperty rdf:about="&learning;isTermOf">
         <rdfs:label xml:lang="en">is term of</rdfs:label>
@@ -426,7 +426,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isTestOf -->
+    <!-- http://purl.org/ailab/ecole/core#isTestOf -->
 
     <ObjectProperty rdf:about="&learning;isTestOf">
         <rdfs:label xml:lang="en">is test of</rdfs:label>
@@ -438,7 +438,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isThemeOf -->
+    <!-- http://purl.org/ailab/ecole/core#isThemeOf -->
 
     <ObjectProperty rdf:about="&learning;isThemeOf">
         <rdfs:label xml:lang="en">is theme of</rdfs:label>
@@ -449,7 +449,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isVerificationSystemOf -->
+    <!-- http://purl.org/ailab/ecole/core#isVerificationSystemOf -->
 
     <ObjectProperty rdf:about="&learning;isVerificationSystemOf">
         <rdfs:label xml:lang="en">is verification system of</rdfs:label>
@@ -458,7 +458,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isWorkshopOf -->
+    <!-- http://purl.org/ailab/ecole/core#isWorkshopOf -->
 
     <ObjectProperty rdf:about="&learning;isWorkshopOf">
         <rdfs:label xml:lang="en">is workshop of</rdfs:label>
@@ -470,7 +470,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#previousLecture -->
+    <!-- http://purl.org/ailab/ecole/core#previousLecture -->
 
     <ObjectProperty rdf:about="&learning;previousLecture">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -482,7 +482,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#previousTerm -->
+    <!-- http://purl.org/ailab/ecole/core#previousTerm -->
 
     <ObjectProperty rdf:about="&learning;previousTerm">
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
@@ -494,7 +494,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#relatesToField -->
+    <!-- http://purl.org/ailab/ecole/core#relatesToField -->
 
     <ObjectProperty rdf:about="&learning;relatesToField">
         <rdfs:label xml:lang="en">relates to field</rdfs:label>
@@ -505,7 +505,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#resourceType -->
+    <!-- http://purl.org/ailab/ecole/core#resourceType -->
 
     <ObjectProperty rdf:about="&learning;resourceType">
         <rdfs:label xml:lang="en">resource type</rdfs:label>
@@ -527,7 +527,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#content -->
+    <!-- http://purl.org/ailab/ecole/core#content -->
 
     <DatatypeProperty rdf:about="&learning;content">
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
@@ -535,7 +535,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#hours -->
+    <!-- http://purl.org/ailab/ecole/core#hours -->
 
     <DatatypeProperty rdf:about="&learning;hours">
         <rdfs:label xml:lang="en">hours</rdfs:label>
@@ -546,7 +546,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isPracticeRequired -->
+    <!-- http://purl.org/ailab/ecole/core#isPracticeRequired -->
 
     <DatatypeProperty rdf:about="&learning;isPracticeRequired">
         <rdfs:label xml:lang="en">practice is required</rdfs:label>
@@ -557,7 +557,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isRequired -->
+    <!-- http://purl.org/ailab/ecole/core#isRequired -->
 
     <DatatypeProperty rdf:about="&learning;isRequired">
         <rdfs:label xml:lang="en">lecture is required</rdfs:label>
@@ -568,7 +568,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceFromTeacher -->
+    <!-- http://purl.org/ailab/ecole/core#isResourceFromTeacher -->
 
     <DatatypeProperty rdf:about="&learning;isResourceFromTeacher">
         <rdfs:label xml:lang="en">resource is from teacher</rdfs:label>
@@ -579,7 +579,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isResourceRequired -->
+    <!-- http://purl.org/ailab/ecole/core#isResourceRequired -->
 
     <DatatypeProperty rdf:about="&learning;isResourceRequired">
         <rdfs:label xml:lang="en">resource is required</rdfs:label>
@@ -590,7 +590,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#isTestRequired -->
+    <!-- http://purl.org/ailab/ecole/core#isTestRequired -->
 
     <DatatypeProperty rdf:about="&learning;isTestRequired">
         <rdfs:label xml:lang="en">test is required</rdfs:label>
@@ -601,7 +601,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#lemma -->
+    <!-- http://purl.org/ailab/ecole/core#lemma -->
 
     <DatatypeProperty rdf:about="&learning;lemma">
         <rdfs:label xml:lang="en">lemma</rdfs:label>
@@ -611,7 +611,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfLecture -->
+    <!-- http://purl.org/ailab/ecole/core#numberOfLecture -->
 
     <DatatypeProperty rdf:about="&learning;numberOfLecture">
         <rdfs:label xml:lang="en">number of lecture</rdfs:label>
@@ -622,7 +622,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfModule -->
+    <!-- http://purl.org/ailab/ecole/core#numberOfModule -->
 
     <DatatypeProperty rdf:about="&learning;numberOfModule">
         <rdfs:label xml:lang="en">number of module</rdfs:label>
@@ -633,7 +633,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#numberOfTask -->
+    <!-- http://purl.org/ailab/ecole/core#numberOfTask -->
 
     <DatatypeProperty rdf:about="&learning;numberOfTask">
         <rdfs:label xml:lang="en">number of task</rdfs:label>
@@ -644,7 +644,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#url -->
+    <!-- http://purl.org/ailab/ecole/core#url -->
 
     <DatatypeProperty rdf:about="&learning;url">
         <rdfs:range rdf:resource="&xsd;string"/>
@@ -709,7 +709,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Candidat -->
+    <!-- http://purl.org/ailab/ecole/core#Candidat -->
 
     <Class rdf:about="&learning;Candidat">
         <rdfs:label xml:lang="en">Terms candidate</rdfs:label>
@@ -719,7 +719,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Consultation -->
+    <!-- http://purl.org/ailab/ecole/core#Consultation -->
 
     <Class rdf:about="&learning;Consultation">
         <rdfs:label xml:lang="en">Consultation</rdfs:label>
@@ -729,7 +729,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#CourseWork -->
+    <!-- http://purl.org/ailab/ecole/core#CourseWork -->
 
     <Class rdf:about="&learning;CourseWork">
         <rdfs:label>Курсовая работа</rdfs:label>
@@ -739,7 +739,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Credit -->
+    <!-- http://purl.org/ailab/ecole/core#Credit -->
 
     <Class rdf:about="&learning;Credit">
         <rdfs:label>Зачет</rdfs:label>
@@ -749,7 +749,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Exam -->
+    <!-- http://purl.org/ailab/ecole/core#Exam -->
 
     <Class rdf:about="&learning;Exam">
         <rdfs:label xml:lang="en">Exam</rdfs:label>
@@ -759,7 +759,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#FAQ -->
+    <!-- http://purl.org/ailab/ecole/core#FAQ -->
 
     <Class rdf:about="&learning;FAQ">
         <rdfs:label xml:lang="en">Manual</rdfs:label>
@@ -769,7 +769,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Field -->
+    <!-- http://purl.org/ailab/ecole/core#Field -->
 
     <Class rdf:about="&learning;Field">
         <rdfs:label xml:lang="en">Field</rdfs:label>
@@ -779,7 +779,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Format -->
+    <!-- http://purl.org/ailab/ecole/core#Format -->
 
     <Class rdf:about="&learning;Format">
         <rdfs:label xml:lang="en">Format</rdfs:label>
@@ -798,7 +798,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Framework -->
+    <!-- http://purl.org/ailab/ecole/core#Framework -->
 
     <Class rdf:about="&learning;Framework">
         <rdfs:label xml:lang="en">Framework</rdfs:label>
@@ -807,7 +807,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#HomeWork -->
+    <!-- http://purl.org/ailab/ecole/core#HomeWork -->
 
     <Class rdf:about="&learning;HomeWork">
         <rdfs:label xml:lang="en">Home Work</rdfs:label>
@@ -817,7 +817,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Instruction -->
+    <!-- http://purl.org/ailab/ecole/core#Instruction -->
 
     <Class rdf:about="&learning;Instruction">
         <rdfs:label xml:lang="en">Instruction</rdfs:label>
@@ -827,7 +827,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Lecture -->
+    <!-- http://purl.org/ailab/ecole/core#Lecture -->
 
     <Class rdf:about="&learning;Lecture">
         <rdfs:label xml:lang="en">Lecture</rdfs:label>
@@ -837,7 +837,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Lesson -->
+    <!-- http://purl.org/ailab/ecole/core#Lesson -->
 
     <Class rdf:about="&learning;Lesson">
         <rdfs:label xml:lang="en">Lesson</rdfs:label>
@@ -846,7 +846,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#PersonalWork -->
+    <!-- http://purl.org/ailab/ecole/core#PersonalWork -->
 
     <Class rdf:about="&learning;PersonalWork">
         <rdfs:label xml:lang="en">PersonalWork</rdfs:label>
@@ -856,7 +856,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Practice -->
+    <!-- http://purl.org/ailab/ecole/core#Practice -->
 
     <Class rdf:about="&learning;Practice">
         <rdfs:label xml:lang="en">Practice</rdfs:label>
@@ -866,7 +866,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#PracticeTask -->
+    <!-- http://purl.org/ailab/ecole/core#PracticeTask -->
 
     <Class rdf:about="&learning;PracticeTask">
         <rdfs:label xml:lang="en">Practice Task</rdfs:label>
@@ -876,7 +876,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#ReferenceWork -->
+    <!-- http://purl.org/ailab/ecole/core#ReferenceWork -->
 
     <Class rdf:about="&learning;ReferenceWork">
         <rdfs:label xml:lang="en">Reference Work</rdfs:label>
@@ -886,7 +886,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Resource -->
+    <!-- http://purl.org/ailab/ecole/core#Resource -->
 
     <Class rdf:about="&learning;Resource">
         <rdfs:label xml:lang="en">Resource</rdfs:label>
@@ -895,7 +895,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#SubjectArea -->
+    <!-- http://purl.org/ailab/ecole/core#SubjectArea -->
 
     <Class rdf:about="&learning;SubjectArea">
         <rdfs:label xml:lang="en">Subject area</rdfs:label>
@@ -904,7 +904,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Term -->
+    <!-- http://purl.org/ailab/ecole/core#Term -->
 
     <Class rdf:about="&learning;Term">
         <rdfs:label xml:lang="en">Term</rdfs:label>
@@ -914,7 +914,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Test -->
+    <!-- http://purl.org/ailab/ecole/core#Test -->
 
     <Class rdf:about="&learning;Test">
         <rdfs:label>Тест
@@ -925,7 +925,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#TestingKnowledge -->
+    <!-- http://purl.org/ailab/ecole/core#TestingKnowledge -->
 
     <Class rdf:about="&learning;TestingKnowledge">
         <rdfs:label xml:lang="en">Testing knowledge</rdfs:label>
@@ -934,7 +934,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Theme -->
+    <!-- http://purl.org/ailab/ecole/core#Theme -->
 
     <Class rdf:about="&learning;Theme">
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#KnowledgeGrouping"/>
@@ -942,7 +942,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#VerificationSystem -->
+    <!-- http://purl.org/ailab/ecole/core#VerificationSystem -->
 
     <Class rdf:about="&learning;VerificationSystem">
         <rdfs:label xml:lang="en">Verification System</rdfs:label>
@@ -952,7 +952,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Workshop -->
+    <!-- http://purl.org/ailab/ecole/core#Workshop -->
 
     <Class rdf:about="&learning;Workshop">
         <rdfs:label xml:lang="en">Workshop</rdfs:label>
@@ -979,7 +979,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Audio -->
+    <!-- http://purl.org/ailab/ecole/core#Audio -->
 
     <NamedIndividual rdf:about="&learning;Audio">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -987,7 +987,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Book -->
+    <!-- http://purl.org/ailab/ecole/core#Book -->
 
     <NamedIndividual rdf:about="&learning;Book">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -995,7 +995,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Presentation -->
+    <!-- http://purl.org/ailab/ecole/core#Presentation -->
 
     <NamedIndividual rdf:about="&learning;Presentation">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -1003,7 +1003,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Text -->
+    <!-- http://purl.org/ailab/ecole/core#Text -->
 
     <NamedIndividual rdf:about="&learning;Text">
         <rdf:type rdf:resource="&learning;Format"/>
@@ -1011,7 +1011,7 @@
     
 
 
-    <!-- http://ailab.ifmo.ru/elearning/learning#Video -->
+    <!-- http://purl.org/ailab/ecole/core#Video -->
 
     <NamedIndividual rdf:about="&learning;Video">
         <rdf:type rdf:resource="&learning;Format"/>

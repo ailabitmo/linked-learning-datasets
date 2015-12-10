@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Main "http://www.semanticweb.org/EdxOntology/Main#" >
+    <!ENTITY EdX_Ontology "http://www.semanticweb.org/dvolchek/ontologies/2015/10/EdX_Ontology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/dvolchek/ontologies/2015/10/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/dvolchek/ontologies/2015/10/untitled-ontology-24"
+     xmlns:EdX_Ontology="http://www.semanticweb.org/dvolchek/ontologies/2015/10/EdX_Ontology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Main="http://www.semanticweb.org/EdxOntology/Main#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/EdxOntology/Main"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#belongsToCourse -->
+
+    <owl:ObjectProperty rdf:about="&Main;belongsToCourse">
+        <rdfs:comment xml:lang="en">Belongs to course</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Принадлежит курсу</rdfs:comment>
+        <rdfs:range rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Material"/>
+        <owl:inverseOf rdf:resource="&Main;hasMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#compose -->
+
+    <owl:ObjectProperty rdf:about="&Main;compose">
+        <rdfs:label xml:lang="en">Compose</rdfs:label>
+        <rdfs:label xml:lang="ru">Составляют</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
+        <owl:inverseOf rdf:resource="&Main;consistsOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#consistsOf -->
+
+    <owl:ObjectProperty rdf:about="&Main;consistsOf">
+        <rdfs:label xml:lang="en">Consists of</rdfs:label>
+        <rdfs:label xml:lang="ru">Состоит из</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Sections"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#creates -->
+
+    <owl:ObjectProperty rdf:about="&Main;creates">
+        <rdfs:label xml:lang="en">Creates</rdfs:label>
+        <rdfs:label xml:lang="ru">Создает</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Teacher"/>
+        <owl:inverseOf rdf:resource="&Main;isMadeBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasMaterial -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasMaterial">
+        <rdfs:comment xml:lang="en">Has material</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Имеет материал</rdfs:comment>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasTerm -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasTerm">
+        <rdfs:label xml:lang="en">Has term</rdfs:label>
+        <rdfs:label xml:lang="ru">Содержит термин</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Discussion"/>
+        <rdfs:domain rdf:resource="&Main;HTML"/>
+        <rdfs:domain rdf:resource="&Main;Video"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#isContainedIn -->
+
+    <owl:ObjectProperty rdf:about="&Main;isContainedIn">
+        <rdfs:label xml:lang="en">Is contained in</rdfs:label>
+        <rdfs:label xml:lang="ru">Содержится</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Discussion"/>
+        <rdfs:range rdf:resource="&Main;HTML"/>
+        <rdfs:range rdf:resource="&Main;Video"/>
+        <owl:inverseOf rdf:resource="&Main;hasTerm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#isGradedAs -->
+
+    <owl:ObjectProperty rdf:about="&Main;isGradedAs">
+        <rdfs:label xml:lang="en">Is graded as</rdfs:label>
+        <rdfs:label xml:lang="ru">Оценивается как</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Assignment"/>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#isMadeBy -->
+
+    <owl:ObjectProperty rdf:about="&Main;isMadeBy">
+        <rdfs:label xml:lang="en">Is made by</rdfs:label>
+        <rdfs:label xml:lang="ru">Создан</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Teacher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#isSupportedBy -->
+
+    <owl:ObjectProperty rdf:about="&Main;isSupportedBy">
+        <rdfs:label xml:lang="en">Is supported by</rdfs:label>
+        <rdfs:label xml:lang="ru">Поддерживается</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Staff"/>
+        <rdfs:range rdf:resource="&Main;Teacher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#isTakenBy -->
+
+    <owl:ObjectProperty rdf:about="&Main;isTakenBy">
+        <rdfs:label xml:lang="en">Is taken by</rdfs:label>
+        <rdfs:label xml:lang="ru">Взят</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#support -->
+
+    <owl:ObjectProperty rdf:about="&Main;support">
+        <rdfs:label xml:lang="en">Support</rdfs:label>
+        <rdfs:label xml:lang="ru">Поддерживает</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Staff"/>
+        <rdfs:domain rdf:resource="&Main;Teacher"/>
+        <owl:inverseOf rdf:resource="&Main;isSupportedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#takes -->
+
+    <owl:ObjectProperty rdf:about="&Main;takes">
+        <rdfs:label xml:lang="en">Takes</rdfs:label>
+        <rdfs:label xml:lang="ru">Берет</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Student"/>
+        <owl:inverseOf rdf:resource="&Main;isTakenBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#deadline -->
+
+    <owl:DatatypeProperty rdf:about="http://linkedscience.org/teach/ns#deadline">
+        <owl:equivalentProperty rdf:resource="&Main;dueDate"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#weeklyHours -->
+
+    <owl:DatatypeProperty rdf:about="http://linkedscience.org/teach/ns#weeklyHours">
+        <owl:equivalentProperty rdf:resource="&Main;hoursPerWeek"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#answerVisibility -->
+
+    <owl:DatatypeProperty rdf:about="&Main;answerVisibility">
+        <rdfs:label xml:lang="en">Answer visibility</rdfs:label>
+        <rdfs:label xml:lang="ru">Видимость ответа</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#attempts -->
+
+    <owl:DatatypeProperty rdf:about="&Main;attempts">
+        <rdfs:label xml:lang="en">Attempts</rdfs:label>
+        <rdfs:label xml:lang="ru">Попытки</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#content -->
+
+    <owl:DatatypeProperty rdf:about="&Main;content">
+        <rdfs:label xml:lang="en">HTML content</rdfs:label>
+        <rdfs:label xml:lang="ru">HTML контент</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;HTML"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#courseImage -->
+
+    <owl:DatatypeProperty rdf:about="&Main;courseImage">
+        <rdfs:label xml:lang="en">Course Image</rdfs:label>
+        <rdfs:label xml:lang="ru">Изображение курса</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#discussionAbout -->
+
+    <owl:DatatypeProperty rdf:about="&Main;discussionAbout">
+        <rdfs:label xml:lang="en">What discussion is about</rdfs:label>
+        <rdfs:label xml:lang="ru">О чем дискуссия</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Discussion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#dueDate -->
+
+    <owl:DatatypeProperty rdf:about="&Main;dueDate">
+        <rdfs:label xml:lang="en">Due date</rdfs:label>
+        <rdfs:label xml:lang="ru">Срок сдачи</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#endDate -->
+
+    <owl:DatatypeProperty rdf:about="&Main;endDate">
+        <rdfs:label xml:lang="ru">The date when course ends</rdfs:label>
+        <rdfs:label xml:lang="ru">Дата окончания</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hint -->
+
+    <owl:DatatypeProperty rdf:about="&Main;hint">
+        <rdfs:label xml:lang="en">Hint</rdfs:label>
+        <rdfs:label xml:lang="ru">Подсказка</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hoursPerWeek -->
+
+    <owl:DatatypeProperty rdf:about="&Main;hoursPerWeek">
+        <rdfs:label xml:lang="en">Hours per week that student need to study the course</rdfs:label>
+        <rdfs:label xml:lang="ru">Часов в неделю</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#name -->
+
+    <owl:DatatypeProperty rdf:about="&Main;name">
+        <rdfs:label xml:lang="en">Name</rdfs:label>
+        <rdfs:label xml:lang="ru">Название</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <rdfs:domain rdf:resource="&Main;Units"/>
+        <rdfs:domain rdf:resource="&Main;Video"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#overwiev -->
+
+    <owl:DatatypeProperty rdf:about="&Main;overwiev">
+        <rdfs:label xml:lang="en">Course overview</rdfs:label>
+        <rdfs:label xml:lang="ru">Краткое описание курса</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#source -->
+
+    <owl:DatatypeProperty rdf:about="&Main;source">
+        <rdfs:label xml:lang="en">Source the video is from</rdfs:label>
+        <rdfs:label xml:lang="ru">Источник видео</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Video"/>
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#startDate -->
+
+    <owl:DatatypeProperty rdf:about="&Main;startDate">
+        <rdfs:label xml:lang="en">Start date</rdfs:label>
+        <rdfs:label xml:lang="ru">Дата начала</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#title -->
+
+    <owl:DatatypeProperty rdf:about="&Main;title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:label xml:lang="ru">Заголовок</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Discussion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#transcript -->
+
+    <owl:DatatypeProperty rdf:about="&Main;transcript">
+        <rdfs:label xml:lang="en">Transcript or subtitles</rdfs:label>
+        <rdfs:label xml:lang="ru">Субтитры</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Video"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#visibility -->
+
+    <owl:DatatypeProperty rdf:about="&Main;visibility">
+        <rdfs:label xml:lang="en">Visibility</rdfs:label>
+        <rdfs:label xml:lang="ru">Видимость</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <rdfs:domain rdf:resource="&Main;Units"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#weight -->
+
+    <owl:DatatypeProperty rdf:about="&Main;weight">
+        <rdfs:label xml:lang="en">Weight</rdfs:label>
+        <rdfs:label xml:lang="ru">Вес</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Assignment -->
+
+    <owl:Class rdf:about="http://linkedscience.org/teach/ns#Assignment">
+        <owl:equivalentClass rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Course -->
+
+    <owl:Class rdf:about="http://linkedscience.org/teach/ns#Course">
+        <owl:equivalentClass rdf:resource="&Main;Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Material -->
+
+    <owl:Class rdf:about="http://linkedscience.org/teach/ns#Material">
+        <owl:equivalentClass rdf:resource="&Main;Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Student -->
+
+    <owl:Class rdf:about="http://linkedscience.org/teach/ns#Student">
+        <owl:equivalentClass rdf:resource="&Main;Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedscience.org/teach/ns#Teacher -->
+
+    <owl:Class rdf:about="http://linkedscience.org/teach/ns#Teacher">
+        <owl:equivalentClass rdf:resource="&Main;Teacher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocab/aiiso/schema#Course -->
+
+    <owl:Class rdf:about="http://purl.org/vocab/aiiso/schema#Course">
+        <owl:equivalentClass rdf:resource="&Main;Course"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Assignment -->
+
+    <owl:Class rdf:about="&Main;Assignment">
+        <rdfs:label xml:lang="en">Assignment</rdfs:label>
+        <rdfs:label xml:lang="ru">Вид деятельности</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Candidate -->
+
+    <owl:Class rdf:about="&Main;Candidate">
+        <rdfs:label xml:lang="en">Candidate</rdfs:label>
+        <rdfs:label xml:lang="ru">Кандидат в термины</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Term"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Course -->
+
+    <owl:Class rdf:about="&Main;Course">
+        <rdfs:label xml:lang="en">Course</rdfs:label>
+        <rdfs:label xml:lang="ru">Курс</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Discussion -->
+
+    <owl:Class rdf:about="&Main;Discussion">
+        <rdfs:label xml:lang="en">Discussion</rdfs:label>
+        <rdfs:label xml:lang="ru">Обсуждение</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Field -->
+
+    <owl:Class rdf:about="&Main;Field">
+        <rdfs:label xml:lang="en">Field</rdfs:label>
+        <rdfs:label xml:lang="ru">Область</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;SubjectArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#FinalExam -->
+
+    <owl:Class rdf:about="&Main;FinalExam">
+        <rdfs:label xml:lang="en">Final Exam</rdfs:label>
+        <rdfs:label xml:lang="ru">Финальный экзамен</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#HTML -->
+
+    <owl:Class rdf:about="&Main;HTML">
+        <rdfs:label xml:lang="en">HTML</rdfs:label>
+        <rdfs:label xml:lang="ru">HTML</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Homework -->
+
+    <owl:Class rdf:about="&Main;Homework">
+        <rdfs:label xml:lang="en">Homework</rdfs:label>
+        <rdfs:label xml:lang="ru">Домашняя работа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Lab -->
+
+    <owl:Class rdf:about="&Main;Lab">
+        <rdfs:label xml:lang="en">Lab</rdfs:label>
+        <rdfs:label xml:lang="ru">Лабораторная работа</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Material -->
+
+    <owl:Class rdf:about="&Main;Material">
+        <rdfs:label xml:lang="en">Educational material e.i. books, wiki, external sources</rdfs:label>
+        <rdfs:label xml:lang="ru">Материалы (книги, вики, другие источники)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#MidExam -->
+
+    <owl:Class rdf:about="&Main;MidExam">
+        <rdfs:label xml:lang="en">Midterm Exam</rdfs:label>
+        <rdfs:label xml:lang="ru">Промежуточный экзамен</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#News -->
+
+    <owl:Class rdf:about="&Main;News">
+        <rdfs:label xml:lang="en">News and announcements</rdfs:label>
+        <rdfs:label xml:lang="ru">Новости и объявления курса</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Person -->
+
+    <owl:Class rdf:about="&Main;Person">
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label xml:lang="ru">Действующее лицо</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Problem -->
+
+    <owl:Class rdf:about="&Main;Problem">
+        <rdfs:label xml:lang="en">Problem</rdfs:label>
+        <rdfs:label xml:lang="ru">Задача</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Sections -->
+
+    <owl:Class rdf:about="&Main;Sections">
+        <rdfs:label xml:lang="en">Sections</rdfs:label>
+        <rdfs:label xml:lang="ru">Разделы</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Staff -->
+
+    <owl:Class rdf:about="&Main;Staff">
+        <rdfs:label xml:lang="en">Staff</rdfs:label>
+        <rdfs:label xml:lang="ru">Сотрудник</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Student -->
+
+    <owl:Class rdf:about="&Main;Student">
+        <rdfs:label xml:lang="en">Student</rdfs:label>
+        <rdfs:label xml:lang="ru">Студент</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#SubjectArea -->
+
+    <owl:Class rdf:about="&Main;SubjectArea">
+        <rdfs:label xml:lang="en">SubjectArea</rdfs:label>
+        <rdfs:label xml:lang="ru">Предметная область</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Subsections -->
+
+    <owl:Class rdf:about="&Main;Subsections">
+        <rdfs:label xml:lang="en">Subsections</rdfs:label>
+        <rdfs:label xml:lang="ru">Подразделы</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Sections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Teacher -->
+
+    <owl:Class rdf:about="&Main;Teacher">
+        <rdfs:label xml:lang="en">Teacher</rdfs:label>
+        <rdfs:label xml:lang="ru">Преподаватель</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Term -->
+
+    <owl:Class rdf:about="&Main;Term">
+        <rdfs:label xml:lang="en">Term</rdfs:label>
+        <rdfs:label xml:lang="ru">Термин</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;SubjectArea"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Texbook -->
+
+    <owl:Class rdf:about="&Main;Texbook">
+        <rdfs:label xml:lang="en">Textbooks</rdfs:label>
+        <rdfs:label xml:lang="ru">Книги</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Units -->
+
+    <owl:Class rdf:about="&Main;Units">
+        <rdfs:label xml:lang="en">Units</rdfs:label>
+        <rdfs:label xml:lang="ru">Блоки</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Subsections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#UserGrades -->
+
+    <owl:Class rdf:about="&Main;UserGrades">
+        <rdfs:label xml:lang="en">User Grades</rdfs:label>
+        <rdfs:label xml:lang="ru">Взаимное оценивание</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Video -->
+
+    <owl:Class rdf:about="&Main;Video">
+        <rdfs:label xml:lang="en">Video</rdfs:label>
+        <rdfs:label xml:lang="ru">Видео</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Units"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Wiki -->
+
+    <owl:Class rdf:about="&Main;Wiki">
+        <rdfs:label xml:lang="en">Information in wiki format</rdfs:label>
+        <rdfs:label xml:lang="ru">Статьи в форме wiki</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&Main;Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#OWLNamedIndividual_1fc0f22f_d865_4d35_b413_980d9bb02161 -->
+
+    <owl:NamedIndividual rdf:about="&Main;OWLNamedIndividual_1fc0f22f_d865_4d35_b413_980d9bb02161">
+        <rdfs:label xml:lang="ru">Section1</rdfs:label>
+        <Main:name rdf:datatype="&xsd;string">Section number1</Main:name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

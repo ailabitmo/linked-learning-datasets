@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/EdxOntology/Tests#"
+     xml:base="http://www.semanticweb.org/EdxOntology/Tests"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/EdxOntology/Tests"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#checksTerm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/EdxOntology/Tests#checksTerm">
+        <rdfs:label xml:lang="en">checksTerm</rdfs:label>
+        <rdfs:label xml:lang="ru">Проверяет Термин</rdfs:label>
+        <rdfs:range rdf:resource="http://ailab.ifmo.ru/elearning/learning#Term"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#hasAnswer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/EdxOntology/Tests#hasAnswer">
+        <rdfs:label xml:lang="en">hasAnswer</rdfs:label>
+        <rdfs:label xml:lang="ru">Имеет Ответ</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Answer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#isAnswerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#isAnswerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/EdxOntology/Tests#isAnswerOf">
+        <rdfs:label xml:lang="en">isAnswerOf</rdfs:label>
+        <rdfs:label xml:lang="ru">Является Ответом</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Answer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#isCheckedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/EdxOntology/Tests#isCheckedBy">
+        <rdfs:label xml:lang="en">isCheckedBy</rdfs:label>
+        <rdfs:label xml:lang="ru">Проверяется</rdfs:label>
+        <rdfs:domain rdf:resource="http://ailab.ifmo.ru/elearning/learning#Term"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#checksTerm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ailab.ifmo.ru/elearning/learning#Term -->
+
+    <owl:Class rdf:about="http://ailab.ifmo.ru/elearning/learning#Term"/>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#Problem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Main#Problem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Answer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Answer">
+        <rdfs:label xml:lang="en">Answer</rdfs:label>
+        <rdfs:label xml:lang="ru">Ответ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Checkbox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Checkbox">
+        <rdfs:label xml:lang="en">Checkbox</rdfs:label>
+        <rdfs:label xml:lang="ru">Поливариантный выбор</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#DragAndDrop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#DragAndDrop">
+        <rdfs:label xml:lang="en">DragAndDrop</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Dropdown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Dropdown">
+        <rdfs:label xml:lang="en">Dropdown</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#ImageMapped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#ImageMapped">
+        <rdfs:label xml:lang="en">ImageMapped</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#MathInput -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#MathInput">
+        <rdfs:label xml:lang="en">MathInput</rdfs:label>
+        <rdfs:label xml:lang="ru">Математический ввод</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Multiple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Multiple">
+        <rdfs:label xml:lang="en">Multiple</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#NumericInput -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#NumericInput">
+        <rdfs:label xml:lang="en">NumericInput</rdfs:label>
+        <rdfs:label xml:lang="ru">Числовой ввод</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#PeerAssessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#PeerAssessment">
+        <rdfs:label xml:lang="en">PeerAssessment</rdfs:label>
+        <rdfs:label xml:lang="ru">Взаимное оценивание</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Question -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Question">
+        <rdfs:label xml:lang="en">Question</rdfs:label>
+        <rdfs:label xml:lang="ru">Вопрос</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Main#Problem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#Script -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Script">
+        <rdfs:label xml:lang="en">Script</rdfs:label>
+        <rdfs:label xml:lang="ru">Скрипт</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Tests#TextInput -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#TextInput">
+        <rdfs:label xml:lang="en">TextInput</rdfs:label>
+        <rdfs:label xml:lang="ru">Текстовый ввод</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -112,7 +112,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Checkbox">
         <rdfs:label xml:lang="en">Checkbox</rdfs:label>
-        <rdfs:label xml:lang="ru">Поливариантный выбор</rdfs:label>
+        <rdfs:label xml:lang="ru">Многозначный выбор</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
     </owl:Class>
     
@@ -122,6 +122,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#DragAndDrop">
         <rdfs:label xml:lang="en">DragAndDrop</rdfs:label>
+        <rdfs:label xml:lang="ru">Восстановление соответствий</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
     </owl:Class>
     
@@ -131,6 +132,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Dropdown">
         <rdfs:label xml:lang="en">Dropdown</rdfs:label>
+        <rdfs:label xml:lang="ru">Выпадающий список</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
     </owl:Class>
     
@@ -140,6 +142,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#ImageMapped">
         <rdfs:label xml:lang="en">ImageMapped</rdfs:label>
+        <rdfs:label xml:lang="ru">Отметка на изображении</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
     </owl:Class>
     
@@ -159,6 +162,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/EdxOntology/Tests#Multiple">
         <rdfs:label xml:lang="en">Multiple</rdfs:label>
+        <rdfs:label xml:lang="ru">Однозначный выбор</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/EdxOntology/Tests#Question"/>
     </owl:Class>
     

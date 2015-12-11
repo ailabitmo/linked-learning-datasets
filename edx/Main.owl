@@ -727,25 +727,6 @@
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
     
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/EdxOntology/Main#OWLNamedIndividual_1fc0f22f_d865_4d35_b413_980d9bb02161 -->
-
-    <owl:NamedIndividual rdf:about="&Main;OWLNamedIndividual_1fc0f22f_d865_4d35_b413_980d9bb02161">
-        <rdfs:label xml:lang="ru">Section1</rdfs:label>
-        <Main:name rdf:datatype="&xsd;string">Section number1</Main:name>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 

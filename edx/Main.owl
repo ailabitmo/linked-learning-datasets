@@ -214,6 +214,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#abbreviation -->
+
+    <owl:DatatypeProperty rdf:about="&Main;abbreviation">
+        <rdfs:label xml:lang="en">Abbreviation</rdfs:label>
+        <rdfs:label xml:lang="ru">Аббревиатура</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#answerVisibility -->
 
     <owl:DatatypeProperty rdf:about="&Main;answerVisibility">
@@ -254,6 +265,17 @@
         <rdfs:label xml:lang="ru">Изображение курса</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Course"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#discardedtasks -->
+
+    <owl:DatatypeProperty rdf:about="&Main;discardedtasks">
+        <rdfs:label xml:lang="en">Total exercises that won&apos;t be graded</rdfs:label>
+        <rdfs:label xml:lang="ru">Упражнений, не подлежащих оценке</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
@@ -363,6 +385,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#tasks -->
+
+    <owl:DatatypeProperty rdf:about="&Main;tasks">
+        <rdfs:label xml:lang="en">Еotal exercises assigned</rdfs:label>
+        <rdfs:label xml:lang="ru">Общее количество заданий</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#title -->
 
     <owl:DatatypeProperty rdf:about="&Main;title">
@@ -370,6 +403,17 @@
         <rdfs:label xml:lang="ru">Заголовок</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Discussion"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#totalweight -->
+
+    <owl:DatatypeProperty rdf:about="&Main;totalweight">
+        <rdfs:label xml:lang="en">Weight of Total Grade</rdfs:label>
+        <rdfs:label xml:lang="ru">Вес итоговой оценки</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
@@ -726,8 +770,6 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-    
-
 </rdf:RDF>
 
 

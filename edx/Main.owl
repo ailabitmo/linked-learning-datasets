@@ -214,6 +214,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#abbreviation -->
+
+    <owl:DatatypeProperty rdf:about="&Main;abbreviation">
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#answerVisibility -->
 
     <owl:DatatypeProperty rdf:about="&Main;answerVisibility">
@@ -254,6 +263,15 @@
         <rdfs:label xml:lang="ru">Изображение курса</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Course"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#discardedtasks -->
+
+    <owl:DatatypeProperty rdf:about="&Main;discardedtasks">
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
@@ -363,6 +381,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#tasks -->
+
+    <owl:DatatypeProperty rdf:about="&Main;tasks">
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#title -->
 
     <owl:DatatypeProperty rdf:about="&Main;title">
@@ -370,6 +397,15 @@
         <rdfs:label xml:lang="ru">Заголовок</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Discussion"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#totalweight -->
+
+    <owl:DatatypeProperty rdf:about="&Main;totalweight">
+        <rdfs:domain rdf:resource="&Main;Assignment"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
@@ -492,6 +528,7 @@
     <owl:Class rdf:about="&Main;Course">
         <rdfs:label xml:lang="en">Course</rdfs:label>
         <rdfs:label xml:lang="ru">Курс</rdfs:label>
+        <rdfs:comment xml:lang="en">Class representing courses where students are supposed to learn something.</rdfs:comment>
     </owl:Class>
     
 
@@ -726,7 +763,6 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-    
 </rdf:RDF>
 
 

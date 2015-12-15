@@ -22,7 +22,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="http://ailab.ifmo.ru/elearning/learning#Candidate"/>
+        <Class IRI="http://ailab.ifmo.ru/elearning/learning#Candidat"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://ailab.ifmo.ru/elearning/learning#Field"/>
@@ -40,7 +40,7 @@
         <ObjectProperty IRI="#isTermOf"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://ailab.ifmo.ru/elearning/learning#Candidate"/>
+        <Class IRI="http://ailab.ifmo.ru/elearning/learning#Candidat"/>
         <Class IRI="http://ailab.ifmo.ru/elearning/learning#Term"/>
     </SubClassOf>
     <SubClassOf>

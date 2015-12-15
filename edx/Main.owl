@@ -342,7 +342,7 @@
     <!-- http://www.semanticweb.org/EdxOntology/Main#source -->
 
     <owl:DatatypeProperty rdf:about="&Main;source">
-        <rdfs:label xml:lang="en">Source the video is from</rdfs:label>
+        <rdfs:label xml:lang="en">Source video is from</rdfs:label>
         <rdfs:label xml:lang="ru">Источник видео</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Video"/>
         <rdfs:range rdf:resource="&xsd;anyURI"/>

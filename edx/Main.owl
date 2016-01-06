@@ -41,30 +41,45 @@
         <rdfs:comment xml:lang="ru">Принадлежит курсу</rdfs:comment>
         <rdfs:range rdf:resource="&Main;Course"/>
         <rdfs:domain rdf:resource="&Main;Material"/>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
         <owl:inverseOf rdf:resource="&Main;hasMaterial"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/EdxOntology/Main#compose -->
+    <!-- http://www.semanticweb.org/EdxOntology/Main#belongsToSection -->
 
-    <owl:ObjectProperty rdf:about="&Main;compose">
-        <rdfs:label xml:lang="en">Compose</rdfs:label>
-        <rdfs:label xml:lang="ru">Составляют</rdfs:label>
-        <rdfs:range rdf:resource="&Main;Course"/>
-        <rdfs:domain rdf:resource="&Main;Sections"/>
-        <owl:inverseOf rdf:resource="&Main;consistsOf"/>
+    <owl:ObjectProperty rdf:about="&Main;belongsToSection">
+        <rdfs:label xml:lang="en">Belongs to Section</rdfs:label>
+        <rdfs:label xml:lang="ru">Принадлежит секции</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Sections"/>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <owl:inverseOf rdf:resource="&Main;hasSubsections"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/EdxOntology/Main#consistsOf -->
+    <!-- http://www.semanticweb.org/EdxOntology/Main#belongsToSubsection -->
 
-    <owl:ObjectProperty rdf:about="&Main;consistsOf">
-        <rdfs:label xml:lang="en">Consists of</rdfs:label>
-        <rdfs:label xml:lang="ru">Состоит из</rdfs:label>
-        <rdfs:domain rdf:resource="&Main;Course"/>
-        <rdfs:range rdf:resource="&Main;Sections"/>
+    <owl:ObjectProperty rdf:about="&Main;belongsToSubsection">
+        <rdfs:label xml:lang="en">Belongs to Subsection</rdfs:label>
+        <rdfs:label xml:lang="ru">Принадлежит подсекции</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Subsections"/>
+        <rdfs:domain rdf:resource="&Main;Units"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#belongsToUnit -->
+
+    <owl:ObjectProperty rdf:about="&Main;belongsToUnit">
+        <rdfs:label xml:lang="en">Belongs to Unit</rdfs:label>
+        <rdfs:label xml:lang="ru">Принадлежит блоку</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Discussion"/>
+        <rdfs:domain rdf:resource="&Main;HTML"/>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
+        <rdfs:range rdf:resource="&Main;Units"/>
+        <rdfs:domain rdf:resource="&Main;Video"/>
     </owl:ObjectProperty>
     
 
@@ -81,6 +96,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasBlock -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasBlock">
+        <rdfs:label xml:lang="en">Has block</rdfs:label>
+        <rdfs:label xml:lang="ru">Содержит компонент</rdfs:label>
+        <rdfs:range rdf:resource="&Main;Discussion"/>
+        <rdfs:range rdf:resource="&Main;HTML"/>
+        <rdfs:range rdf:resource="&Main;Problem"/>
+        <rdfs:domain rdf:resource="&Main;Units"/>
+        <rdfs:range rdf:resource="&Main;Video"/>
+        <owl:inverseOf rdf:resource="&Main;belongsToUnit"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#hasMaterial -->
 
     <owl:ObjectProperty rdf:about="&Main;hasMaterial">
@@ -92,6 +122,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasSections -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasSections">
+        <rdfs:label xml:lang="en">Consists of sections</rdfs:label>
+        <rdfs:label xml:lang="ru">Состоит из секций</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&Main;Sections"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasSubsections -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasSubsections">
+        <rdfs:label xml:lang="en">Has Subsections</rdfs:label>
+        <rdfs:label xml:lang="ru">Имеет подсекции</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Sections"/>
+        <rdfs:range rdf:resource="&Main;Subsections"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#hasTerm -->
 
     <owl:ObjectProperty rdf:about="&Main;hasTerm">
@@ -99,7 +151,20 @@
         <rdfs:label xml:lang="ru">Содержит термин</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Discussion"/>
         <rdfs:domain rdf:resource="&Main;HTML"/>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
         <rdfs:domain rdf:resource="&Main;Video"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#hasUnits -->
+
+    <owl:ObjectProperty rdf:about="&Main;hasUnits">
+        <rdfs:label xml:lang="en">Has Units</rdfs:label>
+        <rdfs:label xml:lang="ru">Имеет блоки</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Subsections"/>
+        <rdfs:range rdf:resource="&Main;Units"/>
+        <owl:inverseOf rdf:resource="&Main;belongsToSubsection"/>
     </owl:ObjectProperty>
     
 
@@ -545,7 +610,6 @@
     <owl:Class rdf:about="&Main;Discussion">
         <rdfs:label xml:lang="en">Discussion</rdfs:label>
         <rdfs:label xml:lang="ru">Обсуждение</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Units"/>
     </owl:Class>
     
 
@@ -575,7 +639,6 @@
     <owl:Class rdf:about="&Main;HTML">
         <rdfs:label xml:lang="en">HTML</rdfs:label>
         <rdfs:label xml:lang="ru">HTML</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Units"/>
     </owl:Class>
     
 
@@ -644,7 +707,6 @@
     <owl:Class rdf:about="&Main;Problem">
         <rdfs:label xml:lang="en">Problem</rdfs:label>
         <rdfs:label xml:lang="ru">Задача</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Units"/>
     </owl:Class>
     
 
@@ -692,7 +754,6 @@
     <owl:Class rdf:about="&Main;Subsections">
         <rdfs:label xml:lang="en">Subsections</rdfs:label>
         <rdfs:label xml:lang="ru">Подразделы</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Sections"/>
     </owl:Class>
     
 
@@ -732,7 +793,6 @@
     <owl:Class rdf:about="&Main;Units">
         <rdfs:label xml:lang="en">Units</rdfs:label>
         <rdfs:label xml:lang="ru">Блоки</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Subsections"/>
     </owl:Class>
     
 
@@ -752,7 +812,6 @@
     <owl:Class rdf:about="&Main;Video">
         <rdfs:label xml:lang="en">Video</rdfs:label>
         <rdfs:label xml:lang="ru">Видео</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Units"/>
     </owl:Class>
     
 
@@ -770,6 +829,25 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/EdxOntology/Main#TRPO -->
+
+    <owl:NamedIndividual rdf:about="&Main;TRPO">
+        <rdf:type rdf:resource="&Main;Course"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

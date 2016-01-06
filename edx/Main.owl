@@ -42,7 +42,6 @@
         <rdfs:range rdf:resource="&Main;Course"/>
         <rdfs:domain rdf:resource="&Main;Material"/>
         <rdfs:domain rdf:resource="&Main;Sections"/>
-        <owl:inverseOf rdf:resource="&Main;hasMaterial"/>
     </owl:ObjectProperty>
     
 
@@ -144,19 +143,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/EdxOntology/Main#hasTerm -->
-
-    <owl:ObjectProperty rdf:about="&Main;hasTerm">
-        <rdfs:label xml:lang="en">Has term</rdfs:label>
-        <rdfs:label xml:lang="ru">Содержит термин</rdfs:label>
-        <rdfs:domain rdf:resource="&Main;Discussion"/>
-        <rdfs:domain rdf:resource="&Main;HTML"/>
-        <rdfs:domain rdf:resource="&Main;Problem"/>
-        <rdfs:domain rdf:resource="&Main;Video"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/EdxOntology/Main#hasUnits -->
 
     <owl:ObjectProperty rdf:about="&Main;hasUnits">
@@ -165,19 +151,6 @@
         <rdfs:domain rdf:resource="&Main;Subsections"/>
         <rdfs:range rdf:resource="&Main;Units"/>
         <owl:inverseOf rdf:resource="&Main;belongsToSubsection"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/EdxOntology/Main#isContainedIn -->
-
-    <owl:ObjectProperty rdf:about="&Main;isContainedIn">
-        <rdfs:label xml:lang="en">Is contained in</rdfs:label>
-        <rdfs:label xml:lang="ru">Содержится</rdfs:label>
-        <rdfs:range rdf:resource="&Main;Discussion"/>
-        <rdfs:range rdf:resource="&Main;HTML"/>
-        <rdfs:range rdf:resource="&Main;Video"/>
-        <owl:inverseOf rdf:resource="&Main;hasTerm"/>
     </owl:ObjectProperty>
     
 
@@ -586,16 +559,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/EdxOntology/Main#Candidate -->
-
-    <owl:Class rdf:about="&Main;Candidate">
-        <rdfs:label xml:lang="en">Candidate</rdfs:label>
-        <rdfs:label xml:lang="ru">Кандидат в термины</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;Term"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/EdxOntology/Main#Course -->
 
     <owl:Class rdf:about="&Main;Course">
@@ -610,16 +573,6 @@
     <owl:Class rdf:about="&Main;Discussion">
         <rdfs:label xml:lang="en">Discussion</rdfs:label>
         <rdfs:label xml:lang="ru">Обсуждение</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/EdxOntology/Main#Field -->
-
-    <owl:Class rdf:about="&Main;Field">
-        <rdfs:label xml:lang="en">Field</rdfs:label>
-        <rdfs:label xml:lang="ru">Область</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;SubjectArea"/>
     </owl:Class>
     
 
@@ -740,15 +693,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/EdxOntology/Main#SubjectArea -->
-
-    <owl:Class rdf:about="&Main;SubjectArea">
-        <rdfs:label xml:lang="en">SubjectArea</rdfs:label>
-        <rdfs:label xml:lang="ru">Предметная область</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/EdxOntology/Main#Subsections -->
 
     <owl:Class rdf:about="&Main;Subsections">
@@ -764,16 +708,6 @@
         <rdfs:label xml:lang="en">Teacher</rdfs:label>
         <rdfs:label xml:lang="ru">Преподаватель</rdfs:label>
         <rdfs:subClassOf rdf:resource="&Main;Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/EdxOntology/Main#Term -->
-
-    <owl:Class rdf:about="&Main;Term">
-        <rdfs:label xml:lang="en">Term</rdfs:label>
-        <rdfs:label xml:lang="ru">Термин</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&Main;SubjectArea"/>
     </owl:Class>
     
 
@@ -829,25 +763,6 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/EdxOntology/Main#TRPO -->
-
-    <owl:NamedIndividual rdf:about="&Main;TRPO">
-        <rdf:type rdf:resource="&Main;Course"/>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 

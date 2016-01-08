@@ -379,6 +379,9 @@
         <rdfs:label xml:lang="en">Name</rdfs:label>
         <rdfs:label xml:lang="ru">Название</rdfs:label>
         <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:domain rdf:resource="&Main;Discussion"/>
+        <rdfs:domain rdf:resource="&Main;HTML"/>
+        <rdfs:domain rdf:resource="&Main;Problem"/>
         <rdfs:domain rdf:resource="&Main;Sections"/>
         <rdfs:domain rdf:resource="&Main;Subsections"/>
         <rdfs:domain rdf:resource="&Main;Units"/>

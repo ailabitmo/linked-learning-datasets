@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Aggregation plugin for Open edX</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
@@ -265,8 +265,5 @@ fclose($fileopen);
 
 printf('Script time %.4F seconds.', $time);
 ?>
-
-
-
 </body>
 </html>

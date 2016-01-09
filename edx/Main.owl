@@ -391,6 +391,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/EdxOntology/Main#orgName -->
+
+    <owl:DatatypeProperty rdf:about="&Main;orgName">
+        <rdfs:label xml:lang="en">Name of organization that produced the course</rdfs:label>
+        <rdfs:label xml:lang="ru">Название организации, создавшей курс</rdfs:label>
+        <rdfs:domain rdf:resource="&Main;Course"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/EdxOntology/Main#overwiev -->
 
     <owl:DatatypeProperty rdf:about="&Main;overwiev">

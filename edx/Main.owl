@@ -578,6 +578,7 @@
     <owl:Class rdf:about="&Main;Course">
         <rdfs:label xml:lang="en">Course</rdfs:label>
         <rdfs:label xml:lang="ru">Курс</rdfs:label>
+        <rdfs:comment xml:lang="en">A class for course</rdfs:comment>
     </owl:Class>
     
 
@@ -587,6 +588,7 @@
     <owl:Class rdf:about="&Main;Discussion">
         <rdfs:label xml:lang="en">Discussion</rdfs:label>
         <rdfs:label xml:lang="ru">Обсуждение</rdfs:label>
+        <rdfs:comment xml:lang="en">a class for discussion. This class is considered as one of the greatest communication media.</rdfs:comment>
     </owl:Class>
     
 
@@ -606,6 +608,7 @@
     <owl:Class rdf:about="&Main;HTML">
         <rdfs:label xml:lang="en">HTML</rdfs:label>
         <rdfs:label xml:lang="ru">HTML</rdfs:label>
+        <rdfs:comment xml:lang="en">a class containing a description of content of the course of study in HTML format</rdfs:comment>
     </owl:Class>
     
 
@@ -674,6 +677,7 @@
     <owl:Class rdf:about="&Main;Problem">
         <rdfs:label xml:lang="en">Problem</rdfs:label>
         <rdfs:label xml:lang="ru">Задача</rdfs:label>
+        <rdfs:comment xml:lang="en">a class for different tasks and quizzes to count towards student’s point</rdfs:comment>
     </owl:Class>
     
 
@@ -683,6 +687,7 @@
     <owl:Class rdf:about="&Main;Sections">
         <rdfs:label xml:lang="en">Sections</rdfs:label>
         <rdfs:label xml:lang="ru">Разделы</rdfs:label>
+        <rdfs:comment xml:lang="en">a class describing sections of a course.</rdfs:comment>
     </owl:Class>
     
 
@@ -693,6 +698,7 @@
         <rdfs:label xml:lang="en">Staff</rdfs:label>
         <rdfs:label xml:lang="ru">Сотрудник</rdfs:label>
         <rdfs:subClassOf rdf:resource="&Main;Person"/>
+        <rdfs:comment xml:lang="en">a class for storage of information about employees. These employees might not had been the developers but their contribution to the course support was significant. Such people help to orga- nize prompt and competent interaction with stu- dents.</rdfs:comment>
     </owl:Class>
     
 
@@ -712,6 +718,7 @@
     <owl:Class rdf:about="&Main;Subsections">
         <rdfs:label xml:lang="en">Subsections</rdfs:label>
         <rdfs:label xml:lang="ru">Подразделы</rdfs:label>
+        <rdfs:comment xml:lang="en">a class containing a description of the main elements of a section.</rdfs:comment>
     </owl:Class>
     
 
@@ -741,6 +748,7 @@
     <owl:Class rdf:about="&Main;Units">
         <rdfs:label xml:lang="en">Units</rdfs:label>
         <rdfs:label xml:lang="ru">Блоки</rdfs:label>
+        <rdfs:comment xml:lang="en">a class describing Subsection elements.</rdfs:comment>
     </owl:Class>
     
 
@@ -760,6 +768,7 @@
     <owl:Class rdf:about="&Main;Video">
         <rdfs:label xml:lang="en">Video</rdfs:label>
         <rdfs:label xml:lang="ru">Видео</rdfs:label>
+        <rdfs:comment xml:lang="en">a class for description of educational materials in the video format</rdfs:comment>
     </owl:Class>
     
 

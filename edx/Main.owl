@@ -19,7 +19,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:Main="http://www.semanticweb.org/EdxOntology/Main#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/EdxOntology/Main"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/EdxOntology/Main">
+        <rdfs:label xml:lang="en">Edx Ontology</rdfs:label>
+        <rdfs:comment xml:lang="en">The main purpose of the developed ontology is to describe the course structure in the Open edX.</rdfs:comment>
+    </owl:Ontology>
     
 
 
